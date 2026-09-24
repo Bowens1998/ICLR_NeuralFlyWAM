@@ -1,8 +1,8 @@
 {
   "files_sha256": {
-    ".gitignore": "fd64e9d8b50d0510497f61b330a029ed88ceab6b3c71a02303f30723f3c3f842",
+    ".gitignore": "683fdef4aecb758ffdd4f3dc5da177863ee3de46cdb6388a5f91260f2c433f68",
     "CHECKPOINT_EXPORTS.json": "1f89c76303f1b49bef004071af33aceaeedfef1b014a4fa4a85bcc8de59d9a13",
-    "README.md": "852cd972b7adcab258ee36990263f1e8ede763d557cd89e0f5b916dc2571cc55",
+    "README.md": "a504910019ea320bc4c69bfceea575db6c6e51e088dfe43673eeb85e126ed234",
     "artifacts/norm/main_round1.json": "293ed7cc7d66f5d486cda7bede7eedec1555df5ace237286a06e5c0824e36d33",
     "artifacts/norm/transfer_causal_v2.json": "865156fb796a4459cc33b018559d79cdd9c363f2e89a6c83d208c4c93425434e",
     "artifacts/round11b_v1/data0_norm.json": "ffa418db002667156ec558a050923f658e3c6558601b1eddca51831ab2620012",
@@ -663,6 +663,8 @@
     "configs/sim/round18_branch_design.json": "d6434af4666d52ed38c463ddcc9ef811ff882eb3eff6bc6516fc2f35c962f756",
     "configs/sim/round18_evaluation.json": "99e52fcc860bf0b7d4c0664f8f41537cd2304044cee6f2b444456d3723171b9b",
     "configs/sim/round18_generation.json": "a190ae77687cbac69213ac1b64b14ffe119c39d56f222267fcf216a90e17c566",
+    "docs/REPRODUCE_SIMULATION.md": "e045bc2b457d85a256a9a3866a117b758e503ffe486988758863b489b0062f6c",
+    "docs/REPRODUCTION_VALIDATION.md": "b994c32a82c8b2c0c1380f76209771ad8f73346159c247896cb23f64ff0fe1a6",
     "docs/ROUND14_ACCESS_EVALUATION.md": "11317658d8dd71b204838f70d716535816cdfda11c9109b4df5f5587803a6b3f",
     "docs/ROUND14_ACTION_SOURCE_PROTOCOL.md": "36b20e65e508d103a8367af282471d9993220681ba3fa62466eb31047b2ed7e9",
     "docs/ROUND14_POSITION_PROTOCOL.md": "93f75fc1957168f90ffe8306eb67bcbd1f2fc0eb9a384953857309db9d0c7ea2",
@@ -804,7 +806,10 @@
     "scripts/paper/round18_confirmation_figure.py": "1c53a82ee538e960cd7e5524bd7828514f01552cdd40691f0d068d326dbb5bd4",
     "scripts/paper/round18_tables.py": "e0caae3b290922ee7c626c3e015ed63e71dda1d3bf567c30426efa693b627c57",
     "scripts/repro/replay_confirmation_query.py": "5611894016ca815584598defd46a676189a0de4900c26872f940315ec70fcd22",
+    "scripts/repro/run_roster.py": "01c6ba48305df43144f605771fcca27bc0290781cbf5e450bfcdee02c126b1e7",
+    "scripts/repro/run_study.py": "d30721d51da8a01530d4aac651083bcf76749677c6a7b5d1489514818cef6008",
     "scripts/sim/closed_loop.py": "b3e02ef215242f6f6e3fa8b82659d118fd84dd304386f220c2a3a627ab262830",
+    "scripts/sim/generate_data.py": "359d195fd81fae8588f3d37c0f024e6e5d5022401ea3ca59a994bcfbb716c283",
     "scripts/sim/round11_artifacts.py": "3bb7b55b08906fffc654c30c6d2561249133126e612eb50c177ccb744ca76a18",
     "scripts/sim/round11_closed_loop.py": "c9401919e8c72347833eab5106e27f8c488711cd714a7305557bad22dc90d562",
     "scripts/sim/round11_closed_loop_protocol.py": "bab68a99a6047baa252f84e5b4054a750fc9304a53c2c37688274520075df801",
@@ -1281,5 +1286,6 @@
     "scripts/analysis/round12_controls_results.py": "6ec38af58726ce6a7dbd8f8dc36f94016e6d4fe7016b44d15bc9b29f004bf8ec"
   },
   "checkpoint_count": 450,
-  "provenance_note": "Historical commit identifiers are anonymous opaque tokens, not Git addresses. Packaged hashes bind the distributed files; original hashes identify pre-portability evidence."
+  "provenance_note": "Historical commit identifiers are anonymous opaque tokens, not Git addresses. Packaged hashes bind the distributed files; original hashes identify pre-portability evidence.",
+  "portable_workflow_note": "The workflow adds runtime path/provenance bindings and data regeneration. Packaged scientific source, model tensors and accepted numerical records are unchanged."
 }

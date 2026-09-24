@@ -38,6 +38,22 @@ actual discrepancies and dependency versions; bitwise identity is not promised
 across environments. The output is created without overwriting an existing file;
 use `--output another_result.json` for an additional run.
 
+## Generate data and rerun the simulation studies
+
+The [simulation reproduction guide](docs/REPRODUCE_SIMULATION.md) provides a
+portable workflow for data generation, validation, retraining, logged-action
+prediction, first-decision queries, closed-loop control and paired analysis.
+It covers the original simulation comparison, the training bridge and the
+independent confirmation. The fixed seed rosters regenerate data locally;
+no external data download, personal repository or cluster account is required.
+
+Large generated datasets and full traces are omitted. Use the supplied weights
+to reproduce evaluation, or train from scratch with independent compute.
+Full runs and clearly marked installation checks have separate output folders.
+The guide specifies the complete rosters, hardware settings, hash checks and
+remaining scope limits. See [workflow validation](docs/REPRODUCTION_VALIDATION.md)
+for what was actually executed before release.
+
 ## What is included
 
 | Component | Contents |
@@ -52,7 +68,7 @@ use `--output another_result.json` for an additional run.
 | `scripts/analysis/` | Analysis and independent compact-record verification |
 | `scripts/sim/` | Data generation, physical queries, and control evaluation |
 | `scripts/paper/`, `paper/figures/` | Table and editable vector-figure generators |
-| `scripts/repro/` | Self-contained confirmation-query replay |
+| `scripts/repro/` | Confirmation-query replay and portable simulation reproduction workflow |
 
 The 450 exports comprise 60 original, 30 auxiliary-context, 60 action-coverage,
 180 additional training-bridge, and 120 independent-confirmation models. The
@@ -99,9 +115,11 @@ The package supports exact model loading, reconstruction of published compact
 statistics, regeneration of figures and tables, and the executable single-anchor
 query replay described above. It does not include raw flight logs, generated
 training CSVs, branch/query NPZ collections, full control traces, real-log model
-checkpoints, or non-GRU model checkpoints. The other training and raw-evaluation
-scripts are provided as the executed methodology; they require those external
-inputs and are not complete end-to-end runs from this archive alone. Public
+checkpoints, or non-GRU model checkpoints. The portable simulation workflow
+regenerates its CSVs and training branches from code. Use its entry points for
+new runs: historical scripts retain acceptance checks tied to the original
+execution and cannot all be invoked directly on anonymized artifacts. Extensions
+outside the documented workflow still require inputs not included here. Public
 flight logs originate from O'Connell et al., *Science Robotics* (2022), Neural-Fly.
 
 Model tensors and all experimental numbers are unchanged. Tensor-only exports
