@@ -1,0 +1,7 @@
+device: cpu
+amp: "off"
+batch_size: 32
+eval_batch_size: 64
+grad_accum: 1
+num_workers: 0
+deterministic: true

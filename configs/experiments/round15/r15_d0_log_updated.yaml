@@ -1,0 +1,19 @@
+defaults:
+- configs/experiments/_base.yaml
+experiment_name: round15_coverage_data0_v1
+data:
+  manifest_path: artifacts/round11b_v1/data0_split.json
+  normalizer_path: artifacts/round11b_v1/data0_norm.json
+  coverage_manifest: artifacts/round15/data0_coverage.json
+  coverage_regime: log
+optim:
+  max_epochs: 120
+  early_stopping_patience: 121
+model:
+  name: r15_d0_log_updated
+  family: context_memory_control
+  update_context: true
+  context_norm: none
+  readout_norm: none
+  width: 64
+  dropout: 0.1

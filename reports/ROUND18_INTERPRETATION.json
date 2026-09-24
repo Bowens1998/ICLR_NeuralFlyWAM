@@ -1,0 +1,206 @@
+{
+  "classification": "precise_opposed_effects_confirmation",
+  "all_four_expected_mean_signs": true,
+  "all_four_expected_zero_excluding_intervals": true,
+  "primary_within_design_contrasts": [
+    {
+      "wind": 6.1,
+      "memory_design": "Frozen",
+      "contrast": "long-budget Mixed minus Re-simulated tracking RMSE (m)",
+      "expected_direction": "positive",
+      "mean_sign_recurs": true,
+      "interval_excludes_zero_in_expected_direction": true,
+      "dataset_differences": [
+        0.07448899959743902,
+        0.06095072490890324,
+        0.04137512995838688,
+        0.09732243541213112,
+        0.02107438445614046
+      ],
+      "mean": 0.05904233486660014,
+      "descriptive_t95ci": [
+        0.022517026110346304,
+        0.09556764362285397
+      ],
+      "negative_datasets": 0,
+      "positive_datasets": 5
+    },
+    {
+      "wind": 6.1,
+      "memory_design": "Updated",
+      "contrast": "long-budget Mixed minus Re-simulated tracking RMSE (m)",
+      "expected_direction": "negative",
+      "mean_sign_recurs": true,
+      "interval_excludes_zero_in_expected_direction": true,
+      "dataset_differences": [
+        -0.288935552136738,
+        -0.07386923114426505,
+        -0.25665877906616086,
+        -0.16495759859577871,
+        -0.09383434260638389
+      ],
+      "mean": -0.1756511007098653,
+      "descriptive_t95ci": [
+        -0.2943640052662722,
+        -0.05693819615345842
+      ],
+      "negative_datasets": 5,
+      "positive_datasets": 0
+    },
+    {
+      "wind": 8.5,
+      "memory_design": "Frozen",
+      "contrast": "long-budget Mixed minus Re-simulated tracking RMSE (m)",
+      "expected_direction": "positive",
+      "mean_sign_recurs": true,
+      "interval_excludes_zero_in_expected_direction": true,
+      "dataset_differences": [
+        0.08716682408574777,
+        0.10589316346583039,
+        0.03989640220036428,
+        0.17845388328216188,
+        0.01123246136688219
+      ],
+      "mean": 0.08452854688019731,
+      "descriptive_t95ci": [
+        0.004420237004623642,
+        0.164636856755771
+      ],
+      "negative_datasets": 0,
+      "positive_datasets": 5
+    },
+    {
+      "wind": 8.5,
+      "memory_design": "Updated",
+      "contrast": "long-budget Mixed minus Re-simulated tracking RMSE (m)",
+      "expected_direction": "negative",
+      "mean_sign_recurs": true,
+      "interval_excludes_zero_in_expected_direction": true,
+      "dataset_differences": [
+        -0.4476387930746266,
+        -0.12154159065653983,
+        -0.40891236625224636,
+        -0.27527151482496687,
+        -0.17815241464117357
+      ],
+      "mean": -0.28630333588991064,
+      "descriptive_t95ci": [
+        -0.4619306180832084,
+        -0.11067605369661287
+      ],
+      "negative_datasets": 5,
+      "positive_datasets": 0
+    }
+  ],
+  "primary_interactions": {
+    "6.1": {
+      "dataset_differences": [
+        -0.363424551734177,
+        -0.1348199560531683,
+        -0.29803390902454774,
+        -0.26228003400790983,
+        -0.11490872706252435
+      ],
+      "mean": -0.23469343557646546,
+      "descriptive_t95ci": [
+        -0.36736542924728477,
+        -0.10202144190564613
+      ],
+      "negative_datasets": 5,
+      "positive_datasets": 0
+    },
+    "8.5": {
+      "dataset_differences": [
+        -0.5348056171603744,
+        -0.22743475412237021,
+        -0.44880876845261064,
+        -0.45372539810712875,
+        -0.18938487600805576
+      ],
+      "mean": -0.3708318827701079,
+      "descriptive_t95ci": [
+        -0.560490589733265,
+        -0.1811731758069508
+      ],
+      "negative_datasets": 5,
+      "positive_datasets": 0
+    }
+  },
+  "short_budget_primary_wind_contrasts": {
+    "6.1": {
+      "frozen": {
+        "dataset_differences": [
+          0.03618711048788659,
+          0.025725382795862783,
+          -0.06848069915879615,
+          -0.04968093083293229,
+          -0.04865553639211234
+        ],
+        "mean": -0.020980934620018283,
+        "descriptive_t95ci": [
+          -0.08083720981496155,
+          0.03887534057492498
+        ],
+        "negative_datasets": 3,
+        "positive_datasets": 2
+      },
+      "updated": {
+        "dataset_differences": [
+          -0.27179175029711644,
+          -0.031204089160228543,
+          -0.11849204717567705,
+          -0.05384795828200051,
+          -0.039739885301401406
+        ],
+        "mean": -0.1030151460432848,
+        "descriptive_t95ci": [
+          -0.22765105557224533,
+          0.021620763485675737
+        ],
+        "negative_datasets": 5,
+        "positive_datasets": 0
+      }
+    },
+    "8.5": {
+      "frozen": {
+        "dataset_differences": [
+          0.09341906022035923,
+          0.03350863716750635,
+          -0.0749645359424983,
+          -0.11618748695072034,
+          -0.05711323314918648
+        ],
+        "mean": -0.02426751173090791,
+        "descriptive_t95ci": [
+          -0.13051239129814568,
+          0.08197736783632988
+        ],
+        "negative_datasets": 3,
+        "positive_datasets": 2
+      },
+      "updated": {
+        "dataset_differences": [
+          -0.3830308035724757,
+          -0.05009424954767369,
+          -0.22925401465831718,
+          -0.11190159989190213,
+          -0.07240524436144702
+        ],
+        "mean": -0.16933718240636314,
+        "descriptive_t95ci": [
+          -0.3406783948206191,
+          0.0020040300078928708
+        ],
+        "negative_datasets": 5,
+        "positive_datasets": 0
+      }
+    }
+  },
+  "interpretation": "Protocol-defined descriptive rule across five new training datasets, conditional on the shared new evaluation roster. Intervals are nonsimultaneous; this is not a multiplicity-adjusted hypothesis test. Original and new cohorts remain separate. Same physics family; no hardware-flight or unique-mechanism claim.",
+  "input_sha256": "2cb3bde79a37abcfc1b7b847a74bd41ab04b98b134a296e88f802361b26209aa",
+  "independent_compact_verification": {
+    "panel": "control",
+    "complete_records": 4800,
+    "independently_checked_contrasts": 68
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "created_utc": "2026-09-07T15:50:20+00:00",
+  "data_root": "data/neural-fly/data",
+  "sample_rate_hz": 50.0,
+  "dt": 0.02,
+  "history_seconds": 2.0,
+  "horizon_seconds": 1.0,
+  "history_steps": 100,
+  "horizon_steps": 50,
+  "decimate": 2,
+  "static_ood_conditions": [
+    "20wind",
+    "40wind"
+  ],
+  "splits": {
+    "d0_smoke": [
+      {
+        "file": "intel_random2_baseline_10wind",
+        "condition": "10wind",
+        "trajectory": "random2",
+        "sha256": "ffdd269e37cec773f123f397603f6c91a93cdac65b179e0ac2fc99df4a597876",
+        "start": 100,
+        "stop": 356
+      }
+    ],
+    "d1_train": [
+      {
+        "file": "intel_random2_baseline_10wind",
+        "condition": "10wind",
+        "trajectory": "random2",
+        "sha256": "ffdd269e37cec773f123f397603f6c91a93cdac65b179e0ac2fc99df4a597876",
+        "start": 100,
+        "stop": 6202
+      },
+      {
+        "file": "intel_random2_baseline_30wind",
+        "condition": "30wind",
+        "trajectory": "random2",
+        "sha256": "4388ff2fdf2f363f4e1d4b0b74cbd315272b685d3c683df80895428c9f676651",
+        "start": 100,
+        "stop": 5614
+      },
+      {
+        "file": "intel_random2_baseline_nowind",
+        "condition": "nowind",
+        "trajectory": "random2",
+        "sha256": "932e12882e08060516e5ce7b7115e93791b62f6f4a53fe81593d2c4be4961120",
+        "start": 100,
+        "stop": 5337
+      }
+    ],
+    "d1_val": [
+      {
+        "file": "intel_random2_baseline_10wind",
+        "condition": "10wind",
+        "trajectory": "random2",
+        "sha256": "ffdd269e37cec773f123f397603f6c91a93cdac65b179e0ac2fc99df4a597876",
+        "start": 6353,
+        "stop": 7916
+      },
+      {
+        "file": "intel_random2_baseline_30wind",
+        "condition": "30wind",
+        "trajectory": "random2",
+        "sha256": "4388ff2fdf2f363f4e1d4b0b74cbd315272b685d3c683df80895428c9f676651",
+        "start": 5765,
+        "stop": 7181
+      },
+      {
+        "file": "intel_random2_baseline_nowind",
+        "condition": "nowind",
+        "trajectory": "random2",
+        "sha256": "932e12882e08060516e5ce7b7115e93791b62f6f4a53fe81593d2c4be4961120",
+        "start": 5488,
+        "stop": 6835
+      }
+    ],
+    "d2_static_ood": [
+      {
+        "file": "intel_random2_baseline_20wind",
+        "condition": "20wind",
+        "trajectory": "random2",
+        "sha256": "a1bb53a91f3ae4fca04660b7f65812587e7ed546e269283c361177015378191a",
+        "start": 100,
+        "stop": 7410
+      },
+      {
+        "file": "intel_random2_baseline_40wind",
+        "condition": "40wind",
+        "trajectory": "random2",
+        "sha256": "733710e6ef67b175e069792392aff988845969deebb1db9c64024d7520532fdc",
+        "start": 100,
+        "stop": 7831
+      }
+    ],
+    "d3_changing_ood": []
+  },
+  "transfer_rate_mode": "backward_causal_v2",
+  "checksum": "f8966ed3e35c5b88"
+}

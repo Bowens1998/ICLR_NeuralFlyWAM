@@ -1,0 +1,5696 @@
+{
+  "protocol": "docs/ROUND11_PROTOCOL.md",
+  "source": "df266e206871a74fc2bb7e2056bc68bf5e0fa4a9",
+  "caveat": "Fixed-log training-seed inference; descriptive CIs are not simultaneous. No equivalence claim.",
+  "outcome": "d2_static_ood aggregate",
+  "scores": {
+    "frozen_r0o0": [
+      0.13394518196582794,
+      0.13010527193546295,
+      0.1365884244441986,
+      0.13417385518550873,
+      0.12609164416790009,
+      0.13697046041488647,
+      0.13380862772464752,
+      0.1319383680820465,
+      0.13015800714492798,
+      0.1330523043870926
+    ],
+    "frozen_r0o1": [
+      0.1327080875635147,
+      0.13208244740962982,
+      0.13726386427879333,
+      0.13377121090888977,
+      0.13449718058109283,
+      0.1307101845741272,
+      0.1269412636756897,
+      0.12526094913482666,
+      0.12861178815364838,
+      0.1278194785118103
+    ],
+    "frozen_r1o0": [
+      0.1356237381696701,
+      0.13584378361701965,
+      0.14282569289207458,
+      0.13473615050315857,
+      0.13835002481937408,
+      0.1373482644557953,
+      0.13600337505340576,
+      0.13751500844955444,
+      0.13518407940864563,
+      0.13756892085075378
+    ],
+    "frozen_r1o1": [
+      0.13330861926078796,
+      0.13476300239562988,
+      0.13574720919132233,
+      0.13782498240470886,
+      0.1411852091550827,
+      0.13746288418769836,
+      0.13190729916095734,
+      0.13751859962940216,
+      0.12790432572364807,
+      0.1360078752040863
+    ],
+    "updated_r0o0": [
+      0.10662493854761124,
+      0.1103985607624054,
+      0.11481238156557083,
+      0.10988268256187439,
+      0.11043425649404526,
+      0.1110733151435852,
+      0.11125742644071579,
+      0.10932794958353043,
+      0.10764233022928238,
+      0.10474606603384018
+    ],
+    "updated_r0o1": [
+      0.10623844712972641,
+      0.09889919310808182,
+      0.10892555862665176,
+      0.1073814108967781,
+      0.10997913032770157,
+      0.10655611753463745,
+      0.11855670809745789,
+      0.11003115773200989,
+      0.10187120735645294,
+      0.10651899129152298
+    ],
+    "updated_r1o0": [
+      0.12725529074668884,
+      0.12294148653745651,
+      0.12680868804454803,
+      0.12514632940292358,
+      0.11959148943424225,
+      0.12634888291358948,
+      0.12983135879039764,
+      0.12322314083576202,
+      0.12106649577617645,
+      0.1243947297334671
+    ],
+    "updated_r1o1": [
+      0.12381447106599808,
+      0.12108603864908218,
+      0.12597553431987762,
+      0.12502245604991913,
+      0.12244284898042679,
+      0.12568770349025726,
+      0.1299932897090912,
+      0.1258198320865631,
+      0.12956057488918304,
+      0.12728197872638702
+    ]
+  },
+  "tests": [
+    {
+      "label": "updated_recurrence_LN_effect",
+      "seeds": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "differences": [
+        0.020630352199077606,
+        0.012542925775051117,
+        0.011996306478977203,
+        0.015263646841049194,
+        0.009157232940196991,
+        0.015275567770004272,
+        0.018573932349681854,
+        0.013895191252231598,
+        0.013424165546894073,
+        0.019648663699626923
+      ],
+      "mean": 0.015040798485279084,
+      "ci95": [
+        0.012438346331510844,
+        0.017643250639047325
+      ],
+      "wilcoxon_p": 0.001953125,
+      "positive_seeds": 10,
+      "negative_seeds": 0,
+      "holm_p": 0.0078125,
+      "significant_familywise_005": true
+    },
+    {
+      "label": "updated_readout_LN_effect",
+      "seeds": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "differences": [
+        -0.00038649141788482666,
+        -0.011499367654323578,
+        -0.005886822938919067,
+        -0.002501271665096283,
+        -0.00045512616634368896,
+        -0.004517197608947754,
+        0.007299281656742096,
+        0.0007032081484794617,
+        -0.005771122872829437,
+        0.0017729252576828003
+      ],
+      "mean": -0.0021241985261440275,
+      "ci95": [
+        -0.005810651327561875,
+        0.0015622542752738201
+      ],
+      "wilcoxon_p": 0.275390625,
+      "positive_seeds": 3,
+      "negative_seeds": 7,
+      "holm_p": 0.55078125,
+      "significant_familywise_005": false
+    },
+    {
+      "label": "recurrence_effect_updated_minus_frozen",
+      "seeds": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "differences": [
+        0.018951795995235443,
+        0.006804414093494415,
+        0.005759038031101227,
+        0.014701351523399353,
+        -0.003101147711277008,
+        0.014897763729095459,
+        0.016379185020923615,
+        0.008318550884723663,
+        0.008398093283176422,
+        0.015132047235965729
+      ],
+      "mean": 0.010624109208583832,
+      "ci95": [
+        0.005887404368226259,
+        0.015360814048941405
+      ],
+      "wilcoxon_p": 0.00390625,
+      "positive_seeds": 9,
+      "negative_seeds": 1,
+      "holm_p": 0.01171875,
+      "significant_familywise_005": true
+    },
+    {
+      "label": "readout_effect_updated_minus_frozen",
+      "seeds": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "differences": [
+        0.0008506029844284058,
+        -0.013476543128490448,
+        -0.006562262773513794,
+        -0.0020986273884773254,
+        -0.008860662579536438,
+        0.0017430782318115234,
+        0.01416664570569992,
+        0.00738062709569931,
+        -0.004224903881549835,
+        0.007005751132965088
+      ],
+      "mean": -0.00040762946009635924,
+      "ci95": [
+        -0.006401251202579708,
+        0.00558599228238699
+      ],
+      "wilcoxon_p": 0.921875,
+      "positive_seeds": 5,
+      "negative_seeds": 5,
+      "holm_p": 0.921875,
+      "significant_familywise_005": false
+    }
+  ],
+  "descriptive": [
+    {
+      "arm": "frozen_r0o0",
+      "seed": 60,
+      "split": "d1_val",
+      "aggregate": 0.09260739386081696,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08134431391954422
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09120601415634155
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.10268213599920273
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09541360288858414
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 60,
+      "split": "d2_static_ood",
+      "aggregate": 0.13394518196582794,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13258972764015198
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13530060648918152
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 60,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2313433289527893,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.47866135835647583
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.1012573093175888
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.20763179659843445
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.21495233476161957
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.15390664339065552
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 61,
+      "split": "d1_val",
+      "aggregate": 0.09317215532064438,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.0835866630077362
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09005721658468246
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09426990151405334
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10499191284179688
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 61,
+      "split": "d2_static_ood",
+      "aggregate": 0.13010527193546295,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.1322450190782547
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12796550989151
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 61,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23666949570178986,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4667856693267822
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11801473051309586
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2097894698381424
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.23383520543575287
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.15463121235370636
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 62,
+      "split": "d1_val",
+      "aggregate": 0.09554053843021393,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08642388880252838
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09458690136671066
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09722748398780823
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10409604012966156
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 62,
+      "split": "d2_static_ood",
+      "aggregate": 0.1365884244441986,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13397075235843658
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13920611143112183
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 62,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2552758753299713,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5256847143173218
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11183755844831467
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22768771648406982
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24794718623161316
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.16288165748119354
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 63,
+      "split": "d1_val",
+      "aggregate": 0.09500811994075775,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08213581889867783
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09189899265766144
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.10415516793727875
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.1021156758069992
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 63,
+      "split": "d2_static_ood",
+      "aggregate": 0.13417385518550873,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13147419691085815
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1368734985589981
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 63,
+      "split": "d3_changing_ood",
+      "aggregate": 0.26559415459632874,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5531282424926758
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11150430887937546
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2523319721221924
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2503528892993927
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1602943390607834
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 64,
+      "split": "d1_val",
+      "aggregate": 0.09602033346891403,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08191518485546112
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.10220175981521606
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09741584211587906
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10268399119377136
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 64,
+      "split": "d2_static_ood",
+      "aggregate": 0.12609164416790009,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12270001322031021
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12948326766490936
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 64,
+      "split": "d3_changing_ood",
+      "aggregate": 0.24147552251815796,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.47241267561912537
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11727719008922577
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22862696647644043
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.23524288833141327
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.153527170419693
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 65,
+      "split": "d1_val",
+      "aggregate": 0.09307405352592468,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08313772082328796
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09252101182937622
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09811845421791077
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09869831800460815
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 65,
+      "split": "d2_static_ood",
+      "aggregate": 0.13697046041488647,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13843174278736115
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1355091780424118
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 65,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2603287696838379,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5397250652313232
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10014395415782928
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.26290225982666016
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.25344008207321167
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14508037269115448
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 66,
+      "split": "d1_val",
+      "aggregate": 0.09606669098138809,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08618035912513733
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09414751827716827
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09708251804113388
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10705814510583878
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 66,
+      "split": "d2_static_ood",
+      "aggregate": 0.13380862772464752,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.1333930939435959
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13422414660453796
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 66,
+      "split": "d3_changing_ood",
+      "aggregate": 0.25960612297058105,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5340942740440369
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11519268900156021
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.24488285183906555
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.250071257352829
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.15344485640525818
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 67,
+      "split": "d1_val",
+      "aggregate": 0.0955158919095993,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08204013109207153
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.10077669471502304
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09790132194757462
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10148584097623825
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 67,
+      "split": "d2_static_ood",
+      "aggregate": 0.1319383680820465,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13496778905391693
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1289089322090149
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 67,
+      "split": "d3_changing_ood",
+      "aggregate": 0.254067063331604,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5267248749732971
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11064435541629791
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22992290556430817
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.23596492409706116
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.16673950850963593
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 68,
+      "split": "d1_val",
+      "aggregate": 0.09578114748001099,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08672519028186798
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09335193783044815
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09784790873527527
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10539588332176208
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 68,
+      "split": "d2_static_ood",
+      "aggregate": 0.13015800714492798,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12980617582798004
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13050982356071472
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 68,
+      "split": "d3_changing_ood",
+      "aggregate": 0.260029673576355,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4847240746021271
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.13131460547447205
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.25393006205558777
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2586900293827057
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1712045967578888
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 69,
+      "split": "d1_val",
+      "aggregate": 0.09392264485359192,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08077763766050339
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09265851229429245
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.1016073077917099
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10089341551065445
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 69,
+      "split": "d2_static_ood",
+      "aggregate": 0.1330523043870926,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13186942040920258
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1342351883649826
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o0",
+      "seed": 69,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2443627417087555,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.48596858978271484
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11168478429317474
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22853977978229523
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.23771192133426666
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.15760451555252075
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 60,
+      "split": "d1_val",
+      "aggregate": 0.09349548071622849,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08366082608699799
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09859772771596909
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09332547336816788
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.098478764295578
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 60,
+      "split": "d2_static_ood",
+      "aggregate": 0.1327080875635147,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12493472546339035
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.14048145711421967
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 60,
+      "split": "d3_changing_ood",
+      "aggregate": 0.21569691598415375,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.3945609927177429
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10360492020845413
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.19830422103405
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22383573651313782
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.15794801712036133
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 61,
+      "split": "d1_val",
+      "aggregate": 0.09045392274856567,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07507466524839401
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09345749765634537
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09744305908679962
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09605199843645096
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 61,
+      "split": "d2_static_ood",
+      "aggregate": 0.13208244740962982,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12050619721412659
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.14365869760513306
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 61,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2544289827346802,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.49908900260925293
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11090217530727386
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2482174187898636
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.26218339800834656
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.15143877267837524
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 62,
+      "split": "d1_val",
+      "aggregate": 0.09580808877944946,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08078943938016891
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.0981387048959732
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.10097760707139969
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10354349762201309
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 62,
+      "split": "d2_static_ood",
+      "aggregate": 0.13726386427879333,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.1302761286497116
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.14425158500671387
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 62,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23543213307857513,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.46633678674697876
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10659252107143402
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.24087634682655334
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22976377606391907
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1333002746105194
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 63,
+      "split": "d1_val",
+      "aggregate": 0.0935608297586441,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07910317182540894
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09077294170856476
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09583992511034012
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.1088220477104187
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 63,
+      "split": "d2_static_ood",
+      "aggregate": 0.13377121090888977,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12877772748470306
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13876469433307648
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 63,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23082493245601654,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4458477795124054
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09645920991897583
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.23989351093769073
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24255815148353577
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.12908779084682465
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 64,
+      "split": "d1_val",
+      "aggregate": 0.09254780411720276,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07971752434968948
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09547403454780579
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09600450843572617
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09916447848081589
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 64,
+      "split": "d2_static_ood",
+      "aggregate": 0.13449718058109283,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12292469292879105
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.14606967568397522
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 64,
+      "split": "d3_changing_ood",
+      "aggregate": 0.22025778889656067,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.3983211815357208
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09813661128282547
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.21956589818000793
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.23600639402866364
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14902594685554504
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 65,
+      "split": "d1_val",
+      "aggregate": 0.09213127195835114,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07527276128530502
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09316489845514297
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09755395352840424
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10280396789312363
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 65,
+      "split": "d2_static_ood",
+      "aggregate": 0.1307101845741272,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.11926808208227158
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.14215226471424103
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 65,
+      "split": "d3_changing_ood",
+      "aggregate": 0.26335036754608154,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5098692774772644
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11862508952617645
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.25706323981285095
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2694087326526642
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.16146954894065857
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 66,
+      "split": "d1_val",
+      "aggregate": 0.09325969964265823,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07612791657447815
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09789051115512848
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09800679981708527
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10122726112604141
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 66,
+      "split": "d2_static_ood",
+      "aggregate": 0.1269412636756897,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.11827844381332397
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13560408353805542
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 66,
+      "split": "d3_changing_ood",
+      "aggregate": 0.24039535224437714,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4574774503707886
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11248115450143814
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.24117983877658844
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24207055568695068
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14849117398262024
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 67,
+      "split": "d1_val",
+      "aggregate": 0.0900457352399826,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07313881814479828
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09803750365972519
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.0884196013212204
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10073938220739365
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 67,
+      "split": "d2_static_ood",
+      "aggregate": 0.12526094913482666,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12060755491256714
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12991434335708618
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 67,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23066788911819458,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.44310906529426575
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.1088419258594513
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22605791687965393
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2277444750070572
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14731740951538086
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 68,
+      "split": "d1_val",
+      "aggregate": 0.09189596772193909,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08272337913513184
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09028276056051254
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.0930301621556282
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10173194855451584
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 68,
+      "split": "d2_static_ood",
+      "aggregate": 0.12861178815364838,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12220935523509979
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13501422107219696
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 68,
+      "split": "d3_changing_ood",
+      "aggregate": 0.22368109226226807,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.42280125617980957
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10292912274599075
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2276274561882019
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2287752330303192
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1360171139240265
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 69,
+      "split": "d1_val",
+      "aggregate": 0.09260207414627075,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07834833115339279
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09756993502378464
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09798885136842728
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09665996581315994
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 69,
+      "split": "d2_static_ood",
+      "aggregate": 0.1278194785118103,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.11705071479082108
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13858824968338013
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r0o1",
+      "seed": 69,
+      "split": "d3_changing_ood",
+      "aggregate": 0.22654548287391663,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.43210330605506897
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09999272972345352
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2349914014339447
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22857831418514252
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1367996782064438
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 60,
+      "split": "d1_val",
+      "aggregate": 0.09760788828134537,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.0845651775598526
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09886592626571655
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.10372842848300934
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10347343981266022
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 60,
+      "split": "d2_static_ood",
+      "aggregate": 0.1356237381696701,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.1340087354183197
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1372387409210205
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 60,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2501961290836334,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5039546489715576
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10318530350923538
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.24213217198848724
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24728873372077942
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.15409845113754272
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 61,
+      "split": "d1_val",
+      "aggregate": 0.09749338030815125,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08213169872760773
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09877423942089081
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.10431411117315292
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10499417036771774
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 61,
+      "split": "d2_static_ood",
+      "aggregate": 0.13584378361701965,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13154150545597076
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.14014607667922974
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 61,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2461269497871399,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.49885568022727966
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10741259157657623
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.23404447734355927
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.23693357408046722
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1530710756778717
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 62,
+      "split": "d1_val",
+      "aggregate": 0.09643036127090454,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.0872880145907402
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.0980997234582901
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.10014743357896805
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10031402111053467
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 62,
+      "split": "d2_static_ood",
+      "aggregate": 0.14282569289207458,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13781628012657166
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1478351354598999
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 62,
+      "split": "d3_changing_ood",
+      "aggregate": 0.26005521416664124,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.48385390639305115
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11963215470314026
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.25790008902549744
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2771424651145935
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.16145583987236023
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 63,
+      "split": "d1_val",
+      "aggregate": 0.09703893214464188,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08317338675260544
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09670478105545044
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.10482202470302582
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10369826853275299
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 63,
+      "split": "d2_static_ood",
+      "aggregate": 0.13473615050315857,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13308827579021454
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1363840401172638
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 63,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2489696890115738,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.49957630038261414
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11011479794979095
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.23660971224308014
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24271298944950104
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.15551893413066864
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 64,
+      "split": "d1_val",
+      "aggregate": 0.0969870537519455,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08513222634792328
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.0931314155459404
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.10401784628629684
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10593529790639877
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 64,
+      "split": "d2_static_ood",
+      "aggregate": 0.13835002481937408,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13519097864627838
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1415090709924698
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 64,
+      "split": "d3_changing_ood",
+      "aggregate": 0.24851995706558228,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4800887703895569
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11105576902627945
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.23751556873321533
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24997586011886597
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1636689305305481
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 65,
+      "split": "d1_val",
+      "aggregate": 0.09361083060503006,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08170057833194733
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09590446203947067
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09425591677427292
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10274676233530045
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 65,
+      "split": "d2_static_ood",
+      "aggregate": 0.1373482644557953,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13516980409622192
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13952673971652985
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 65,
+      "split": "d3_changing_ood",
+      "aggregate": 0.25109216570854187,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.48505449295043945
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.1225142776966095
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2468968778848648
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24931375682353973
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1513848751783371
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 66,
+      "split": "d1_val",
+      "aggregate": 0.0988299623131752,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08469147980213165
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09607496857643127
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.1067175641655922
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10812463611364365
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 66,
+      "split": "d2_static_ood",
+      "aggregate": 0.13600337505340576,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13324031233787537
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13876643776893616
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 66,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2716684341430664,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5548179745674133
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.1232251524925232
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.26577073335647583
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2624002695083618
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.15177202224731445
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 67,
+      "split": "d1_val",
+      "aggregate": 0.09984121471643448,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.0843869224190712
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.10310789942741394
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.10495641082525253
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10712198168039322
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 67,
+      "split": "d2_static_ood",
+      "aggregate": 0.13751500844955444,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13397075235843658
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1410592496395111
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 67,
+      "split": "d3_changing_ood",
+      "aggregate": 0.28540483117103577,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5769311189651489
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.12080039083957672
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.283650279045105
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.28156283497810364
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.16371065378189087
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 68,
+      "split": "d1_val",
+      "aggregate": 0.09870629757642746,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08833765983581543
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09460342675447464
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.10232480615377426
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10980665683746338
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 68,
+      "split": "d2_static_ood",
+      "aggregate": 0.13518407940864563,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13274818658828735
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1376199722290039
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 68,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2663653790950775,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5556318759918213
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10608503222465515
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.25438666343688965
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24748581647872925
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1678779572248459
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 69,
+      "split": "d1_val",
+      "aggregate": 0.09759358316659927,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08163245022296906
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.10156791657209396
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09993965178728104
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10743918269872665
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 69,
+      "split": "d2_static_ood",
+      "aggregate": 0.13756892085075378,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13450025022029877
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1406375914812088
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o0",
+      "seed": 69,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2622695863246918,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5328640341758728
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.12386742979288101
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.24278970062732697
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24845340847969055
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1630353331565857
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 60,
+      "split": "d1_val",
+      "aggregate": 0.09342212229967117,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08255895227193832
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.0932973250746727
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.10077669471502304
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09724331647157669
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 60,
+      "split": "d2_static_ood",
+      "aggregate": 0.13330861926078796,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12439530342817307
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.14222194254398346
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 60,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23470774292945862,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4533989131450653
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10213284194469452
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2096051126718521
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.23401573300361633
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1741085648536682
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 61,
+      "split": "d1_val",
+      "aggregate": 0.09475210309028625,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08204880356788635
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09831709414720535
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.0961863249540329
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10261239856481552
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 61,
+      "split": "d2_static_ood",
+      "aggregate": 0.13476300239562988,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.1315397173166275
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13798630237579346
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 61,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23236975073814392,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4499262273311615
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10546275973320007
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22388197481632233
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2367052584886551
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14559435844421387
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 62,
+      "split": "d1_val",
+      "aggregate": 0.09406621009111404,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.0770607441663742
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09585924446582794
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09558943659067154
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10801545530557632
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 62,
+      "split": "d2_static_ood",
+      "aggregate": 0.13574720919132233,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.1260129064321518
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.14548151195049286
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 62,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2529695928096771,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4933272898197174
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.11193030327558517
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.25083214044570923
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2544879615306854
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1539641171693802
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 63,
+      "split": "d1_val",
+      "aggregate": 0.09671561419963837,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08521049469709396
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09951091557741165
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.0969235897064209
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10536634176969528
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 63,
+      "split": "d2_static_ood",
+      "aggregate": 0.13782498240470886,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13225020468235016
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.14339974522590637
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 63,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2477450966835022,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4890555739402771
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10240873694419861
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2503831386566162
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24445751309394836
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1521153599023819
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 64,
+      "split": "d1_val",
+      "aggregate": 0.09518685936927795,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08422917127609253
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09837274253368378
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09926723688840866
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09901115298271179
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 64,
+      "split": "d2_static_ood",
+      "aggregate": 0.1411852091550827,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13438066840171814
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.14798974990844727
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 64,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2510535418987274,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4909854233264923
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10890863090753555
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2406216859817505
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2681516706943512
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1462881714105606
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 65,
+      "split": "d1_val",
+      "aggregate": 0.09510022401809692,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08522927761077881
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.0962357223033905
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09649669378995895
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10258852690458298
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 65,
+      "split": "d2_static_ood",
+      "aggregate": 0.13746288418769836,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13303230702877045
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1418934464454651
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 65,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2345452606678009,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4649743139743805
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10881970077753067
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22609639167785645
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24288004636764526
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.12965962290763855
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 66,
+      "split": "d1_val",
+      "aggregate": 0.09542401134967804,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08704818785190582
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.10036597400903702
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09732113778591156
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09701941162347794
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 66,
+      "split": "d2_static_ood",
+      "aggregate": 0.13190729916095734,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12466651201248169
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13914810121059418
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 66,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23802614212036133,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.42102107405662537
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.12797261774539948
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.24179966747760773
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.259517639875412
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1395779699087143
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 67,
+      "split": "d1_val",
+      "aggregate": 0.09531287103891373,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08251255005598068
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09830429404973984
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09931281954050064
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10128949582576752
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 67,
+      "split": "d2_static_ood",
+      "aggregate": 0.13751859962940216,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12992475926876068
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.14511242508888245
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 67,
+      "split": "d3_changing_ood",
+      "aggregate": 0.24543920159339905,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5083915591239929
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09730205684900284
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2325502187013626
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24729542434215546
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14132186770439148
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 68,
+      "split": "d1_val",
+      "aggregate": 0.09391193091869354,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07579366117715836
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09740555286407471
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09991680830717087
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10278170555830002
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 68,
+      "split": "d2_static_ood",
+      "aggregate": 0.12790432572364807,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.11563707888126373
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1401715874671936
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 68,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2431510090827942,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.44565409421920776
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.12250875681638718
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.24379059672355652
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2436782419681549
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1598658263683319
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 69,
+      "split": "d1_val",
+      "aggregate": 0.09166184812784195,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.08133304864168167
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09414742887020111
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09651464223861694
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09478632360696793
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 69,
+      "split": "d2_static_ood",
+      "aggregate": 0.1360078752040863,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.1227358877658844
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1492798626422882
+        }
+      ]
+    },
+    {
+      "arm": "frozen_r1o1",
+      "seed": 69,
+      "split": "d3_changing_ood",
+      "aggregate": 0.24871115386486053,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4792311191558838
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10922639071941376
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2518002986907959
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2596641182899475
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14333635568618774
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 60,
+      "split": "d1_val",
+      "aggregate": 0.08386781811714172,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06777508556842804
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08358992636203766
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08228989690542221
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10209620743989944
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 60,
+      "split": "d2_static_ood",
+      "aggregate": 0.10662493854761124,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.10202264785766602
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11122724413871765
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 60,
+      "split": "d3_changing_ood",
+      "aggregate": 0.24028149247169495,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5927099585533142
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.08677002787590027
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.198429137468338
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.20461741089820862
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.11844809353351593
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 61,
+      "split": "d1_val",
+      "aggregate": 0.08381170779466629,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06700360774993896
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08773306012153625
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08529999852180481
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09543044865131378
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 61,
+      "split": "d2_static_ood",
+      "aggregate": 0.1103985607624054,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.1071547195315361
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11364239454269409
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 61,
+      "split": "d3_changing_ood",
+      "aggregate": 0.21784038841724396,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.494185209274292
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09126636385917664
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.19971129298210144
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.190446138381958
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.11325332522392273
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 62,
+      "split": "d1_val",
+      "aggregate": 0.0857025682926178,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07151331752538681
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.0868990421295166
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08512085676193237
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09949919581413269
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 62,
+      "split": "d2_static_ood",
+      "aggregate": 0.11481238156557083,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.112317755818367
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11730702221393585
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 62,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23238089680671692,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5053699612617493
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09285292774438858
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.21556922793388367
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2150677889585495
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.13270503282546997
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 63,
+      "split": "d1_val",
+      "aggregate": 0.0807729959487915,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06740685552358627
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.07863680273294449
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08053231984376907
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09678101539611816
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 63,
+      "split": "d2_static_ood",
+      "aggregate": 0.10988268256187439,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.1008262038230896
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11893916875123978
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 63,
+      "split": "d3_changing_ood",
+      "aggregate": 0.24005135893821716,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5343929529190063
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09222952276468277
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22449593245983124
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22808007895946503
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.120689257979393
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 64,
+      "split": "d1_val",
+      "aggregate": 0.08459101617336273,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07113026827573776
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09010457992553711
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08176415413618088
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.0955008789896965
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 64,
+      "split": "d2_static_ood",
+      "aggregate": 0.11043425649404526,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.10699787735939026
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11387063562870026
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 64,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23202641308307648,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5251187086105347
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.08954774588346481
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2006475031375885
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.21807588636875153
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.12637580931186676
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 65,
+      "split": "d1_val",
+      "aggregate": 0.082755446434021,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07251650840044022
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08242982625961304
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08202369511127472
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09423233568668365
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 65,
+      "split": "d2_static_ood",
+      "aggregate": 0.1110733151435852,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.10328972339630127
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11885691434144974
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 65,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2572746276855469,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.6311017870903015
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.08443791419267654
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.23388400673866272
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22561495006084442
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.11087299883365631
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 66,
+      "split": "d1_val",
+      "aggregate": 0.08310970664024353,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07041752338409424
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08369825035333633
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08222086727619171
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.0963091105222702
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 66,
+      "split": "d2_static_ood",
+      "aggregate": 0.11125742644071579,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.10405496507883072
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11845988780260086
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 66,
+      "split": "d3_changing_ood",
+      "aggregate": 0.24409790337085724,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5505521893501282
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09489118307828903
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22072505950927734
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.23302355408668518
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.12091287970542908
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 67,
+      "split": "d1_val",
+      "aggregate": 0.08310757577419281,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06675202399492264
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08160727471113205
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08465373516082764
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09972251951694489
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 67,
+      "split": "d2_static_ood",
+      "aggregate": 0.10932794958353043,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.10255084186792374
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11610504984855652
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 67,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2319045066833496,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5056840777397156
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09098997712135315
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.20526807010173798
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22292965650558472
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1343066394329071
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 68,
+      "split": "d1_val",
+      "aggregate": 0.08246327936649323,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06953585892915726
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08148191124200821
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08089321106672287
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09817986190319061
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 68,
+      "split": "d2_static_ood",
+      "aggregate": 0.10764233022928238,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.10193903744220734
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11334561556577682
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 68,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2192249745130539,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4965398609638214
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09195433557033539
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.19043248891830444
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.20119403302669525
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1156594306230545
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 69,
+      "split": "d1_val",
+      "aggregate": 0.08129732310771942,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06828273087739944
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08274035155773163
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08084511011838913
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09351889044046402
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 69,
+      "split": "d2_static_ood",
+      "aggregate": 0.10474606603384018,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.09697217494249344
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11251995712518692
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o0",
+      "seed": 69,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2183978259563446,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.49649158120155334
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.08094221353530884
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.19711248576641083
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2031819224357605
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.11391395330429077
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 60,
+      "split": "d1_val",
+      "aggregate": 0.07651203125715256,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06291788816452026
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.0773983895778656
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.07831154018640518
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.0876375213265419
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 60,
+      "split": "d2_static_ood",
+      "aggregate": 0.10623844712972641,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.10228051245212555
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11019638180732727
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 60,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2107856124639511,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4786599576473236
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.08452370762825012
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.18852660059928894
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.19441969692707062
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.10746464878320694
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 61,
+      "split": "d1_val",
+      "aggregate": 0.07543923705816269,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06579295545816422
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.07399134337902069
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.07798664271831512
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.08417566120624542
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 61,
+      "split": "d2_static_ood",
+      "aggregate": 0.09889919310808182,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.09536755830049515
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.10243083536624908
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 61,
+      "split": "d3_changing_ood",
+      "aggregate": 0.18963144719600677,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.427748441696167
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.08068454265594482
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.17029115557670593
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.16001759469509125
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.10912547260522842
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 62,
+      "split": "d1_val",
+      "aggregate": 0.077638640999794,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06650489568710327
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.07668817043304443
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.078689344227314
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.08887869119644165
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 62,
+      "split": "d2_static_ood",
+      "aggregate": 0.10892555862665176,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.10362198948860168
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11422912776470184
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 62,
+      "split": "d3_changing_ood",
+      "aggregate": 0.21677619218826294,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4733247756958008
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.07904264330863953
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.21161557734012604
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.20511563122272491
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.11446131765842438
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 63,
+      "split": "d1_val",
+      "aggregate": 0.07755225151777267,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06365904211997986
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08087519556283951
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08105238527059555
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.08480307459831238
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 63,
+      "split": "d2_static_ood",
+      "aggregate": 0.1073814108967781,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.10120805352926254
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11355476826429367
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 63,
+      "split": "d3_changing_ood",
+      "aggregate": 0.22009234130382538,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5273470878601074
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.08496933430433273
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.18837399780750275
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.19856758415699005
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.10082241147756577
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 64,
+      "split": "d1_val",
+      "aggregate": 0.07549726217985153,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06472007185220718
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.07582683116197586
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.07394765317440033
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.08767308294773102
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 64,
+      "split": "d2_static_ood",
+      "aggregate": 0.10997913032770157,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.10918039828538895
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11077786982059479
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 64,
+      "split": "d3_changing_ood",
+      "aggregate": 0.22653517127037048,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.48640915751457214
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09316457808017731
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2112031728029251
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2231549620628357
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.11841513216495514
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 65,
+      "split": "d1_val",
+      "aggregate": 0.0781078189611435,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06572020053863525
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.07817338407039642
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08065915107727051
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.08808917552232742
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 65,
+      "split": "d2_static_ood",
+      "aggregate": 0.10655611753463745,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.10205385833978653
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11105837672948837
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 65,
+      "split": "d3_changing_ood",
+      "aggregate": 0.21654972434043884,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5101554989814758
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.07962916046380997
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.19522014260292053
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.19527126848697662
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.10210850089788437
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 66,
+      "split": "d1_val",
+      "aggregate": 0.07647311687469482,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.061734508723020554
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.0758749321103096
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.07997055351734161
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.08857463300228119
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 66,
+      "split": "d2_static_ood",
+      "aggregate": 0.11855670809745789,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.11276904493570328
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1243443638086319
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 66,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2300061136484146,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4896605312824249
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.08398009836673737
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22441008687019348
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22974886000156403
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.12190115451812744
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 67,
+      "split": "d1_val",
+      "aggregate": 0.07637613266706467,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06565145403146744
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.07518111169338226
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08075451850891113
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.08412119746208191
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 67,
+      "split": "d2_static_ood",
+      "aggregate": 0.11003115773200989,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.10540866106748581
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11465366184711456
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 67,
+      "split": "d3_changing_ood",
+      "aggregate": 0.21989037096500397,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.47920849919319153
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.08378281444311142
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.21286240220069885
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2133558988571167
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.10991548746824265
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 68,
+      "split": "d1_val",
+      "aggregate": 0.0751231461763382,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06478212773799896
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.07530827820301056
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.07627211511135101
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.08430365473031998
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 68,
+      "split": "d2_static_ood",
+      "aggregate": 0.10187120735645294,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.09590895473957062
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.10783345252275467
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 68,
+      "split": "d3_changing_ood",
+      "aggregate": 0.1970140039920807,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.43838879466056824
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.08418826758861542
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.1790369153022766
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.1727340966463089
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.11042556911706924
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 69,
+      "split": "d1_val",
+      "aggregate": 0.07735537737607956,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.0654001384973526
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.07662265747785568
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08161411434412003
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.08600149303674698
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 69,
+      "split": "d2_static_ood",
+      "aggregate": 0.10651899129152298,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.10240648686885834
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11063149571418762
+        }
+      ]
+    },
+    {
+      "arm": "updated_r0o1",
+      "seed": 69,
+      "split": "d3_changing_ood",
+      "aggregate": 0.21211610734462738,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.461098849773407
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.0835934579372406
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.20286056399345398
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.19858808815479279
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.11412888020277023
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 60,
+      "split": "d1_val",
+      "aggregate": 0.08595164865255356,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.0685545802116394
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08613764494657516
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08735176175832748
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10205680131912231
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 60,
+      "split": "d2_static_ood",
+      "aggregate": 0.12725529074668884,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12370329350233078
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1308072805404663
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 60,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2580719292163849,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5783687829971313
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09733489900827408
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.245293989777565
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22841699421405792
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1405506432056427
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 61,
+      "split": "d1_val",
+      "aggregate": 0.08427581936120987,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07251342386007309
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.0795648917555809
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08685190975666046
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09845464676618576
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 61,
+      "split": "d2_static_ood",
+      "aggregate": 0.12294148653745651,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12561869621276855
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12026426941156387
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 61,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2366902381181717,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4906294047832489
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09891832619905472
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22390742599964142
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22799456119537354
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14168253540992737
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 62,
+      "split": "d1_val",
+      "aggregate": 0.0855754092335701,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07011484354734421
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08855792135000229
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08630122244358063
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09754093736410141
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 62,
+      "split": "d2_static_ood",
+      "aggregate": 0.12680868804454803,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12557104229927063
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12804631888866425
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 62,
+      "split": "d3_changing_ood",
+      "aggregate": 0.26034924387931824,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5629119277000427
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10102175176143646
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.24094168841838837
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.25111502408981323
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14537540078163147
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 63,
+      "split": "d1_val",
+      "aggregate": 0.08555259555578232,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07130040973424911
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08622664213180542
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08884470909833908
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09607071429491043
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 63,
+      "split": "d2_static_ood",
+      "aggregate": 0.12514632940292358,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12489724159240723
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12539540231227875
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 63,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23261699080467224,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4888802170753479
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09879529476165771
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.20732882618904114
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22419877350330353
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1435597836971283
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 64,
+      "split": "d1_val",
+      "aggregate": 0.08534492552280426,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07241237163543701
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.0864766463637352
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08416878432035446
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09852360934019089
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 64,
+      "split": "d2_static_ood",
+      "aggregate": 0.11959148943424225,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.11934865266084671
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11983431875705719
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 64,
+      "split": "d3_changing_ood",
+      "aggregate": 0.22955341637134552,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4818374812602997
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09158732742071152
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.21308274567127228
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22916920483112335
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.13176988065242767
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 65,
+      "split": "d1_val",
+      "aggregate": 0.0845581442117691,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06759566068649292
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08764295279979706
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08506261557340622
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09816860407590866
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 65,
+      "split": "d2_static_ood",
+      "aggregate": 0.12634888291358948,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12697169184684753
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12572608888149261
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 65,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23773765563964844,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.4644579589366913
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10314267128705978
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22336961328983307
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2370411455631256
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.16038918495178223
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 66,
+      "split": "d1_val",
+      "aggregate": 0.0871751606464386,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.0681905522942543
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.09045348316431046
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.0916680246591568
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09865705668926239
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 66,
+      "split": "d2_static_ood",
+      "aggregate": 0.12983135879039764,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12804244458675385
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13162025809288025
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 66,
+      "split": "d3_changing_ood",
+      "aggregate": 0.27319878339767456,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5953183770179749
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10601132363080978
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.25802019238471985
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2574070990085602
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14883427321910858
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 67,
+      "split": "d1_val",
+      "aggregate": 0.08476176112890244,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06914452463388443
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08744322508573532
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.09060750901699066
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09207291901111603
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 67,
+      "split": "d2_static_ood",
+      "aggregate": 0.12322314083576202,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12317869067192078
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12326758354902267
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 67,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2362976372241974,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5031915903091431
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09887969493865967
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22018642723560333
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22253403067588806
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1363631635904312
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 68,
+      "split": "d1_val",
+      "aggregate": 0.08562429994344711,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.0677931159734726
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.0914478600025177
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.0845595970749855
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09890186041593552
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 68,
+      "split": "d2_static_ood",
+      "aggregate": 0.12106649577617645,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12062200903892517
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12151098996400833
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 68,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23868092894554138,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5026339292526245
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09578336775302887
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.21662993729114532
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22610950469970703
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.15191791951656342
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 69,
+      "split": "d1_val",
+      "aggregate": 0.08768278360366821,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.07424455881118774
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08699142932891846
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.0871337503194809
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10260290652513504
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 69,
+      "split": "d2_static_ood",
+      "aggregate": 0.1243947297334671,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12317734211683273
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12561212480068207
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o0",
+      "seed": 69,
+      "split": "d3_changing_ood",
+      "aggregate": 0.24643708765506744,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5294302105903625
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09848587214946747
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22508887946605682
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.23325882852077484
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1455676108598709
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 60,
+      "split": "d1_val",
+      "aggregate": 0.08306367695331573,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06818479299545288
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08297603577375412
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08364488184452057
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09770482778549194
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 60,
+      "split": "d2_static_ood",
+      "aggregate": 0.12381447106599808,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12304048985242844
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12458843737840652
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 60,
+      "split": "d3_changing_ood",
+      "aggregate": 0.24283099174499512,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.546114981174469
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09208773076534271
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.21157298982143402
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2197408825159073
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14426283538341522
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 61,
+      "split": "d1_val",
+      "aggregate": 0.08229174464941025,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06985419988632202
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08175589889287949
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.07956212759017944
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09821655601263046
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 61,
+      "split": "d2_static_ood",
+      "aggregate": 0.12108603864908218,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12293930351734161
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11923277378082275
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 61,
+      "split": "d3_changing_ood",
+      "aggregate": 0.24276955425739288,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5225533843040466
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09433247894048691
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22749966382980347
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22906367480754852
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14004874229431152
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 62,
+      "split": "d1_val",
+      "aggregate": 0.08240949362516403,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06866441667079926
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08092326670885086
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08590488135814667
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09440574795007706
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 62,
+      "split": "d2_static_ood",
+      "aggregate": 0.12597553431987762,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12631626427173615
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1256348043680191
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 62,
+      "split": "d3_changing_ood",
+      "aggregate": 0.24842794239521027,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.525245726108551
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09162215888500214
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.23797672986984253
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2435826063156128
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14336282014846802
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 63,
+      "split": "d1_val",
+      "aggregate": 0.08146492391824722,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06471674144268036
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.07929658144712448
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08490119874477386
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09726854413747787
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 63,
+      "split": "d2_static_ood",
+      "aggregate": 0.12502245604991913,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12000678479671478
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.13003812730312347
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 63,
+      "split": "d3_changing_ood",
+      "aggregate": 0.25498658418655396,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5267286896705627
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10080103576183319
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.25296550989151
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24890127778053284
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1451936811208725
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 64,
+      "split": "d1_val",
+      "aggregate": 0.08190853893756866,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06503333151340485
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08637215942144394
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08008159697055817
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.0963592380285263
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 64,
+      "split": "d2_static_ood",
+      "aggregate": 0.12244284898042679,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.1248890683054924
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.11999663710594177
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 64,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23362630605697632,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.48137611150741577
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.0956086590886116
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2168291211128235
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.2320578396320343
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14194561541080475
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 65,
+      "split": "d1_val",
+      "aggregate": 0.08212582767009735,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06767742335796356
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.07780742645263672
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08305812627077103
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10028113424777985
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 65,
+      "split": "d2_static_ood",
+      "aggregate": 0.12568770349025726,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.1244448721408844
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12693053483963013
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 65,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2403704822063446,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5057425498962402
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09632445126771927
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22169049084186554
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.23779702186584473
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1399618238210678
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 66,
+      "split": "d1_val",
+      "aggregate": 0.08213188499212265,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06773751974105835
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.0793958380818367
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08551487326622009
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09617213904857635
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 66,
+      "split": "d2_static_ood",
+      "aggregate": 0.1299932897090912,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.13027608394622803
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12971051037311554
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 66,
+      "split": "d3_changing_ood",
+      "aggregate": 0.25426536798477173,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5552371740341187
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.09703568369150162
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22948913276195526
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24208024144172668
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1471073180437088
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 67,
+      "split": "d1_val",
+      "aggregate": 0.0823579728603363,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.0672805905342102
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08713562041521072
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.0816149190068245
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.09357684850692749
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 67,
+      "split": "d2_static_ood",
+      "aggregate": 0.1258198320865631,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12589465081691742
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1257450133562088
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 67,
+      "split": "d3_changing_ood",
+      "aggregate": 0.2319721132516861,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.49778011441230774
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.0908484235405922
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.2115096151828766
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.22357290983200073
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.13581529259681702
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 68,
+      "split": "d1_val",
+      "aggregate": 0.08396071940660477,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.0664786845445633
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08668723702430725
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08277323096990585
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10015596449375153
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 68,
+      "split": "d2_static_ood",
+      "aggregate": 0.12956057488918304,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.1248357892036438
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.1342853605747223
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 68,
+      "split": "d3_changing_ood",
+      "aggregate": 0.26335474848747253,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5975738763809204
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.10141241550445557
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.22719350457191467
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.24188004434108734
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.14829832315444946
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 69,
+      "split": "d1_val",
+      "aggregate": 0.08634249120950699,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_10wind",
+          "aggregate": 0.06948225945234299
+        },
+        {
+          "flight": "custom_random3_baseline_20wind",
+          "aggregate": 0.08705135434865952
+        },
+        {
+          "flight": "custom_random3_baseline_40wind",
+          "aggregate": 0.08590666949748993
+        },
+        {
+          "flight": "custom_random3_baseline_nowind",
+          "aggregate": 0.10320577770471573
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 69,
+      "split": "d2_static_ood",
+      "aggregate": 0.12728197872638702,
+      "flights": [
+        {
+          "flight": "custom_random3_baseline_30wind",
+          "aggregate": 0.12466377764940262
+        },
+        {
+          "flight": "custom_random3_baseline_50wind",
+          "aggregate": 0.12990017235279083
+        }
+      ]
+    },
+    {
+      "arm": "updated_r1o1",
+      "seed": 69,
+      "split": "d3_changing_ood",
+      "aggregate": 0.23341302573680878,
+      "flights": [
+        {
+          "flight": "custom_figure8_baseline_100wind",
+          "aggregate": 0.5085328221321106
+        },
+        {
+          "flight": "custom_figure8_baseline_35wind",
+          "aggregate": 0.0855845957994461
+        },
+        {
+          "flight": "custom_figure8_baseline_70p20sint",
+          "aggregate": 0.21910354495048523
+        },
+        {
+          "flight": "custom_figure8_baseline_70wind",
+          "aggregate": 0.21736210584640503
+        },
+        {
+          "flight": "custom_figure8_baseline_nowind",
+          "aggregate": 0.1361391544342041
+        }
+      ]
+    }
+  ]
+}

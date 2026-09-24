@@ -1,0 +1,60 @@
+{
+  "utc": "2026-09-20T05:16:50.184837+00:00",
+  "source": "791a73017ca94a63116897af45b6f25fcc846af1",
+  "accepted_models": 60,
+  "accepted_npz": 120,
+  "epochs_per_model": 120,
+  "updates_per_model": 5760,
+  "parameters_per_model": 39497,
+  "pilot_excluded": true,
+  "datasets": [
+    {
+      "dataset": 0,
+      "job_id": "anonymous-job-1",
+      "acceptance_path": "runs/evidence/round15_bundle/round15_coverage_data0_acceptance.json",
+      "acceptance_sha256": "b3790e084963b571cedb153e680a0b05673b71ad52090369878ee8a5c155c876",
+      "models": 12,
+      "npz": 24
+    },
+    {
+      "dataset": 1,
+      "job_id": "anonymous-job-2",
+      "acceptance_path": "runs/evidence/round15_bundle/round15_coverage_data1_acceptance.json",
+      "acceptance_sha256": "b8d259005b488c5c47b99c7ec0603597fd88af816aed53321e6bc56810b61708",
+      "models": 12,
+      "npz": 24
+    },
+    {
+      "dataset": 2,
+      "job_id": "anonymous-job-3",
+      "acceptance_path": "runs/evidence/round15_bundle/round15_coverage_data2_acceptance.json",
+      "acceptance_sha256": "48511cfc01e12fd6771054e8e90345b0b7326b9a0f4151251db08a0b1eed02bc",
+      "models": 12,
+      "npz": 24
+    },
+    {
+      "dataset": 3,
+      "job_id": "anonymous-job-4",
+      "acceptance_path": "runs/evidence/round15_bundle/round15_coverage_data3_acceptance.json",
+      "acceptance_sha256": "6356b06261e9940622cded1658e1e354a8050fc61b83159113f155dd83e02979",
+      "models": 12,
+      "npz": 24
+    },
+    {
+      "dataset": 4,
+      "job_id": "anonymous-job-5",
+      "acceptance_path": "runs/evidence/round15_bundle/round15_coverage_data4_acceptance.json",
+      "acceptance_sha256": "ce446e966571e1132d5ec912bb2faa301337f0acd4375fff64ff2a5b023e9cb8",
+      "models": 12,
+      "npz": 24
+    }
+  ],
+  "checks": [
+    "exact source/config/compute/provenance",
+    "best checkpoint strict load and finite tensors",
+    "finite training",
+    "all NPZ finite/shapes/nonnegative/errors/aggregate/summary/horizon",
+    "paired window identities"
+  ],
+  "scientific_interpretation": "Pending independent query and closed-loop panels; no recipe changes or model selection from OOD/control outcomes."
+}

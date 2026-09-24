@@ -1,0 +1,4 @@
+defaults:
+- configs/compute/single_gpu.yaml
+amp: 'off'
+num_workers: 4

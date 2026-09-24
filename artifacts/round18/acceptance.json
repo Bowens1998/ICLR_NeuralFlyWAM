@@ -1,0 +1,41 @@
+{
+  "source": "55c616f856ea94f552f4c40db5de57383aa886c1",
+  "accepted_flights": 370,
+  "replicates": [
+    {
+      "replicate": 0,
+      "split_checksum": "005d14ada0f2cac8",
+      "normalizer_sha256": "7515eb0bd2a8b5a890342112ad407c4786a54f568368f76c37a77c1908fb6e04",
+      "train_flights": 16,
+      "train_windows": 45600
+    },
+    {
+      "replicate": 1,
+      "split_checksum": "fdeaa34ca1796299",
+      "normalizer_sha256": "667f2290e34b53631cb2a0ecfd58457d8157a148a1afe35b96826bac4d731909",
+      "train_flights": 16,
+      "train_windows": 45600
+    },
+    {
+      "replicate": 2,
+      "split_checksum": "ed964fdddc823145",
+      "normalizer_sha256": "4a708caf940f9a60056c073735cc1aae689d6a1cc7b5bacdadecdc1c00c1cda5",
+      "train_flights": 16,
+      "train_windows": 45600
+    },
+    {
+      "replicate": 3,
+      "split_checksum": "616220dfd4334b57",
+      "normalizer_sha256": "b5a90031ca9a38ab1ccc96148a4e048b9856ff27c4a1d58cde890458b62b4b04",
+      "train_flights": 16,
+      "train_windows": 45600
+    },
+    {
+      "replicate": 4,
+      "split_checksum": "9311f556809856b9",
+      "normalizer_sha256": "9838c9026e7ee28558271d0cff6aa2dcaeef0396c6eb0c225890a56a4327ea57",
+      "train_flights": 16,
+      "train_windows": 45600
+    }
+  ]
+}

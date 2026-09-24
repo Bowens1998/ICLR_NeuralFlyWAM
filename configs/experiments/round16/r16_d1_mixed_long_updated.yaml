@@ -1,0 +1,19 @@
+defaults:
+- configs/experiments/_base.yaml
+experiment_name: round16_bridge_data1_v1
+data:
+  manifest_path: artifacts/round11b_v1/data1_split.json
+  normalizer_path: artifacts/round11b_v1/data1_norm.json
+  coverage_manifest: artifacts/round15/data1_coverage.json
+  coverage_regime: mixed
+optim:
+  max_epochs: 445
+  early_stopping_patience: 446
+model:
+  name: r16_d1_mixed_long_updated
+  family: context_memory_control
+  update_context: true
+  context_norm: none
+  readout_norm: none
+  width: 64
+  dropout: 0.1

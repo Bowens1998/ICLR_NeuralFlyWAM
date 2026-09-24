@@ -1,0 +1,788 @@
+{
+  "schema": "round17-baselines-v1",
+  "rows": [
+    {
+      "index": 0,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000
+    },
+    {
+      "index": 1,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001
+    },
+    {
+      "index": 2,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002
+    },
+    {
+      "index": 3,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003
+    },
+    {
+      "index": 4,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004
+    },
+    {
+      "index": 5,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005
+    },
+    {
+      "index": 6,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006
+    },
+    {
+      "index": 7,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007
+    },
+    {
+      "index": 8,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008
+    },
+    {
+      "index": 9,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009
+    },
+    {
+      "index": 10,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000
+    },
+    {
+      "index": 11,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001
+    },
+    {
+      "index": 12,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002
+    },
+    {
+      "index": 13,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003
+    },
+    {
+      "index": 14,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004
+    },
+    {
+      "index": 15,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005
+    },
+    {
+      "index": 16,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006
+    },
+    {
+      "index": 17,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007
+    },
+    {
+      "index": 18,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008
+    },
+    {
+      "index": 19,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009
+    },
+    {
+      "index": 20,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000
+    },
+    {
+      "index": 21,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001
+    },
+    {
+      "index": 22,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002
+    },
+    {
+      "index": 23,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003
+    },
+    {
+      "index": 24,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004
+    },
+    {
+      "index": 25,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005
+    },
+    {
+      "index": 26,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006
+    },
+    {
+      "index": 27,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007
+    },
+    {
+      "index": 28,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008
+    },
+    {
+      "index": 29,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009
+    },
+    {
+      "index": 30,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000
+    },
+    {
+      "index": 31,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001
+    },
+    {
+      "index": 32,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002
+    },
+    {
+      "index": 33,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003
+    },
+    {
+      "index": 34,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004
+    },
+    {
+      "index": 35,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005
+    },
+    {
+      "index": 36,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006
+    },
+    {
+      "index": 37,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007
+    },
+    {
+      "index": 38,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008
+    },
+    {
+      "index": 39,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009
+    },
+    {
+      "index": 40,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000
+    },
+    {
+      "index": 41,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001
+    },
+    {
+      "index": 42,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002
+    },
+    {
+      "index": 43,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003
+    },
+    {
+      "index": 44,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004
+    },
+    {
+      "index": 45,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005
+    },
+    {
+      "index": 46,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006
+    },
+    {
+      "index": 47,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007
+    },
+    {
+      "index": 48,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008
+    },
+    {
+      "index": 49,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009
+    },
+    {
+      "index": 50,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000
+    },
+    {
+      "index": 51,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001
+    },
+    {
+      "index": 52,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002
+    },
+    {
+      "index": 53,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003
+    },
+    {
+      "index": 54,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004
+    },
+    {
+      "index": 55,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005
+    },
+    {
+      "index": 56,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006
+    },
+    {
+      "index": 57,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007
+    },
+    {
+      "index": 58,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008
+    },
+    {
+      "index": 59,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009
+    },
+    {
+      "index": 60,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000
+    },
+    {
+      "index": 61,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001
+    },
+    {
+      "index": 62,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002
+    },
+    {
+      "index": 63,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003
+    },
+    {
+      "index": 64,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004
+    },
+    {
+      "index": 65,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005
+    },
+    {
+      "index": 66,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006
+    },
+    {
+      "index": 67,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007
+    },
+    {
+      "index": 68,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008
+    },
+    {
+      "index": 69,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009
+    },
+    {
+      "index": 70,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000
+    },
+    {
+      "index": 71,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001
+    },
+    {
+      "index": 72,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002
+    },
+    {
+      "index": 73,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003
+    },
+    {
+      "index": 74,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004
+    },
+    {
+      "index": 75,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005
+    },
+    {
+      "index": 76,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006
+    },
+    {
+      "index": 77,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007
+    },
+    {
+      "index": 78,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008
+    },
+    {
+      "index": 79,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009
+    }
+  ],
+  "source_sha256": {
+    "src/latent_aero_wam/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/latent_aero_wam/training/losses.py": "e7849733bb394710656d198a3707580e2db26f25c4b8136e90c3b7f44c5a53c0",
+    "src/latent_aero_wam/training/checkpoint.py": "d6a210dd2654d98c0b847c58b371b0cf6f8e2392a9b4c90558cfb042636c701e",
+    "src/latent_aero_wam/training/loop.py": "230e10aae72ae6c4cb8ca01c312ee8aea90ac03ef2d768c0c10ff8230dc3c216",
+    "src/latent_aero_wam/training/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/latent_aero_wam/utils/seed.py": "076382baeac7a67926f40b1203d1b6595b5c651606e68a6a0bc76288f13b1d3d",
+    "src/latent_aero_wam/utils/config.py": "dac61a2f35a4bff3660b381d1f236df5adc49aea715a5111c07a75b77aa15f13",
+    "src/latent_aero_wam/utils/rotation.py": "3031d8ef94b6ba9c19de843b9ebbe616329e8abc395ce5ab8b02ba80dae0179f",
+    "src/latent_aero_wam/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/latent_aero_wam/utils/logging.py": "6f3c93f0ecc65e2c82d6c5fc9cb9429afacd08f16f17f0958e55c99480e16557",
+    "src/latent_aero_wam/cli/evaluate.py": "696db510db266f871edcbb98922d8adf08e7b5e50a9e46f94013b790418feeef",
+    "src/latent_aero_wam/cli/summarize.py": "8eb17be1f175b7000a0660dc4a06b7ca0a6e6cd0acef1107fdea206a3f2a0893",
+    "src/latent_aero_wam/cli/run_dir.py": "a5025cb6f3640fc9ee5e1b6904b5bb4d71a83f6f1610bfb85ee4102f6cec1e34",
+    "src/latent_aero_wam/cli/train.py": "86cef5027711f7cf5762820f343375350b0042fe4c7b915d491721f660ed37e6",
+    "src/latent_aero_wam/cli/audit.py": "4ac1e6ca744e53b6962a8fa601898cf5dc5e6f2b2a19fcf2d611d63b4562b138",
+    "src/latent_aero_wam/cli/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/latent_aero_wam/data/coverage.py": "0096cff38b930b8bfa9b2c3fc38b421814452524f71c737ac97fb1a4d6306e49",
+    "src/latent_aero_wam/data/parser.py": "79a30c99a4868cc772d2bc36d8e57e3a0dfd0cee94b082e9c24c94588f249fb2",
+    "src/latent_aero_wam/data/dataset.py": "5571b313e51ed227518f28c543e4549f99bc9b7e6bd42c9edbb637417663d4d7",
+    "src/latent_aero_wam/data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/latent_aero_wam/data/normalize.py": "f09edee4a96bec4c045b490348302abd34f9f22acbcdfa7654b6c9ed941e6ae0",
+    "src/latent_aero_wam/data/splits.py": "55664c6d38fa5b9ae2597d2adbf0044c9cab8dc4dd84b76e4461560d659df2a1",
+    "src/latent_aero_wam/evaluation/metrics.py": "dae0e4a41472e765dc84a2d1e4d5de478d85d9ee388aae759f8b7014f5f801fe",
+    "src/latent_aero_wam/evaluation/wind_intervention.py": "d63ed74a5fcdf0e6ceb8b55a923f97f3782eed52adaad9099bdbf77c7b9203b9",
+    "src/latent_aero_wam/evaluation/plots.py": "daf36e6593a1754145570265ef926c78d1a4a7b8d3f1476d45183e302fa561e5",
+    "src/latent_aero_wam/evaluation/evaluator.py": "a055314b62b05be7b50385c1855da3e98c2c5486c5e000892bac241f71c513c2",
+    "src/latent_aero_wam/evaluation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/latent_aero_wam/models/m0_persistence.py": "4af6e04c1f67d5352fab22322617b0ae76806cbb7359b1c356ae1d170f1940f4",
+    "src/latent_aero_wam/models/context_rnn.py": "281e925a83f01cbe1c18da84c7f3a2cf26e27a4d3dfd83edba6e78c30c7808e8",
+    "src/latent_aero_wam/models/context_controls.py": "543d62e72ce05b580035098c6f94c03e6e2cb7663aa517322378cff79583ab59",
+    "src/latent_aero_wam/models/m1_history_gru.py": "e782e63c31311019717011dd9bcb4bcf2b85cd1e8da17cac19be3295e32482f0",
+    "src/latent_aero_wam/models/m2_latent_wam.py": "f180d60de8be1eb643ac1fec0c9b61e3263120d0a463029f2b028abf7249ffb6",
+    "src/latent_aero_wam/models/base.py": "0d2bb3566a0fec71aa0f42201648291b9e2e1d48a5187d51fbf3983f079287a1",
+    "src/latent_aero_wam/models/context_access.py": "d491aac9dd2c2e38e2eac0b937b26a94e609430f98c56b9c6b056e477ead860c",
+    "src/latent_aero_wam/models/__init__.py": "e6b822db6261d0f9287ee27adf999c520baa1cf4a6e5e14164d14f5fc098e389",
+    "src/latent_aero_wam/models/derive.py": "da4910f69cccd497f6e52002957a338bf0f59b091a0a85b00848d383a5568c4a",
+    "src/latent_aero_wam/sim/quadrotor.py": "fba3630083bb3ebf92701df5fe3c1905200c0ea11b82da483383262f1f51d4a2",
+    "src/latent_aero_wam/sim/__init__.py": "348de676c81e1dfacd686330c38ebb9790dec3e2aa2bfe937df538f1bc5be778",
+    "scripts/sim/round16_evaluate.py": "74d0242fe61aa1b10dd690d57a14cb8c237f6c9e992e18ed71654116399c9e2f",
+    "scripts/sim/round12_diagnostics.py": "fd8f3cd934082a855b65288f42710aa6a1dc78ac4ac5835b9c05c0dd952f308a",
+    "scripts/sim/round12_diagnostic_protocol.py": "407e34474546afe5b381b3236dd725c31c55b335fdb7da36606779d670663920",
+    "scripts/sim/round11_closed_loop.py": "735301421fa6a263b23cdd593bd14869b111da4eddcc5779730c405a52a7ba91",
+    "scripts/sim/round11_closed_loop_protocol.py": "bab68a99a6047baa252f84e5b4054a750fc9304a53c2c37688274520075df801",
+    "scripts/sim/closed_loop.py": "c8935adfbb7a2df635a7493b5104df6f8ac7fe6ec1300a52ef3a965809ddfeb7",
+    "scripts/sim/round17_evaluate.py": "daaf12804fd9a437d67bb35255261e7b6b2f2651bee0bb9e8bbec93d8c36a256",
+    "scripts/analysis/round17_accept.py": "1347cc20fc9a1d71749d8a338e88c2f77dbf8d44b355114cdc409d6c70df575c",
+    "scripts/analysis/round17_results.py": "e99e0c3a205ae3b2696b47005a65cc9d99db83affe6b92cb985d8f78bbca8f04",
+    "scripts/evidence/round17_submit.py": "b836ef562095e66823974f7bcc126560ecd7b96bb971b011850dfc739896c89e",
+    "docs/ROUND17_PROTOCOL.md": "3381e6afe25e1e541eca6a16875e6aafd9a92af62732b6b95b4b739353c7665d"
+  },
+  "control_pilot": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70
+  ],
+  "round16_manifest_sha256": "76a9889dcd9eeba02b58c2f1733f9b0c6ed9093bfc3b6d254c54ed6c53de9c47",
+  "round16_results_sha256": "9732676e0fe7628edcf3e9984d5e270c343a4061f1c6da8e49eecd0b62a031b3"
+}

@@ -1,0 +1,1996 @@
+{
+  "panel": "original_static_logged_actions",
+  "metric": "original_E_H50_prefix",
+  "acceptance_sha256": {
+    "runs/evidence/round15_bundle/round15_coverage_data0_acceptance.json": "b3790e084963b571cedb153e680a0b05673b71ad52090369878ee8a5c155c876",
+    "runs/evidence/round15_bundle/round15_coverage_data1_acceptance.json": "b8d259005b488c5c47b99c7ec0603597fd88af816aed53321e6bc56810b61708",
+    "runs/evidence/round15_bundle/round15_coverage_data2_acceptance.json": "48511cfc01e12fd6771054e8e90345b0b7326b9a0f4151251db08a0b1eed02bc",
+    "runs/evidence/round15_bundle/round15_coverage_data3_acceptance.json": "6356b06261e9940622cded1658e1e354a8050fc61b83159113f155dd83e02979",
+    "runs/evidence/round15_bundle/round15_coverage_data4_acceptance.json": "ce446e966571e1132d5ec912bb2faa301337f0acd4375fff64ff2a5b023e9cb8"
+  },
+  "records": [
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.05486860126256943
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.07285910844802856
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.11220641434192657
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.05390124395489693
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.07246817648410797
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.11571699380874634
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.05492721125483513
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.07297048717737198
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.11390333622694016
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.04963456094264984
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.06774216145277023
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.10241624712944031
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.05555029585957527
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.07416166365146637
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.10579788684844971
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.054898474365472794
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.0720810666680336
+    },
+    {
+      "dataset": 0,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.10352201759815216
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.02524418942630291
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.04172749072313309
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.08245775103569031
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.02536860480904579
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.04167823866009712
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07899457216262817
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.025919126346707344
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.04237264394760132
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.08405393362045288
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.02325010485947132
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.03823809698224068
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.06760971248149872
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.024001359939575195
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.03853624314069748
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07011832296848297
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.023673558607697487
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.038767315447330475
+    },
+    {
+      "dataset": 0,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07589837908744812
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.055847495794296265
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.0736970454454422
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.11420754343271255
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.053327225148677826
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.07099643349647522
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.11349578946828842
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.05681445077061653
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.07516356557607651
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.12223254144191742
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.0621127188205719
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.07974593341350555
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.11157465726137161
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.05884064733982086
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.0762258917093277
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.10705031454563141
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.056030645966529846
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.0718817189335823
+    },
+    {
+      "dataset": 1,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.10146190971136093
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.024019090458750725
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.041043721139431
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07853348553180695
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.023917347192764282
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.040137965232133865
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.08100549876689911
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.02514898031949997
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.04148760810494423
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07504063844680786
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.01998525857925415
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.030750339850783348
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.05715562403202057
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.02100921794772148
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.035377051681280136
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.06930486857891083
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.021628232672810555
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.03544433414936066
+    },
+    {
+      "dataset": 1,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.06756351888179779
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.07453115284442902
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.09056539088487625
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.1329716593027115
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.0743798092007637
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.09076283872127533
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.13747857511043549
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.07307406514883041
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.08999388664960861
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.13354802131652832
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.07493724673986435
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.09202559292316437
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.12821520864963531
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.0777350440621376
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.09347043931484222
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.12737184762954712
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.07954923808574677
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.09674578905105591
+    },
+    {
+      "dataset": 2,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.13205240666866302
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.028810899704694748
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.04388119652867317
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.08111917972564697
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.029401283711194992
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.0472930483520031
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.09444434195756912
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.02890009805560112
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.04529046639800072
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.08885493129491806
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.028198495507240295
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.043561652302742004
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.08536068350076675
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.02574283443391323
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.03924981877207756
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07222232222557068
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.026354650035500526
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.0400422029197216
+    },
+    {
+      "dataset": 2,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07368534803390503
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.05730745568871498
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.07226300984621048
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.10564403235912323
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.05531715601682663
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.06882521510124207
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.10318873077630997
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.055232807993888855
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.06790266185998917
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.10058348625898361
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.053291358053684235
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.06657546013593674
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.09135965257883072
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.060158371925354004
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.07537109404802322
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.10105454921722412
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.05650503188371658
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.07203501462936401
+    },
+    {
+      "dataset": 3,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.09984079003334045
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.02339795045554638
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.03668031096458435
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.06856577098369598
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.023550156503915787
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.036628030240535736
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.06936749815940857
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.023676620796322823
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.03857056424021721
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07357815653085709
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.022085459902882576
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.034162476658821106
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.06214384362101555
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.022169573232531548
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.03439708054065704
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.0618453286588192
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.02244744449853897
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.03455745428800583
+    },
+    {
+      "dataset": 3,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.06327269971370697
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.05049450695514679
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.06994254887104034
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.11530732363462448
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.05240752175450325
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.07241977751255035
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.12047015130519867
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.048855360597372055
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.06725754588842392
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.11227266490459442
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.04470888152718544
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.06264693289995193
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.09834431856870651
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.045275092124938965
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.06417986005544662
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.10088235884904861
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.04115734621882439
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.05974794924259186
+    },
+    {
+      "dataset": 4,
+      "coverage": "log",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.09544258564710617
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.02133801579475403
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.03650493919849396
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07709778845310211
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.02122015506029129
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.035600341856479645
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07536426186561584
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.020866533741354942
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.03560060262680054
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "frozen",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07412666827440262
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.02065342292189598
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.03516039252281189
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 70,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07239171862602234
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.020976858213543892
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.035239651799201965
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 71,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07185488194227219
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 3.7,
+      "windows": 28500,
+      "original_E": 0.020455140620470047
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 6.1,
+      "windows": 28500,
+      "original_E": 0.035269107669591904
+    },
+    {
+      "dataset": 4,
+      "coverage": "mixed",
+      "arm": "updated",
+      "seed": 72,
+      "wind": 8.5,
+      "windows": 28500,
+      "original_E": 0.07131580263376236
+    }
+  ],
+  "summary": {
+    "3.7": {
+      "arm_dataset_scores": {
+        "log/frozen": [
+          0.05456568549076716,
+          0.055329723904530205,
+          0.07399500906467438,
+          0.055952473233143486,
+          0.050585796435674034
+        ],
+        "log/updated": [
+          0.053361110389232635,
+          0.058994670708974205,
+          0.07740717629591624,
+          0.05665158728758494,
+          0.04371377329031626
+        ],
+        "mixed/frozen": [
+          0.02551064019401868,
+          0.024361805990338326,
+          0.02903742715716362,
+          0.023541575918594997,
+          0.021141568198800087
+        ],
+        "mixed/updated": [
+          0.02364167446891467,
+          0.02087423639992873,
+          0.026765326658884685,
+          0.0222341592113177,
+          0.020695140585303307
+        ]
+      },
+      "arm_means": {
+        "log/frozen": 0.05808573762575785,
+        "log/updated": 0.05802566359440485,
+        "mixed/frozen": 0.02471860349178314,
+        "mixed/updated": 0.022842107464869817
+      },
+      "contrasts": {
+        "log_updated_minus_frozen": {
+          "dataset_differences": [
+            -0.0012045751015345232,
+            0.003664946804444,
+            0.0034121672312418666,
+            0.000699114054441452,
+            -0.006872023145357772
+          ],
+          "mean": -6.007403135299544e-05,
+          "descriptive_t95ci": [
+            -0.005408646721337954,
+            0.005288498658631964
+          ],
+          "negative_datasets": 2,
+          "positive_datasets": 3
+        },
+        "mixed_updated_minus_frozen": {
+          "dataset_differences": [
+            -0.0018689657251040118,
+            -0.0034875695904095956,
+            -0.0022721004982789346,
+            -0.001307416707277298,
+            -0.0004464276134967804
+          ],
+          "mean": -0.001876496026913324,
+          "descriptive_t95ci": [
+            -0.0032814245160347555,
+            -0.0004715675377918928
+          ],
+          "negative_datasets": 5,
+          "positive_datasets": 0
+        },
+        "coverage_by_memory_interaction": {
+          "dataset_differences": [
+            -0.0006643906235694885,
+            -0.007152516394853595,
+            -0.005684267729520801,
+            -0.00200653076171875,
+            0.006425595531860992
+          ],
+          "mean": -0.0018164219955603285,
+          "descriptive_t95ci": [
+            -0.0084080179886293,
+            0.004775173997508642
+          ],
+          "negative_datasets": 4,
+          "positive_datasets": 1
+        },
+        "frozen_mixed_minus_log": {
+          "dataset_differences": [
+            -0.029055045296748478,
+            -0.03096791791419188,
+            -0.04495758190751076,
+            -0.03241089731454849,
+            -0.029444228236873947
+          ],
+          "mean": -0.03336713413397471,
+          "descriptive_t95ci": [
+            -0.04157979135551381,
+            -0.025154476912435615
+          ],
+          "negative_datasets": 5,
+          "positive_datasets": 0
+        },
+        "updated_mixed_minus_log": {
+          "dataset_differences": [
+            -0.029719435920317967,
+            -0.03812043430904548,
+            -0.050641849637031555,
+            -0.03441742807626724,
+            -0.023018632705012955
+          ],
+          "mean": -0.03518355612953504,
+          "descriptive_t95ci": [
+            -0.04799757995668855,
+            -0.022369532302381527
+          ],
+          "negative_datasets": 5,
+          "positive_datasets": 0
+        }
+      }
+    },
+    "6.1": {
+      "arm_dataset_scores": {
+        "log/frozen": [
+          0.07276592403650284,
+          0.07328568150599797,
+          0.09044070541858673,
+          0.0696636289358139,
+          0.06987329075733821
+        ],
+        "log/updated": [
+          0.0713282972574234,
+          0.07595118135213852,
+          0.09408060709635417,
+          0.07132718960444133,
+          0.062191580732663475
+        ],
+        "mixed/frozen": [
+          0.04192612444361051,
+          0.04088976482550303,
+          0.04548823709289233,
+          0.0372929684817791,
+          0.03590196122725805
+        ],
+        "mixed/updated": [
+          0.038513885190089546,
+          0.033857241893808045,
+          0.040951224664847054,
+          0.03437233716249466,
+          0.035223050663868584
+        ]
+      },
+      "arm_means": {
+        "log/frozen": 0.07520584613084794,
+        "log/updated": 0.07497577120860419,
+        "mixed/frozen": 0.0402998112142086,
+        "mixed/updated": 0.03658354791502157
+      },
+      "contrasts": {
+        "log_updated_minus_frozen": {
+          "dataset_differences": [
+            -0.0014376267790794373,
+            0.0026654998461405482,
+            0.0036399016777674403,
+            0.0016635606686274257,
+            -0.007681710024674736
+          ],
+          "mean": -0.00023007492224375175,
+          "descriptive_t95ci": [
+            -0.0059177897674053525,
+            0.005457639922917848
+          ],
+          "negative_datasets": 2,
+          "positive_datasets": 3
+        },
+        "mixed_updated_minus_frozen": {
+          "dataset_differences": [
+            -0.0034122392535209656,
+            -0.0070325229316949844,
+            -0.004537012428045273,
+            -0.002920631319284439,
+            -0.0006789105633894649
+          ],
+          "mean": -0.0037162632991870254,
+          "descriptive_t95ci": [
+            -0.00660311070574494,
+            -0.0008294158926291113
+          ],
+          "negative_datasets": 5,
+          "positive_datasets": 0
+        },
+        "coverage_by_memory_interaction": {
+          "dataset_differences": [
+            -0.0019746124744415283,
+            -0.009698022777835533,
+            -0.008176914105812713,
+            -0.004584191987911865,
+            0.007002799461285271
+          ],
+          "mean": -0.0034861883769432738,
+          "descriptive_t95ci": [
+            -0.011677857439130083,
+            0.004705480685243536
+          ],
+          "negative_datasets": 4,
+          "positive_datasets": 1
+        },
+        "frozen_mixed_minus_log": {
+          "dataset_differences": [
+            -0.030839799592892327,
+            -0.03239591668049494,
+            -0.044952468325694404,
+            -0.032370660454034805,
+            -0.03397132953008016
+          ],
+          "mean": -0.03490603491663933,
+          "descriptive_t95ci": [
+            -0.04201361468694974,
+            -0.027798455146328917
+          ],
+          "negative_datasets": 5,
+          "positive_datasets": 0
+        },
+        "updated_mixed_minus_log": {
+          "dataset_differences": [
+            -0.032814412067333855,
+            -0.042093939458330475,
+            -0.05312938243150712,
+            -0.03695485244194667,
+            -0.02696853006879489
+          ],
+          "mean": -0.038392223293582606,
+          "descriptive_t95ci": [
+            -0.050724224562937306,
+            -0.026060222024227902
+          ],
+          "negative_datasets": 5,
+          "positive_datasets": 0
+        }
+      }
+    },
+    "8.5": {
+      "arm_dataset_scores": {
+        "log/frozen": [
+          0.11394224812587102,
+          0.11664529144763947,
+          0.1346660852432251,
+          0.10313874979813893,
+          0.11601671328147252
+        ],
+        "log/updated": [
+          0.1039120505253474,
+          0.10669562717278798,
+          0.1292131543159485,
+          0.09741833060979843,
+          0.0982230876882871
+        ],
+        "mixed/frozen": [
+          0.08183541893959045,
+          0.07819320758183797,
+          0.08813948432604472,
+          0.07050380855798721,
+          0.07552957286437352
+        ],
+        "mixed/updated": [
+          0.07120880484580994,
+          0.0646746704975764,
+          0.07708945125341415,
+          0.06242062399784724,
+          0.07185413440068562
+        ]
+      },
+      "arm_means": {
+        "log/frozen": 0.11688181757926941,
+        "log/updated": 0.10709245006243388,
+        "mixed/frozen": 0.07884029845396677,
+        "mixed/updated": 0.06944953699906667
+      },
+      "contrasts": {
+        "log_updated_minus_frozen": {
+          "dataset_differences": [
+            -0.010030197600523622,
+            -0.009949664274851486,
+            -0.005452930927276611,
+            -0.0057204191883405,
+            -0.017793625593185425
+          ],
+          "mean": -0.00978936751683553,
+          "descriptive_t95ci": [
+            -0.015982547576685803,
+            -0.003596187456985256
+          ],
+          "negative_datasets": 5,
+          "positive_datasets": 0
+        },
+        "mixed_updated_minus_frozen": {
+          "dataset_differences": [
+            -0.010626614093780518,
+            -0.013518537084261567,
+            -0.011050033072630569,
+            -0.008083184560139976,
+            -0.0036754384636878967
+          ],
+          "mean": -0.009390761454900105,
+          "descriptive_t95ci": [
+            -0.014023920477160398,
+            -0.004757602432639811
+          ],
+          "negative_datasets": 5,
+          "positive_datasets": 0
+        },
+        "coverage_by_memory_interaction": {
+          "dataset_differences": [
+            -0.000596416493256896,
+            -0.0035688728094100813,
+            -0.005597102145353958,
+            -0.002362765371799476,
+            0.014118187129497528
+          ],
+          "mean": 0.0003986060619354234,
+          "descriptive_t95ci": [
+            -0.009388738086483467,
+            0.010185950210354313
+          ],
+          "negative_datasets": 4,
+          "positive_datasets": 1
+        },
+        "frozen_mixed_minus_log": {
+          "dataset_differences": [
+            -0.032106829186280564,
+            -0.0384520838658015,
+            -0.046526600917180375,
+            -0.03263494124015172,
+            -0.040487140417099
+          ],
+          "mean": -0.03804151912530263,
+          "descriptive_t95ci": [
+            -0.04545514406679708,
+            -0.030627894183808183
+          ],
+          "negative_datasets": 5,
+          "positive_datasets": 0
+        },
+        "updated_mixed_minus_log": {
+          "dataset_differences": [
+            -0.03270324567953746,
+            -0.04202095667521158,
+            -0.05212370306253433,
+            -0.034997706611951195,
+            -0.02636895328760147
+          ],
+          "mean": -0.03764291306336721,
+          "descriptive_t95ci": [
+            -0.049861797592324474,
+            -0.02542402853440994
+          ],
+          "negative_datasets": 5,
+          "positive_datasets": 0
+        }
+      }
+    }
+  },
+  "caveat": "Descriptive original test-set audit. Average windows/horizons within checkpoint, then seeds within dataset; n=5 training datasets and nonsimultaneous t intervals. No additional p-values or selection. Not a literal replication of the old overlapping-window training recipe."
+}

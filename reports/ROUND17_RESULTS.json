@@ -1,0 +1,3346 @@
+{
+  "records": [
+    {
+      "index": 0,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000,
+      "rmse_m": 0.040006430543027174,
+      "failed": false
+    },
+    {
+      "index": 1,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001,
+      "rmse_m": 0.060418311023954945,
+      "failed": false
+    },
+    {
+      "index": 2,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002,
+      "rmse_m": 0.03742914604801068,
+      "failed": false
+    },
+    {
+      "index": 3,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003,
+      "rmse_m": 0.03173020694431446,
+      "failed": false
+    },
+    {
+      "index": 4,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004,
+      "rmse_m": 0.030408956440213762,
+      "failed": false
+    },
+    {
+      "index": 5,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005,
+      "rmse_m": 0.03660645378281476,
+      "failed": false
+    },
+    {
+      "index": 6,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006,
+      "rmse_m": 0.030421552730686637,
+      "failed": false
+    },
+    {
+      "index": 7,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007,
+      "rmse_m": 0.03866598570942355,
+      "failed": false
+    },
+    {
+      "index": 8,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008,
+      "rmse_m": 0.03025315650229374,
+      "failed": false
+    },
+    {
+      "index": 9,
+      "kind": "nominal",
+      "wind": 0.0,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009,
+      "rmse_m": 0.042545286777040184,
+      "failed": false
+    },
+    {
+      "index": 10,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000,
+      "rmse_m": 0.23757011026159675,
+      "failed": false
+    },
+    {
+      "index": 11,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001,
+      "rmse_m": 0.25066404433326667,
+      "failed": false
+    },
+    {
+      "index": 12,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002,
+      "rmse_m": 0.2416277872897378,
+      "failed": false
+    },
+    {
+      "index": 13,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003,
+      "rmse_m": 0.24083227085972544,
+      "failed": false
+    },
+    {
+      "index": 14,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004,
+      "rmse_m": 0.24440819495072033,
+      "failed": false
+    },
+    {
+      "index": 15,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005,
+      "rmse_m": 0.2546111509260515,
+      "failed": false
+    },
+    {
+      "index": 16,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006,
+      "rmse_m": 0.2592835822086221,
+      "failed": false
+    },
+    {
+      "index": 17,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007,
+      "rmse_m": 0.2508963884009612,
+      "failed": false
+    },
+    {
+      "index": 18,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008,
+      "rmse_m": 0.24247606273266648,
+      "failed": false
+    },
+    {
+      "index": 19,
+      "kind": "nominal",
+      "wind": 4.9,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009,
+      "rmse_m": 0.23627680306699256,
+      "failed": false
+    },
+    {
+      "index": 20,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000,
+      "rmse_m": 0.300368973129308,
+      "failed": false
+    },
+    {
+      "index": 21,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001,
+      "rmse_m": 0.31303265576669037,
+      "failed": false
+    },
+    {
+      "index": 22,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002,
+      "rmse_m": 0.3060557401378005,
+      "failed": false
+    },
+    {
+      "index": 23,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003,
+      "rmse_m": 0.3054102848737632,
+      "failed": false
+    },
+    {
+      "index": 24,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004,
+      "rmse_m": 0.30929653855799905,
+      "failed": false
+    },
+    {
+      "index": 25,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005,
+      "rmse_m": 0.3201652847812647,
+      "failed": false
+    },
+    {
+      "index": 26,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006,
+      "rmse_m": 0.3294315596555157,
+      "failed": false
+    },
+    {
+      "index": 27,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007,
+      "rmse_m": 0.31255516318154,
+      "failed": false
+    },
+    {
+      "index": 28,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008,
+      "rmse_m": 0.306700728797448,
+      "failed": false
+    },
+    {
+      "index": 29,
+      "kind": "nominal",
+      "wind": 6.1,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009,
+      "rmse_m": 0.29967171694502626,
+      "failed": false
+    },
+    {
+      "index": 30,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000,
+      "rmse_m": 0.43867608437401373,
+      "failed": false
+    },
+    {
+      "index": 31,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001,
+      "rmse_m": 0.45521813504867525,
+      "failed": false
+    },
+    {
+      "index": 32,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002,
+      "rmse_m": 0.4469970552604375,
+      "failed": false
+    },
+    {
+      "index": 33,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003,
+      "rmse_m": 0.44896373738912665,
+      "failed": false
+    },
+    {
+      "index": 34,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004,
+      "rmse_m": 0.4492617678769498,
+      "failed": false
+    },
+    {
+      "index": 35,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005,
+      "rmse_m": 0.47037247788371217,
+      "failed": false
+    },
+    {
+      "index": 36,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006,
+      "rmse_m": 0.48314402713385257,
+      "failed": false
+    },
+    {
+      "index": 37,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007,
+      "rmse_m": 0.45392243099740237,
+      "failed": false
+    },
+    {
+      "index": 38,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008,
+      "rmse_m": 0.44982211767261,
+      "failed": false
+    },
+    {
+      "index": 39,
+      "kind": "nominal",
+      "wind": 8.5,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009,
+      "rmse_m": 0.44156344417551446,
+      "failed": false
+    },
+    {
+      "index": 40,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000,
+      "rmse_m": 0.040006430543027174,
+      "failed": false
+    },
+    {
+      "index": 41,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001,
+      "rmse_m": 0.060418311023954945,
+      "failed": false
+    },
+    {
+      "index": 42,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002,
+      "rmse_m": 0.03742914604801068,
+      "failed": false
+    },
+    {
+      "index": 43,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003,
+      "rmse_m": 0.03173020694431446,
+      "failed": false
+    },
+    {
+      "index": 44,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004,
+      "rmse_m": 0.030408956440213762,
+      "failed": false
+    },
+    {
+      "index": 45,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005,
+      "rmse_m": 0.03660645378281476,
+      "failed": false
+    },
+    {
+      "index": 46,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006,
+      "rmse_m": 0.030421552730686637,
+      "failed": false
+    },
+    {
+      "index": 47,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007,
+      "rmse_m": 0.03866598570942355,
+      "failed": false
+    },
+    {
+      "index": 48,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008,
+      "rmse_m": 0.03025315650229374,
+      "failed": false
+    },
+    {
+      "index": 49,
+      "kind": "true_mean",
+      "wind": 0.0,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009,
+      "rmse_m": 0.042545286777040184,
+      "failed": false
+    },
+    {
+      "index": 50,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000,
+      "rmse_m": 0.05210712990923458,
+      "failed": false
+    },
+    {
+      "index": 51,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001,
+      "rmse_m": 0.07445194272355944,
+      "failed": false
+    },
+    {
+      "index": 52,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002,
+      "rmse_m": 0.04108255013828803,
+      "failed": false
+    },
+    {
+      "index": 53,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003,
+      "rmse_m": 0.0545184293401632,
+      "failed": false
+    },
+    {
+      "index": 54,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004,
+      "rmse_m": 0.05696604114171165,
+      "failed": false
+    },
+    {
+      "index": 55,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005,
+      "rmse_m": 0.06458631450363453,
+      "failed": false
+    },
+    {
+      "index": 56,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006,
+      "rmse_m": 0.048854261973372365,
+      "failed": false
+    },
+    {
+      "index": 57,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007,
+      "rmse_m": 0.07498054995745874,
+      "failed": false
+    },
+    {
+      "index": 58,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008,
+      "rmse_m": 0.04036319097437016,
+      "failed": false
+    },
+    {
+      "index": 59,
+      "kind": "true_mean",
+      "wind": 4.9,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009,
+      "rmse_m": 0.03374906995378044,
+      "failed": false
+    },
+    {
+      "index": 60,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000,
+      "rmse_m": 0.06574061171756777,
+      "failed": false
+    },
+    {
+      "index": 61,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001,
+      "rmse_m": 0.08580110258208272,
+      "failed": false
+    },
+    {
+      "index": 62,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002,
+      "rmse_m": 0.05548870890250224,
+      "failed": false
+    },
+    {
+      "index": 63,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003,
+      "rmse_m": 0.07260613912642064,
+      "failed": false
+    },
+    {
+      "index": 64,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004,
+      "rmse_m": 0.0709039432566013,
+      "failed": false
+    },
+    {
+      "index": 65,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005,
+      "rmse_m": 0.0763206491781295,
+      "failed": false
+    },
+    {
+      "index": 66,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006,
+      "rmse_m": 0.06068935969370597,
+      "failed": false
+    },
+    {
+      "index": 67,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007,
+      "rmse_m": 0.08982548955884953,
+      "failed": false
+    },
+    {
+      "index": 68,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008,
+      "rmse_m": 0.05209093794341938,
+      "failed": false
+    },
+    {
+      "index": 69,
+      "kind": "true_mean",
+      "wind": 6.1,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009,
+      "rmse_m": 0.04159304562509382,
+      "failed": false
+    },
+    {
+      "index": 70,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 0,
+      "environment_seed": 710000,
+      "trajectory_seed": 720000,
+      "planning_seed": 730000,
+      "rmse_m": 0.13767492140953136,
+      "failed": false
+    },
+    {
+      "index": 71,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 1,
+      "environment_seed": 710001,
+      "trajectory_seed": 720001,
+      "planning_seed": 730001,
+      "rmse_m": 0.1440542341118824,
+      "failed": false
+    },
+    {
+      "index": 72,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 2,
+      "environment_seed": 710002,
+      "trajectory_seed": 720002,
+      "planning_seed": 730002,
+      "rmse_m": 0.13073713784409638,
+      "failed": false
+    },
+    {
+      "index": 73,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 3,
+      "environment_seed": 710003,
+      "trajectory_seed": 720003,
+      "planning_seed": 730003,
+      "rmse_m": 0.15102450708427698,
+      "failed": false
+    },
+    {
+      "index": 74,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 4,
+      "environment_seed": 710004,
+      "trajectory_seed": 720004,
+      "planning_seed": 730004,
+      "rmse_m": 0.1371305953927016,
+      "failed": false
+    },
+    {
+      "index": 75,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 5,
+      "environment_seed": 710005,
+      "trajectory_seed": 720005,
+      "planning_seed": 730005,
+      "rmse_m": 0.12887907755586003,
+      "failed": false
+    },
+    {
+      "index": 76,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 6,
+      "environment_seed": 710006,
+      "trajectory_seed": 720006,
+      "planning_seed": 730006,
+      "rmse_m": 0.10490460777499767,
+      "failed": false
+    },
+    {
+      "index": 77,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 7,
+      "environment_seed": 710007,
+      "trajectory_seed": 720007,
+      "planning_seed": 730007,
+      "rmse_m": 0.15419973295655132,
+      "failed": false
+    },
+    {
+      "index": 78,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 8,
+      "environment_seed": 710008,
+      "trajectory_seed": 720008,
+      "planning_seed": 730008,
+      "rmse_m": 0.11870240413885191,
+      "failed": false
+    },
+    {
+      "index": 79,
+      "kind": "true_mean",
+      "wind": 8.5,
+      "episode": 9,
+      "environment_seed": 710009,
+      "trajectory_seed": 720009,
+      "planning_seed": 730009,
+      "rmse_m": 0.11099973560128366,
+      "failed": false
+    }
+  ],
+  "summary": {
+    "0.0": {
+      "nominal": {
+        "episode_scores": [
+          0.040006430543027174,
+          0.060418311023954945,
+          0.03742914604801068,
+          0.03173020694431446,
+          0.030408956440213762,
+          0.03660645378281476,
+          0.030421552730686637,
+          0.03866598570942355,
+          0.03025315650229374,
+          0.042545286777040184
+        ],
+        "mean": 0.03784854865017799,
+        "failures": 0,
+        "learned_minus_reference": {
+          "dense_short/frozen": {
+            "dataset_differences": [
+              0.17105839383182272,
+              0.10320497164629443,
+              0.1451227479239762,
+              0.10813686145265115,
+              0.18571825613810516
+            ],
+            "mean": 0.14264824619856992,
+            "descriptive_t95ci": [
+              0.09696288606926912,
+              0.18833360632787072
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_short/updated": {
+            "dataset_differences": [
+              0.11883135491194889,
+              0.10278146834328876,
+              0.11295345942282557,
+              0.0765486952111507,
+              0.12682277310656104
+            ],
+            "mean": 0.107587550199155,
+            "descriptive_t95ci": [
+              0.08344908736795552,
+              0.13172601303035447
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_long/frozen": {
+            "dataset_differences": [
+              0.0820935235709202,
+              0.03904764038904851,
+              0.04890235706108963,
+              0.07780366809530984,
+              0.12166164237221966
+            ],
+            "mean": 0.07390176629771757,
+            "descriptive_t95ci": [
+              0.033652331738634536,
+              0.1141512008568006
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_long/updated": {
+            "dataset_differences": [
+              0.10994609451169293,
+              0.13199158805473282,
+              0.1282946953032487,
+              0.041707808869368326,
+              0.17742934823064155
+            ],
+            "mean": 0.11787390699393688,
+            "descriptive_t95ci": [
+              0.056669578527059845,
+              0.17907823546081392
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_short/frozen": {
+            "dataset_differences": [
+              0.17950802164010313,
+              0.16211625368194552,
+              0.1580783825245574,
+              0.12828215651534436,
+              0.1824549062095424
+            ],
+            "mean": 0.16208794411429855,
+            "descriptive_t95ci": [
+              0.13518950014647463,
+              0.18898638808212248
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_short/updated": {
+            "dataset_differences": [
+              0.1515688689206552,
+              0.09710280764612926,
+              0.11458417469673529,
+              0.08656665653210191,
+              0.154658134970628
+            ],
+            "mean": 0.12089612855324994,
+            "descriptive_t95ci": [
+              0.08229872001850541,
+              0.15949353708799446
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_long/frozen": {
+            "dataset_differences": [
+              0.11094629971501642,
+              0.1381573973797731,
+              0.10422035370343863,
+              0.08440315010304136,
+              0.13149700624642482
+            ],
+            "mean": 0.11384484142953885,
+            "descriptive_t95ci": [
+              0.08699398453626161,
+              0.1406956983228161
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_long/updated": {
+            "dataset_differences": [
+              0.12164947228121684,
+              0.08552353918672329,
+              0.1196415447667833,
+              0.0907468802438843,
+              0.13765867244035648
+            ],
+            "mean": 0.11104402178379284,
+            "descriptive_t95ci": [
+              0.08357263305786373,
+              0.13851541050972196
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_short/frozen": {
+            "dataset_differences": [
+              0.1879595224039271,
+              0.17157260900732196,
+              0.15427949054636123,
+              0.10432136499728421,
+              0.19015906862986248
+            ],
+            "mean": 0.1616584111169514,
+            "descriptive_t95ci": [
+              0.11800410868084354,
+              0.20531271355305925
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_short/updated": {
+            "dataset_differences": [
+              0.15345784186813086,
+              0.09579397576420112,
+              0.10169089398993933,
+              0.08115837653973872,
+              0.12780212669448365
+            ],
+            "mean": 0.11198064297129875,
+            "descriptive_t95ci": [
+              0.0763783413395803,
+              0.1475829446030172
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_long/frozen": {
+            "dataset_differences": [
+              0.1535445439762597,
+              0.11879765142096577,
+              0.13430963293450698,
+              0.06840606721087042,
+              0.1246958728290449
+            ],
+            "mean": 0.11995075367432957,
+            "descriptive_t95ci": [
+              0.0806102769690423,
+              0.15929123037961684
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_long/updated": {
+            "dataset_differences": [
+              0.10525204817907033,
+              0.058833966100045654,
+              0.0755305642327268,
+              0.06102214603819065,
+              0.09619825611155364
+            ],
+            "mean": 0.07936739613231741,
+            "descriptive_t95ci": [
+              0.053573456860580376,
+              0.10516133540405445
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_short/frozen": {
+            "dataset_differences": [
+              0.10852668322115586,
+              0.11077396938429099,
+              0.05593618477677246,
+              0.047928245188127924,
+              0.09919459810420865
+            ],
+            "mean": 0.08447193613491119,
+            "descriptive_t95ci": [
+              0.04703151964163657,
+              0.12191235262818581
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_short/updated": {
+            "dataset_differences": [
+              0.04353133824246222,
+              0.04933012789538352,
+              0.051798515773267585,
+              0.062447815374191085,
+              0.01742069754655523
+            ],
+            "mean": 0.04490569896637193,
+            "descriptive_t95ci": [
+              0.02401651022069656,
+              0.06579488771204729
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_long/frozen": {
+            "dataset_differences": [
+              0.13434488035396372,
+              0.11511457325600902,
+              0.06744403781579163,
+              0.03316840754637281,
+              0.18228413186447007
+            ],
+            "mean": 0.10647120616732145,
+            "descriptive_t95ci": [
+              0.03434861717363896,
+              0.17859379516100393
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_long/updated": {
+            "dataset_differences": [
+              0.07250117682713937,
+              0.030408559754724944,
+              0.07258873032907553,
+              0.027787718892550863,
+              0.039714858326540835
+            ],
+            "mean": 0.04860020882600631,
+            "descriptive_t95ci": [
+              0.020906990546455135,
+              0.07629342710555749
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "original/frozen": {
+            "dataset_differences": [
+              0.054974807357561925,
+              0.043053086876021204,
+              0.05618659958825036,
+              0.08155114883293667,
+              0.1415671215602135
+            ],
+            "mean": 0.07546655284299673,
+            "descriptive_t95ci": [
+              0.026391094894534062,
+              0.1245420107914594
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "original/updated": {
+            "dataset_differences": [
+              0.13655502128258004,
+              0.1114083746080714,
+              0.11125044986041707,
+              0.029055981208516372,
+              0.13662000916636408
+            ],
+            "mean": 0.10497796722518979,
+            "descriptive_t95ci": [
+              0.04999604191391224,
+              0.15995989253646734
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          }
+        }
+      },
+      "true_mean": {
+        "episode_scores": [
+          0.040006430543027174,
+          0.060418311023954945,
+          0.03742914604801068,
+          0.03173020694431446,
+          0.030408956440213762,
+          0.03660645378281476,
+          0.030421552730686637,
+          0.03866598570942355,
+          0.03025315650229374,
+          0.042545286777040184
+        ],
+        "mean": 0.03784854865017799,
+        "failures": 0,
+        "learned_minus_reference": {
+          "dense_short/frozen": {
+            "dataset_differences": [
+              0.17105839383182272,
+              0.10320497164629443,
+              0.1451227479239762,
+              0.10813686145265115,
+              0.18571825613810516
+            ],
+            "mean": 0.14264824619856992,
+            "descriptive_t95ci": [
+              0.09696288606926912,
+              0.18833360632787072
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_short/updated": {
+            "dataset_differences": [
+              0.11883135491194889,
+              0.10278146834328876,
+              0.11295345942282557,
+              0.0765486952111507,
+              0.12682277310656104
+            ],
+            "mean": 0.107587550199155,
+            "descriptive_t95ci": [
+              0.08344908736795552,
+              0.13172601303035447
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_long/frozen": {
+            "dataset_differences": [
+              0.0820935235709202,
+              0.03904764038904851,
+              0.04890235706108963,
+              0.07780366809530984,
+              0.12166164237221966
+            ],
+            "mean": 0.07390176629771757,
+            "descriptive_t95ci": [
+              0.033652331738634536,
+              0.1141512008568006
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_long/updated": {
+            "dataset_differences": [
+              0.10994609451169293,
+              0.13199158805473282,
+              0.1282946953032487,
+              0.041707808869368326,
+              0.17742934823064155
+            ],
+            "mean": 0.11787390699393688,
+            "descriptive_t95ci": [
+              0.056669578527059845,
+              0.17907823546081392
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_short/frozen": {
+            "dataset_differences": [
+              0.17950802164010313,
+              0.16211625368194552,
+              0.1580783825245574,
+              0.12828215651534436,
+              0.1824549062095424
+            ],
+            "mean": 0.16208794411429855,
+            "descriptive_t95ci": [
+              0.13518950014647463,
+              0.18898638808212248
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_short/updated": {
+            "dataset_differences": [
+              0.1515688689206552,
+              0.09710280764612926,
+              0.11458417469673529,
+              0.08656665653210191,
+              0.154658134970628
+            ],
+            "mean": 0.12089612855324994,
+            "descriptive_t95ci": [
+              0.08229872001850541,
+              0.15949353708799446
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_long/frozen": {
+            "dataset_differences": [
+              0.11094629971501642,
+              0.1381573973797731,
+              0.10422035370343863,
+              0.08440315010304136,
+              0.13149700624642482
+            ],
+            "mean": 0.11384484142953885,
+            "descriptive_t95ci": [
+              0.08699398453626161,
+              0.1406956983228161
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_long/updated": {
+            "dataset_differences": [
+              0.12164947228121684,
+              0.08552353918672329,
+              0.1196415447667833,
+              0.0907468802438843,
+              0.13765867244035648
+            ],
+            "mean": 0.11104402178379284,
+            "descriptive_t95ci": [
+              0.08357263305786373,
+              0.13851541050972196
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_short/frozen": {
+            "dataset_differences": [
+              0.1879595224039271,
+              0.17157260900732196,
+              0.15427949054636123,
+              0.10432136499728421,
+              0.19015906862986248
+            ],
+            "mean": 0.1616584111169514,
+            "descriptive_t95ci": [
+              0.11800410868084354,
+              0.20531271355305925
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_short/updated": {
+            "dataset_differences": [
+              0.15345784186813086,
+              0.09579397576420112,
+              0.10169089398993933,
+              0.08115837653973872,
+              0.12780212669448365
+            ],
+            "mean": 0.11198064297129875,
+            "descriptive_t95ci": [
+              0.0763783413395803,
+              0.1475829446030172
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_long/frozen": {
+            "dataset_differences": [
+              0.1535445439762597,
+              0.11879765142096577,
+              0.13430963293450698,
+              0.06840606721087042,
+              0.1246958728290449
+            ],
+            "mean": 0.11995075367432957,
+            "descriptive_t95ci": [
+              0.0806102769690423,
+              0.15929123037961684
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_long/updated": {
+            "dataset_differences": [
+              0.10525204817907033,
+              0.058833966100045654,
+              0.0755305642327268,
+              0.06102214603819065,
+              0.09619825611155364
+            ],
+            "mean": 0.07936739613231741,
+            "descriptive_t95ci": [
+              0.053573456860580376,
+              0.10516133540405445
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_short/frozen": {
+            "dataset_differences": [
+              0.10852668322115586,
+              0.11077396938429099,
+              0.05593618477677246,
+              0.047928245188127924,
+              0.09919459810420865
+            ],
+            "mean": 0.08447193613491119,
+            "descriptive_t95ci": [
+              0.04703151964163657,
+              0.12191235262818581
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_short/updated": {
+            "dataset_differences": [
+              0.04353133824246222,
+              0.04933012789538352,
+              0.051798515773267585,
+              0.062447815374191085,
+              0.01742069754655523
+            ],
+            "mean": 0.04490569896637193,
+            "descriptive_t95ci": [
+              0.02401651022069656,
+              0.06579488771204729
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_long/frozen": {
+            "dataset_differences": [
+              0.13434488035396372,
+              0.11511457325600902,
+              0.06744403781579163,
+              0.03316840754637281,
+              0.18228413186447007
+            ],
+            "mean": 0.10647120616732145,
+            "descriptive_t95ci": [
+              0.03434861717363896,
+              0.17859379516100393
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_long/updated": {
+            "dataset_differences": [
+              0.07250117682713937,
+              0.030408559754724944,
+              0.07258873032907553,
+              0.027787718892550863,
+              0.039714858326540835
+            ],
+            "mean": 0.04860020882600631,
+            "descriptive_t95ci": [
+              0.020906990546455135,
+              0.07629342710555749
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "original/frozen": {
+            "dataset_differences": [
+              0.054974807357561925,
+              0.043053086876021204,
+              0.05618659958825036,
+              0.08155114883293667,
+              0.1415671215602135
+            ],
+            "mean": 0.07546655284299673,
+            "descriptive_t95ci": [
+              0.026391094894534062,
+              0.1245420107914594
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "original/updated": {
+            "dataset_differences": [
+              0.13655502128258004,
+              0.1114083746080714,
+              0.11125044986041707,
+              0.029055981208516372,
+              0.13662000916636408
+            ],
+            "mean": 0.10497796722518979,
+            "descriptive_t95ci": [
+              0.04999604191391224,
+              0.15995989253646734
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          }
+        }
+      }
+    },
+    "4.9": {
+      "nominal": {
+        "episode_scores": [
+          0.23757011026159675,
+          0.25066404433326667,
+          0.2416277872897378,
+          0.24083227085972544,
+          0.24440819495072033,
+          0.2546111509260515,
+          0.2592835822086221,
+          0.2508963884009612,
+          0.24247606273266648,
+          0.23627680306699256
+        ],
+        "mean": 0.24586463950303408,
+        "failures": 0,
+        "learned_minus_reference": {
+          "dense_short/frozen": {
+            "dataset_differences": [
+              -0.09842041641293764,
+              -0.04819374120746284,
+              -0.09085974927963596,
+              -0.108628940643576,
+              -0.11811963449584775
+            ],
+            "mean": -0.09284449640789202,
+            "descriptive_t95ci": [
+              -0.12637345567486755,
+              -0.059315537140916495
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "dense_short/updated": {
+            "dataset_differences": [
+              -0.09690585676331209,
+              -0.06480317704055412,
+              -0.08790102664048419,
+              -0.1314317218818702,
+              -0.11868486108695928
+            ],
+            "mean": -0.09994532868263598,
+            "descriptive_t95ci": [
+              -0.13239434388567745,
+              -0.0674963134795945
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "dense_long/frozen": {
+            "dataset_differences": [
+              -0.07725863206341338,
+              -0.04410187473725169,
+              -0.08932579632217379,
+              -0.1514968500963302,
+              -0.11603567978707152
+            ],
+            "mean": -0.09564376660124811,
+            "descriptive_t95ci": [
+              -0.1459652298836408,
+              -0.04532230331885542
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "dense_long/updated": {
+            "dataset_differences": [
+              -0.03071098679558392,
+              0.06314668953325914,
+              0.028906572068040044,
+              -0.07224045779810437,
+              -0.04923415789319599
+            ],
+            "mean": -0.01202646817711702,
+            "descriptive_t95ci": [
+              -0.08195146106037834,
+              0.05789852470614431
+            ],
+            "negative_datasets": 3,
+            "positive_datasets": 2
+          },
+          "recorded_short/frozen": {
+            "dataset_differences": [
+              -0.06802973416164068,
+              -0.06068650338293714,
+              -0.08851884945484655,
+              -0.07190880456318711,
+              -0.09768907819681756
+            ],
+            "mean": -0.0773665939518858,
+            "descriptive_t95ci": [
+              -0.0963255265917533,
+              -0.058407661312018314
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "recorded_short/updated": {
+            "dataset_differences": [
+              -0.08311233594374164,
+              -0.040588158388073295,
+              -0.06474630066138427,
+              -0.10803433561612544,
+              -0.09237678997358148
+            ],
+            "mean": -0.07777158411658122,
+            "descriptive_t95ci": [
+              -0.11009025758986488,
+              -0.04545291064329757
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "recorded_long/frozen": {
+            "dataset_differences": [
+              -0.07334747634377117,
+              -0.07837479498818176,
+              -0.09300171351917697,
+              -0.09640488624341148,
+              -0.10727908862233204
+            ],
+            "mean": -0.08968159194337469,
+            "descriptive_t95ci": [
+              -0.10680288205465695,
+              -0.07256030183209243
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "recorded_long/updated": {
+            "dataset_differences": [
+              -0.02047798937054757,
+              0.00225423053537373,
+              0.009698971684515756,
+              -0.06548806099668093,
+              -0.04037959752501039
+            ],
+            "mean": -0.02287848913446988,
+            "descriptive_t95ci": [
+              -0.061252593399764764,
+              0.015495615130825001
+            ],
+            "negative_datasets": 3,
+            "positive_datasets": 2
+          },
+          "log_short/frozen": {
+            "dataset_differences": [
+              -0.06325719454975372,
+              -0.028953160955447386,
+              -0.08397097653692674,
+              -0.07577390314458067,
+              -0.10876462951535529
+            ],
+            "mean": -0.07214397294041275,
+            "descriptive_t95ci": [
+              -0.10854902335220251,
+              -0.03573892252862298
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "log_short/updated": {
+            "dataset_differences": [
+              -0.09658418996338677,
+              -0.07056528808991905,
+              -0.09251420048765834,
+              -0.12129774813054314,
+              -0.1198189359973694
+            ],
+            "mean": -0.10015607253377534,
+            "descriptive_t95ci": [
+              -0.12635172339815617,
+              -0.07396042166939451
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "log_long/frozen": {
+            "dataset_differences": [
+              -0.12921020241033682,
+              -0.10898180607101585,
+              -0.13779453003873038,
+              -0.1253557867077152,
+              -0.1160865705697836
+            ],
+            "mean": -0.12348577915951635,
+            "descriptive_t95ci": [
+              -0.13745270308951574,
+              -0.10951885522951697
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "log_long/updated": {
+            "dataset_differences": [
+              -0.10326507995139086,
+              -0.059716851963374895,
+              -0.10233251352503261,
+              -0.13208606543621731,
+              -0.10287132447150431
+            ],
+            "mean": -0.10005436706950399,
+            "descriptive_t95ci": [
+              -0.13217352141443742,
+              -0.06793521272457057
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "mixed_short/frozen": {
+            "dataset_differences": [
+              -0.10972341831548511,
+              -0.06219370784677417,
+              -0.15333178672554298,
+              -0.10928998036035793,
+              -0.146797859288472
+            ],
+            "mean": -0.11626735050732644,
+            "descriptive_t95ci": [
+              -0.16155554474341388,
+              -0.07097915627123899
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "mixed_short/updated": {
+            "dataset_differences": [
+              -0.14362465578697642,
+              -0.12557327162855253,
+              -0.16501339509466526,
+              -0.15193530485858298,
+              -0.14185587598929775
+            ],
+            "mean": -0.14560050067161498,
+            "descriptive_t95ci": [
+              -0.16355109643355734,
+              -0.12764990490967262
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "mixed_long/frozen": {
+            "dataset_differences": [
+              -0.025756096866595458,
+              -0.10974538716795353,
+              -0.05368976358329537,
+              -0.11640319499977489,
+              0.033498755818800595
+            ],
+            "mean": -0.05441913735976374,
+            "descriptive_t95ci": [
+              -0.13159900573661754,
+              0.022760731017090072
+            ],
+            "negative_datasets": 4,
+            "positive_datasets": 1
+          },
+          "mixed_long/updated": {
+            "dataset_differences": [
+              -0.17709679094747866,
+              -0.14492786823468412,
+              -0.17976303323514514,
+              -0.14076902814471728,
+              -0.17383485171085927
+            ],
+            "mean": -0.1632783144545769,
+            "descriptive_t95ci": [
+              -0.18665281294878855,
+              -0.13990381596036527
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "original/frozen": {
+            "dataset_differences": [
+              -0.05378654892714417,
+              -0.06770259132086143,
+              -0.09343455627574115,
+              -0.1463550049216713,
+              -0.11517176651630248
+            ],
+            "mean": -0.09529009359234411,
+            "descriptive_t95ci": [
+              -0.14129019892382738,
+              -0.04928998826086083
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "original/updated": {
+            "dataset_differences": [
+              -0.06226104031630568,
+              0.056287156755726285,
+              0.005512935759475632,
+              -0.07398662746895321,
+              -0.03378337830004432
+            ],
+            "mean": -0.02164619071402026,
+            "descriptive_t95ci": [
+              -0.08778045877846369,
+              0.04448807735042318
+            ],
+            "negative_datasets": 3,
+            "positive_datasets": 2
+          }
+        }
+      },
+      "true_mean": {
+        "episode_scores": [
+          0.05210712990923458,
+          0.07445194272355944,
+          0.04108255013828803,
+          0.0545184293401632,
+          0.05696604114171165,
+          0.06458631450363453,
+          0.048854261973372365,
+          0.07498054995745874,
+          0.04036319097437016,
+          0.03374906995378044
+        ],
+        "mean": 0.05416594806155731,
+        "failures": 0,
+        "learned_minus_reference": {
+          "dense_short/frozen": {
+            "dataset_differences": [
+              0.09327827502853911,
+              0.14350495023401394,
+              0.10083894216184082,
+              0.08306975079790076,
+              0.07357905694562902
+            ],
+            "mean": 0.09885419503358472,
+            "descriptive_t95ci": [
+              0.0653252357666092,
+              0.13238315430056025
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_short/updated": {
+            "dataset_differences": [
+              0.09479283467816468,
+              0.12689551440092264,
+              0.10379766480099258,
+              0.06026696955960659,
+              0.07301383035451749
+            ],
+            "mean": 0.0917533627588408,
+            "descriptive_t95ci": [
+              0.059304347555799344,
+              0.12420237796188226
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_long/frozen": {
+            "dataset_differences": [
+              0.11444005937806341,
+              0.1475968167042251,
+              0.10237289511930299,
+              0.04020184134514655,
+              0.07566301165440525
+            ],
+            "mean": 0.09605492484022865,
+            "descriptive_t95ci": [
+              0.045733461557835954,
+              0.14637638812262135
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_long/updated": {
+            "dataset_differences": [
+              0.16098770464589285,
+              0.25484538097473586,
+              0.2206052635095168,
+              0.11945823364337238,
+              0.1424645335482808
+            ],
+            "mean": 0.17967222326435975,
+            "descriptive_t95ci": [
+              0.10974723038109842,
+              0.2495972161476211
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_short/frozen": {
+            "dataset_differences": [
+              0.1236689572798361,
+              0.13101218805853962,
+              0.10317984198663022,
+              0.11978988687828966,
+              0.09400961324465922
+            ],
+            "mean": 0.11433209748959097,
+            "descriptive_t95ci": [
+              0.09537316484972348,
+              0.13329103012945845
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_short/updated": {
+            "dataset_differences": [
+              0.10858635549773513,
+              0.15111053305340347,
+              0.1269523907800925,
+              0.08366435582535132,
+              0.0993219014678953
+            ],
+            "mean": 0.11392710732489553,
+            "descriptive_t95ci": [
+              0.08160843385161187,
+              0.14624578079817918
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_long/frozen": {
+            "dataset_differences": [
+              0.1183512150977056,
+              0.11332389645329499,
+              0.09869697792229978,
+              0.0952938051980653,
+              0.08441960281914472
+            ],
+            "mean": 0.10201709949810207,
+            "descriptive_t95ci": [
+              0.08489580938681981,
+              0.11913838960938433
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_long/updated": {
+            "dataset_differences": [
+              0.17122070207092915,
+              0.1939529219768505,
+              0.20139766312599253,
+              0.1262106304447958,
+              0.15131909391646636
+            ],
+            "mean": 0.16882020230700684,
+            "descriptive_t95ci": [
+              0.13044609804171195,
+              0.20719430657230173
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_short/frozen": {
+            "dataset_differences": [
+              0.12844149689172307,
+              0.16274553048602936,
+              0.10772771490455002,
+              0.11592478829689609,
+              0.08293406192612149
+            ],
+            "mean": 0.119554718501064,
+            "descriptive_t95ci": [
+              0.08314966808927424,
+              0.15595976891285376
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_short/updated": {
+            "dataset_differences": [
+              0.09511450147808999,
+              0.12113340335155771,
+              0.09918449095381843,
+              0.07040094331093363,
+              0.07187975544410738
+            ],
+            "mean": 0.09154261890770143,
+            "descriptive_t95ci": [
+              0.0653469680433206,
+              0.11773826977208227
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_long/frozen": {
+            "dataset_differences": [
+              0.062488489031139925,
+              0.08271688537046093,
+              0.053904161402746384,
+              0.06634290473376156,
+              0.07561212087169317
+            ],
+            "mean": 0.06821291228196039,
+            "descriptive_t95ci": [
+              0.054245988351961,
+              0.08217983621195978
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_long/updated": {
+            "dataset_differences": [
+              0.08843361149008591,
+              0.13198183947810188,
+              0.08936617791644415,
+              0.05961262600525946,
+              0.08882736696997244
+            ],
+            "mean": 0.09164432437197277,
+            "descriptive_t95ci": [
+              0.05952517002703934,
+              0.12376347871690621
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_short/frozen": {
+            "dataset_differences": [
+              0.08197527312599165,
+              0.12950498359470258,
+              0.03836690471593377,
+              0.08240871108111887,
+              0.04490083215300475
+            ],
+            "mean": 0.07543134093415031,
+            "descriptive_t95ci": [
+              0.030143146698062867,
+              0.12071953517023776
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_short/updated": {
+            "dataset_differences": [
+              0.04807403565450037,
+              0.06612541981292423,
+              0.026685296346811528,
+              0.03976338658289378,
+              0.04984281545217902
+            ],
+            "mean": 0.04609819076986178,
+            "descriptive_t95ci": [
+              0.028147595007919426,
+              0.06404878653180414
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_long/frozen": {
+            "dataset_differences": [
+              0.16594259457488128,
+              0.08195330427352325,
+              0.13800892785818142,
+              0.07529549644170189,
+              0.22519744726027735
+            ],
+            "mean": 0.13727955408171305,
+            "descriptive_t95ci": [
+              0.060099685704859254,
+              0.21445942245856686
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_long/updated": {
+            "dataset_differences": [
+              0.014601900493998107,
+              0.04677082320679264,
+              0.01193565820633164,
+              0.05092966329675945,
+              0.017863839730617496
+            ],
+            "mean": 0.028420376986899865,
+            "descriptive_t95ci": [
+              0.005045878492688231,
+              0.0517948754811115
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "original/frozen": {
+            "dataset_differences": [
+              0.1379121425143326,
+              0.12399610012061535,
+              0.09826413516573561,
+              0.04534368651980547,
+              0.0765269249251743
+            ],
+            "mean": 0.09640859784913267,
+            "descriptive_t95ci": [
+              0.050408492517649395,
+              0.14240870318061594
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "original/updated": {
+            "dataset_differences": [
+              0.12943765112517108,
+              0.24798584819720304,
+              0.19721162720095237,
+              0.11771206397252354,
+              0.15791531314143245
+            ],
+            "mean": 0.1700525007274565,
+            "descriptive_t95ci": [
+              0.10391823266301307,
+              0.23618676879189993
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          }
+        }
+      }
+    },
+    "6.1": {
+      "nominal": {
+        "episode_scores": [
+          0.300368973129308,
+          0.31303265576669037,
+          0.3060557401378005,
+          0.3054102848737632,
+          0.30929653855799905,
+          0.3201652847812647,
+          0.3294315596555157,
+          0.31255516318154,
+          0.306700728797448,
+          0.29967171694502626
+        ],
+        "mean": 0.3102688645826356,
+        "failures": 0,
+        "learned_minus_reference": {
+          "dense_short/frozen": {
+            "dataset_differences": [
+              -0.12196084812390336,
+              -0.04621567792510961,
+              -0.09389237318974686,
+              -0.13631160513007234,
+              -0.17758272554157667
+            ],
+            "mean": -0.11519264598208176,
+            "descriptive_t95ci": [
+              -0.17600840799985557,
+              -0.05437688396430795
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "dense_short/updated": {
+            "dataset_differences": [
+              -0.08358175436894158,
+              -0.0640962692921064,
+              -0.0948027364054939,
+              -0.1430770154080761,
+              -0.14891173863006832
+            ],
+            "mean": -0.10689390282093728,
+            "descriptive_t95ci": [
+              -0.15333614573026622,
+              -0.06045165991160835
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "dense_long/frozen": {
+            "dataset_differences": [
+              -0.06373157149404315,
+              -0.04551537478296276,
+              -0.09713591902958757,
+              -0.18219502846247387,
+              -0.1306961840041678
+            ],
+            "mean": -0.10385481555464704,
+            "descriptive_t95ci": [
+              -0.17162555048614078,
+              -0.0360840806231533
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "dense_long/updated": {
+            "dataset_differences": [
+              0.011546384385546182,
+              0.10598235141887617,
+              0.06594040472385847,
+              -0.05401394978792808,
+              -0.04107215086411446
+            ],
+            "mean": 0.017676607975247657,
+            "descriptive_t95ci": [
+              -0.0673475317137906,
+              0.10270074766428591
+            ],
+            "negative_datasets": 2,
+            "positive_datasets": 3
+          },
+          "recorded_short/frozen": {
+            "dataset_differences": [
+              -0.09026115854783223,
+              -0.0560295553197558,
+              -0.10916741893577815,
+              -0.0952903420068242,
+              -0.13528608133134185
+            ],
+            "mean": -0.09720691122830644,
+            "descriptive_t95ci": [
+              -0.13308954156518715,
+              -0.061324280891425734
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "recorded_short/updated": {
+            "dataset_differences": [
+              -0.09033191227587709,
+              -0.043069766516383175,
+              -0.062132780994785385,
+              -0.13117946987823417,
+              -0.13654404398801984
+            ],
+            "mean": -0.09265159473065993,
+            "descriptive_t95ci": [
+              -0.14386959829154664,
+              -0.041433591169773215
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "recorded_long/frozen": {
+            "dataset_differences": [
+              -0.06915678670220796,
+              -0.07302412235164946,
+              -0.10141757509171276,
+              -0.10227088168682423,
+              -0.12227171310476681
+            ],
+            "mean": -0.09362821578743225,
+            "descriptive_t95ci": [
+              -0.12124790904096808,
+              -0.06600852253389641
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "recorded_long/updated": {
+            "dataset_differences": [
+              -0.0018892062687694167,
+              0.011758500829495689,
+              0.0664082966679402,
+              -0.051866683431848505,
+              -0.036822125816253104
+            ],
+            "mean": -0.0024822436038870284,
+            "descriptive_t95ci": [
+              -0.05994562790038819,
+              0.05498114069261414
+            ],
+            "negative_datasets": 3,
+            "positive_datasets": 2
+          },
+          "log_short/frozen": {
+            "dataset_differences": [
+              -0.10063675979780377,
+              -0.027282728924291545,
+              -0.11717283569814525,
+              -0.09865933169400098,
+              -0.16150142928561856
+            ],
+            "mean": -0.10105061707997202,
+            "descriptive_t95ci": [
+              -0.16112013936621794,
+              -0.04098109479372612
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "log_short/updated": {
+            "dataset_differences": [
+              -0.12459660518580806,
+              -0.08374627587684264,
+              -0.1102011579417129,
+              -0.14695733625264493,
+              -0.16223820837473477
+            ],
+            "mean": -0.12554791672634866,
+            "descriptive_t95ci": [
+              -0.1637598409306176,
+              -0.08733599252207971
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "log_long/frozen": {
+            "dataset_differences": [
+              -0.1563270113899697,
+              -0.1320746876963203,
+              -0.16810168937338704,
+              -0.1478358427268844,
+              -0.144152190153483
+            ],
+            "mean": -0.14969828426800888,
+            "descriptive_t95ci": [
+              -0.16644285352550706,
+              -0.1329537150105107
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "log_long/updated": {
+            "dataset_differences": [
+              -0.11652075646199758,
+              -0.05672299420400784,
+              -0.12018177611108989,
+              -0.13917558556527782,
+              -0.12963599799989678
+            ],
+            "mean": -0.11244742206845397,
+            "descriptive_t95ci": [
+              -0.15264103703083565,
+              -0.07225380710607231
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "mixed_short/frozen": {
+            "dataset_differences": [
+              -0.11996907060514532,
+              -0.06042458112657506,
+              -0.17839365343027075,
+              -0.13179895288946117,
+              -0.1697161500885685
+            ],
+            "mean": -0.13206048162800416,
+            "descriptive_t95ci": [
+              -0.19044076134624527,
+              -0.07368020190976303
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "mixed_short/updated": {
+            "dataset_differences": [
+              -0.17016338595130165,
+              -0.1429199106957508,
+              -0.19781424343797188,
+              -0.1845821013827674,
+              -0.16732304930215702
+            ],
+            "mean": -0.17256053815398978,
+            "descriptive_t95ci": [
+              -0.19811297592862187,
+              -0.1470081003793577
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "mixed_long/frozen": {
+            "dataset_differences": [
+              0.002482266624215196,
+              -0.12217322946575378,
+              -0.05618457739327999,
+              -0.11234877334912707,
+              0.0521322373650213
+            ],
+            "mean": -0.04721841524378486,
+            "descriptive_t95ci": [
+              -0.13988950207743756,
+              0.04545267158986784
+            ],
+            "negative_datasets": 3,
+            "positive_datasets": 2
+          },
+          "mixed_long/updated": {
+            "dataset_differences": [
+              -0.2174899358352326,
+              -0.16849862513457356,
+              -0.22756827562952758,
+              -0.16881339329704798,
+              -0.2095494868603541
+            ],
+            "mean": -0.19838394335134718,
+            "descriptive_t95ci": [
+              -0.2330004535830363,
+              -0.16376743311965805
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "original/frozen": {
+            "dataset_differences": [
+              -0.027406162725617765,
+              -0.0672994026840966,
+              -0.10438808278711142,
+              -0.16684407233431592,
+              -0.12367835400614144
+            ],
+            "mean": -0.09792321490745663,
+            "descriptive_t95ci": [
+              -0.16411007566044755,
+              -0.03173635415446571
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "original/updated": {
+            "dataset_differences": [
+              -0.04820735533937657,
+              0.11368090973873073,
+              0.04152148338018301,
+              -0.05888354580530558,
+              -0.0076116067829182284
+            ],
+            "mean": 0.008099977038262669,
+            "descriptive_t95ci": [
+              -0.08006798661279106,
+              0.09626794068931639
+            ],
+            "negative_datasets": 3,
+            "positive_datasets": 2
+          }
+        }
+      },
+      "true_mean": {
+        "episode_scores": [
+          0.06574061171756777,
+          0.08580110258208272,
+          0.05548870890250224,
+          0.07260613912642064,
+          0.0709039432566013,
+          0.0763206491781295,
+          0.06068935969370597,
+          0.08982548955884953,
+          0.05209093794341938,
+          0.04159304562509382
+        ],
+        "mean": 0.06710599875843729,
+        "failures": 0,
+        "learned_minus_reference": {
+          "dense_short/frozen": {
+            "dataset_differences": [
+              0.1212020177002949,
+              0.1969471878990887,
+              0.1492704926344514,
+              0.10685126069412595,
+              0.0655801402826216
+            ],
+            "mean": 0.1279702198421165,
+            "descriptive_t95ci": [
+              0.06715445782434268,
+              0.18878598185989034
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_short/updated": {
+            "dataset_differences": [
+              0.15958111145525672,
+              0.17906659653209187,
+              0.14836012941870436,
+              0.10008585041612217,
+              0.09425112719412997
+            ],
+            "mean": 0.13626896300326102,
+            "descriptive_t95ci": [
+              0.08982672009393208,
+              0.18271120591258996
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_long/frozen": {
+            "dataset_differences": [
+              0.1794312943301551,
+              0.19764749104123552,
+              0.14602694679461076,
+              0.06096783736172442,
+              0.11246668182003047
+            ],
+            "mean": 0.13930805026955123,
+            "descriptive_t95ci": [
+              0.0715373153380575,
+              0.20707878520104495
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_long/updated": {
+            "dataset_differences": [
+              0.25470925020974444,
+              0.34914521724307446,
+              0.30910327054805675,
+              0.1891489160362702,
+              0.20209071496008382
+            ],
+            "mean": 0.26083947379944594,
+            "descriptive_t95ci": [
+              0.17581533411040767,
+              0.3458636134884842
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_short/frozen": {
+            "dataset_differences": [
+              0.15290170727636604,
+              0.18713331050444246,
+              0.1339954468884201,
+              0.1478725238173741,
+              0.10787678449285643
+            ],
+            "mean": 0.14595595459589183,
+            "descriptive_t95ci": [
+              0.11007332425901115,
+              0.18183858493277252
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_short/updated": {
+            "dataset_differences": [
+              0.15283095354832119,
+              0.2000930993078151,
+              0.18103008482941288,
+              0.1119833959459641,
+              0.1066188218361784
+            ],
+            "mean": 0.15051127109353832,
+            "descriptive_t95ci": [
+              0.09929326753265161,
+              0.20172927465442503
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_long/frozen": {
+            "dataset_differences": [
+              0.17400607912199031,
+              0.17013874347254881,
+              0.1417452907324855,
+              0.14089198413737408,
+              0.12089115271943149
+            ],
+            "mean": 0.14953465003676605,
+            "descriptive_t95ci": [
+              0.12191495678323024,
+              0.17715434329030189
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_long/updated": {
+            "dataset_differences": [
+              0.24127365955542884,
+              0.25492136665369397,
+              0.30957116249213845,
+              0.19129618239234977,
+              0.20634074000794517
+            ],
+            "mean": 0.24068062222031122,
+            "descriptive_t95ci": [
+              0.18321723792381006,
+              0.2981440065168124
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_short/frozen": {
+            "dataset_differences": [
+              0.14252610602639448,
+              0.21588013689990676,
+              0.125990030126053,
+              0.1445035341301973,
+              0.08166143653857974
+            ],
+            "mean": 0.14211224874422626,
+            "descriptive_t95ci": [
+              0.08204272645798034,
+              0.2021817710304722
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_short/updated": {
+            "dataset_differences": [
+              0.1185662606383902,
+              0.15941658994735566,
+              0.13296170788248537,
+              0.09620552957155336,
+              0.0809246574494635
+            ],
+            "mean": 0.11761494909784961,
+            "descriptive_t95ci": [
+              0.07940302489358066,
+              0.15582687330211858
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_long/frozen": {
+            "dataset_differences": [
+              0.08683585443422856,
+              0.111088178127878,
+              0.07506117645081126,
+              0.09532702309731386,
+              0.09901067567071528
+            ],
+            "mean": 0.09346458155618939,
+            "descriptive_t95ci": [
+              0.07672001229869121,
+              0.11020915081368757
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_long/updated": {
+            "dataset_differences": [
+              0.12664210936220072,
+              0.18643987162019046,
+              0.12298108971310837,
+              0.10398728025892046,
+              0.1135268678243015
+            ],
+            "mean": 0.13071544375574431,
+            "descriptive_t95ci": [
+              0.09052182879336265,
+              0.17090905871812598
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_short/frozen": {
+            "dataset_differences": [
+              0.12319379521905294,
+              0.18273828469762324,
+              0.06476921239392755,
+              0.1113639129347371,
+              0.07344671573562982
+            ],
+            "mean": 0.11110238419619411,
+            "descriptive_t95ci": [
+              0.052722104477952995,
+              0.16948266391443523
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_short/updated": {
+            "dataset_differences": [
+              0.07299947987289664,
+              0.10024295512844753,
+              0.04534862238622639,
+              0.0585807644414309,
+              0.07583981652204128
+            ],
+            "mean": 0.07060232767020855,
+            "descriptive_t95ci": [
+              0.04504988989557643,
+              0.09615476544484067
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_long/frozen": {
+            "dataset_differences": [
+              0.24564513244841352,
+              0.12098963635844448,
+              0.1869782884309183,
+              0.13081409247507123,
+              0.2952951031892196
+            ],
+            "mean": 0.1959444505804134,
+            "descriptive_t95ci": [
+              0.10327336374676067,
+              0.28861553741406615
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_long/updated": {
+            "dataset_differences": [
+              0.02567292998896567,
+              0.07466424068962471,
+              0.015594590194670738,
+              0.07434947252715031,
+              0.0336133789638442
+            ],
+            "mean": 0.044778922472851125,
+            "descriptive_t95ci": [
+              0.010162412241162017,
+              0.07939543270454023
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "original/frozen": {
+            "dataset_differences": [
+              0.21575670309858053,
+              0.17586346314010168,
+              0.13877478303708687,
+              0.07631879348988238,
+              0.11948451181805683
+            ],
+            "mean": 0.14523965091674168,
+            "descriptive_t95ci": [
+              0.07905279016375077,
+              0.2114265116697326
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "original/updated": {
+            "dataset_differences": [
+              0.1949555104848217,
+              0.35684377556292907,
+              0.28468434920438124,
+              0.18427932001889272,
+              0.23555125904128005
+            ],
+            "mean": 0.2512628428624609,
+            "descriptive_t95ci": [
+              0.1630948792114072,
+              0.33943080651351465
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          }
+        }
+      }
+    },
+    "8.5": {
+      "nominal": {
+        "episode_scores": [
+          0.43867608437401373,
+          0.45521813504867525,
+          0.4469970552604375,
+          0.44896373738912665,
+          0.4492617678769498,
+          0.47037247788371217,
+          0.48314402713385257,
+          0.45392243099740237,
+          0.44982211767261,
+          0.44156344417551446
+        ],
+        "mean": 0.4537941277812294,
+        "failures": 0,
+        "learned_minus_reference": {
+          "dense_short/frozen": {
+            "dataset_differences": [
+              -0.09605605578460459,
+              -0.007974385488896318,
+              -0.0016755795758331637,
+              -0.16876707248318548,
+              -0.2223688604030528
+            ],
+            "mean": -0.09936839074711448,
+            "descriptive_t95ci": [
+              -0.2201565392348443,
+              0.021419757740615317
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "dense_short/updated": {
+            "dataset_differences": [
+              -0.010632250864478898,
+              -0.01967302933970295,
+              -0.027589027576203955,
+              -0.12176432560562196,
+              -0.1582125596461127
+            ],
+            "mean": -0.06757423860642409,
+            "descriptive_t95ci": [
+              -0.15153038460807644,
+              0.016381907395228268
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "dense_long/frozen": {
+            "dataset_differences": [
+              -0.02721466749048948,
+              -0.02682930507590765,
+              -0.07984939874907455,
+              -0.2062379832418674,
+              -0.11404516626203716
+            ],
+            "mean": -0.09083530416387525,
+            "descriptive_t95ci": [
+              -0.18317353951380255,
+              0.0015029311860520617
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "dense_long/updated": {
+            "dataset_differences": [
+              0.15991733427096405,
+              0.20647048552721275,
+              0.14874025068461078,
+              0.024102784748640062,
+              0.005577554214087621
+            ],
+            "mean": 0.10896168188910305,
+            "descriptive_t95ci": [
+              -0.0013580683002560323,
+              0.21928143207846212
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_short/frozen": {
+            "dataset_differences": [
+              -0.05713400130551303,
+              -0.0240378340315879,
+              -0.07114000123225354,
+              -0.1125096213057668,
+              -0.14823305889965369
+            ],
+            "mean": -0.082610903354955,
+            "descriptive_t95ci": [
+              -0.14284011659947315,
+              -0.02238169011043683
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "recorded_short/updated": {
+            "dataset_differences": [
+              -0.03066746289179583,
+              -0.008520509605649729,
+              -0.01945997958354667,
+              -0.12746395519410034,
+              -0.13410219727320088
+            ],
+            "mean": -0.0640428209096587,
+            "descriptive_t95ci": [
+              -0.14036938195061632,
+              0.012283740131298945
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "recorded_long/frozen": {
+            "dataset_differences": [
+              -0.03826341063541267,
+              0.010503562893381956,
+              -0.0633685590859161,
+              -0.09078451058516904,
+              -0.11097471500429323
+            ],
+            "mean": -0.05857752648348182,
+            "descriptive_t95ci": [
+              -0.11744395562339698,
+              0.0002889026564333319
+            ],
+            "negative_datasets": 4,
+            "positive_datasets": 1
+          },
+          "recorded_long/updated": {
+            "dataset_differences": [
+              0.07952285408074022,
+              0.12421546039076117,
+              0.1985935034585659,
+              -0.003131273862215328,
+              0.03251021184847862
+            ],
+            "mean": 0.08634215118326613,
+            "descriptive_t95ci": [
+              -0.011789823144314884,
+              0.18447412551084713
+            ],
+            "negative_datasets": 1,
+            "positive_datasets": 4
+          },
+          "log_short/frozen": {
+            "dataset_differences": [
+              -0.0885391316245195,
+              -0.0031053304120677696,
+              -0.0930153455487596,
+              -0.1154947939379249,
+              -0.21623290660789024
+            ],
+            "mean": -0.10327750162623239,
+            "descriptive_t95ci": [
+              -0.19797255898641258,
+              -0.008582444266052217
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "log_short/updated": {
+            "dataset_differences": [
+              -0.09989488717556208,
+              -0.06481807285004504,
+              -0.10988662520859496,
+              -0.13521192912668195,
+              -0.19267374350702088
+            ],
+            "mean": -0.120497051573581,
+            "descriptive_t95ci": [
+              -0.17960071919668108,
+              -0.0613933839504809
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "log_long/frozen": {
+            "dataset_differences": [
+              -0.15463870610584787,
+              -0.1308094999822203,
+              -0.18758738646721154,
+              -0.17466369730616932,
+              -0.16239511247172017
+            ],
+            "mean": -0.16201888046663387,
+            "descriptive_t95ci": [
+              -0.18866605624247554,
+              -0.1353717046907922
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "log_long/updated": {
+            "dataset_differences": [
+              -0.08223885229039427,
+              0.028243098489472613,
+              -0.08609645779851052,
+              -0.11438364628159699,
+              -0.1509101068226417
+            ],
+            "mean": -0.08107719294073416,
+            "descriptive_t95ci": [
+              -0.16428587767832115,
+              0.002131491796852819
+            ],
+            "negative_datasets": 4,
+            "positive_datasets": 1
+          },
+          "mixed_short/frozen": {
+            "dataset_differences": [
+              -0.13520314500231062,
+              -0.030053499873174173,
+              -0.19928375942530238,
+              -0.1784851751514962,
+              -0.19401899811026038
+            ],
+            "mean": -0.14740891551250873,
+            "descriptive_t95ci": [
+              -0.23465847114747823,
+              -0.060159359877539245
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "mixed_short/updated": {
+            "dataset_differences": [
+              -0.21267080874769326,
+              -0.14916046606494474,
+              -0.24561229549455416,
+              -0.2387882555956161,
+              -0.21618707762703235
+            ],
+            "mean": -0.21248378070596813,
+            "descriptive_t95ci": [
+              -0.25981795789861856,
+              -0.1651496035133177
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "mixed_long/frozen": {
+            "dataset_differences": [
+              0.05277785335838279,
+              -0.11357210483904664,
+              -0.030256644894086537,
+              -0.08328092290276945,
+              0.08224872091271178
+            ],
+            "mean": -0.018416619672961612,
+            "descriptive_t95ci": [
+              -0.12341671932592595,
+              0.08658347998000272
+            ],
+            "negative_datasets": 3,
+            "positive_datasets": 2
+          },
+          "mixed_long/updated": {
+            "dataset_differences": [
+              -0.2814562018468593,
+              -0.2063206729648063,
+              -0.2945755450498628,
+              -0.22855376286168955,
+              -0.26126743652270257
+            ],
+            "mean": -0.2544347238491841,
+            "descriptive_t95ci": [
+              -0.299941827097619,
+              -0.20892762060074915
+            ],
+            "negative_datasets": 5,
+            "positive_datasets": 0
+          },
+          "original/frozen": {
+            "dataset_differences": [
+              0.037699943542617846,
+              -0.05563581202849917,
+              -0.10935928720344959,
+              -0.1919131078662486,
+              -0.12429168046680458
+            ],
+            "mean": -0.08869998880447683,
+            "descriptive_t95ci": [
+              -0.19518074128828228,
+              0.017780763679328626
+            ],
+            "negative_datasets": 4,
+            "positive_datasets": 1
+          },
+          "original/updated": {
+            "dataset_differences": [
+              0.026132782173243267,
+              0.2895812968682518,
+              0.14390282613054156,
+              0.03239445027065605,
+              0.11967206449145888
+            ],
+            "mean": 0.12233668398683031,
+            "descriptive_t95ci": [
+              -0.010509404073863027,
+              0.25518277204752365
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          }
+        }
+      },
+      "true_mean": {
+        "episode_scores": [
+          0.13767492140953136,
+          0.1440542341118824,
+          0.13073713784409638,
+          0.15102450708427698,
+          0.1371305953927016,
+          0.12887907755586003,
+          0.10490460777499767,
+          0.15419973295655132,
+          0.11870240413885191,
+          0.11099973560128366
+        ],
+        "mean": 0.13183069538700337,
+        "failures": 0,
+        "learned_minus_reference": {
+          "dense_short/frozen": {
+            "dataset_differences": [
+              0.2259073766096215,
+              0.3139890469053298,
+              0.32028785281839295,
+              0.1531963599110407,
+              0.0995945719911733
+            ],
+            "mean": 0.22259504164711164,
+            "descriptive_t95ci": [
+              0.10180689315938184,
+              0.3433831901348414
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_short/updated": {
+            "dataset_differences": [
+              0.31133118152974715,
+              0.30229040305452315,
+              0.29437440481802213,
+              0.20019910678860414,
+              0.16375087274811342
+            ],
+            "mean": 0.254389193787802,
+            "descriptive_t95ci": [
+              0.17043304778614965,
+              0.33834533978945436
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_long/frozen": {
+            "dataset_differences": [
+              0.29474876490373664,
+              0.29513412731831845,
+              0.24211403364515158,
+              0.11572544915235874,
+              0.20791826613218894
+            ],
+            "mean": 0.23112812823035087,
+            "descriptive_t95ci": [
+              0.1387898928804236,
+              0.32346636358027814
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "dense_long/updated": {
+            "dataset_differences": [
+              0.48188076666519014,
+              0.5284339179214389,
+              0.4707036830788368,
+              0.3460662171428662,
+              0.3275409866083137
+            ],
+            "mean": 0.43092511428332914,
+            "descriptive_t95ci": [
+              0.32060536409397006,
+              0.5412448644726882
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_short/frozen": {
+            "dataset_differences": [
+              0.26482943108871304,
+              0.2979255983626382,
+              0.2508234311619726,
+              0.20945381108845926,
+              0.17373037349457246
+            ],
+            "mean": 0.23935252903927112,
+            "descriptive_t95ci": [
+              0.17912331579475296,
+              0.29958174228378925
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_short/updated": {
+            "dataset_differences": [
+              0.29129596950243025,
+              0.3134429227885764,
+              0.3025034528106795,
+              0.19449947720012578,
+              0.18786123512102523
+            ],
+            "mean": 0.2579206114845674,
+            "descriptive_t95ci": [
+              0.18159405044360977,
+              0.33424717252552505
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_long/frozen": {
+            "dataset_differences": [
+              0.2837000217588135,
+              0.3324669952876081,
+              0.25859487330831005,
+              0.2311789218090571,
+              0.21098871738993288
+            ],
+            "mean": 0.26338590591074434,
+            "descriptive_t95ci": [
+              0.20451947677082918,
+              0.3222523350506595
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "recorded_long/updated": {
+            "dataset_differences": [
+              0.4014862864749663,
+              0.4461788927849873,
+              0.5205569358527921,
+              0.31883215853201075,
+              0.3544736442427047
+            ],
+            "mean": 0.4083055835774922,
+            "descriptive_t95ci": [
+              0.31017360924991116,
+              0.5064375579050733
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_short/frozen": {
+            "dataset_differences": [
+              0.23342430076970663,
+              0.3188581019821583,
+              0.22894808684546653,
+              0.2064686384563012,
+              0.10573052578633586
+            ],
+            "mean": 0.21868593076799372,
+            "descriptive_t95ci": [
+              0.12399087340781355,
+              0.3133809881281739
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_short/updated": {
+            "dataset_differences": [
+              0.22206854521866407,
+              0.25714535954418105,
+              0.21207680718563116,
+              0.18675150326754414,
+              0.12928968888720524
+            ],
+            "mean": 0.2014663808206451,
+            "descriptive_t95ci": [
+              0.142362713197545,
+              0.2605700484437452
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_long/frozen": {
+            "dataset_differences": [
+              0.16732472628837824,
+              0.19115393241200582,
+              0.1343760459270146,
+              0.14729973508805683,
+              0.15956831992250595
+            ],
+            "mean": 0.1599445519275923,
+            "descriptive_t95ci": [
+              0.13329737615175066,
+              0.18659172770343393
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "log_long/updated": {
+            "dataset_differences": [
+              0.23972458010383185,
+              0.35020653088369874,
+              0.2358669745957156,
+              0.20757978611262912,
+              0.17105332557158442
+            ],
+            "mean": 0.24088623945349194,
+            "descriptive_t95ci": [
+              0.15767755471590494,
+              0.32409492419107894
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_short/frozen": {
+            "dataset_differences": [
+              0.1867602873919155,
+              0.29190993252105196,
+              0.12267967296892372,
+              0.14347825724272995,
+              0.12794443428396574
+            ],
+            "mean": 0.17455451688171736,
+            "descriptive_t95ci": [
+              0.08730496124674786,
+              0.26180407251668686
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_short/updated": {
+            "dataset_differences": [
+              0.10929262364653285,
+              0.17280296632928138,
+              0.07635113689967196,
+              0.08317517679861,
+              0.10577635476719376
+            ],
+            "mean": 0.10947965168825798,
+            "descriptive_t95ci": [
+              0.06214547449560755,
+              0.1568138288809084
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_long/frozen": {
+            "dataset_differences": [
+              0.37474128575260895,
+              0.20839132755517947,
+              0.2917067875001396,
+              0.2386825094914567,
+              0.4042121533069379
+            ],
+            "mean": 0.3035468127212645,
+            "descriptive_t95ci": [
+              0.19854671306830016,
+              0.4085469123742288
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "mixed_long/updated": {
+            "dataset_differences": [
+              0.04050723054736678,
+              0.11564275942941982,
+              0.027387887344363353,
+              0.09340966953253657,
+              0.06069599587152354
+            ],
+            "mean": 0.067528708545042,
+            "descriptive_t95ci": [
+              0.022021605296607058,
+              0.11303581179347695
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "original/frozen": {
+            "dataset_differences": [
+              0.35966337593684394,
+              0.26632762036572694,
+              0.21260414519077653,
+              0.13005032452797752,
+              0.19767175192742154
+            ],
+            "mean": 0.2332634435897493,
+            "descriptive_t95ci": [
+              0.12678269110594384,
+              0.33974419607355477
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          },
+          "original/updated": {
+            "dataset_differences": [
+              0.34809621456746936,
+              0.6115447292624779,
+              0.46586625852476765,
+              0.3543578826648822,
+              0.441635496885685
+            ],
+            "mean": 0.4443001163810564,
+            "descriptive_t95ci": [
+              0.31145402832036306,
+              0.5771462044417497
+            ],
+            "negative_datasets": 0,
+            "positive_datasets": 5
+          }
+        }
+      }
+    }
+  },
+  "acceptance_sha256": "d5b8e474716bb689727ec35b817cb15e4f616c26430ec2a8bf202cbdd0c28455",
+  "round16_sha256": "9732676e0fe7628edcf3e9984d5e270c343a4061f1c6da8e49eecd0b62a031b3",
+  "manifest_sha256": "2d4ee9bf96c38f0b0882ecdbaac471beb094ac9e8d54865a55b0ff2d1aeff005",
+  "caveat": "n=5 training datasets, conditional on the shared evaluation roster; physical baselines are not independent training replicates; nonsimultaneous descriptive t95 intervals; no p-values."
+}

@@ -1,0 +1,188 @@
+{
+  "schema": "round15-accepted-training-v1",
+  "dataset": 1,
+  "data_root": "round15_data_formal_v1",
+  "original_split_checksum": "ace1f16f85a42a3c",
+  "original_split_sha256": "fba4edcc673cdbf9ff20dad6dd06e80ddb4039f44e1f7cc5bc4a942964ebbaea",
+  "normalizer_sha256": "4b6ea2362258efb08f9e636ad1f3cde250dce4bd3f8a72e4b905310d57899c2e",
+  "design_sha256": "f4e7a5a9f834367cedbe312662172c7f04a5dc3f63bb262286fb1a4c3a414e82",
+  "protocol_sha256": "173100b35023ab3da91a53d7115e40f7fe8c9209aae2ff50c64e5e914cb5e4dd",
+  "files": [
+    {
+      "index": 16,
+      "flight": "r11d1_t111000_train_nowind",
+      "dataset": 1,
+      "npz": "flight_016.npz",
+      "sha256": "e4e8693d4c413f0724ed67b34c601f81d7ee424a04fb62b33e78ab9781d083e5",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 17,
+      "flight": "r11d1_t111000_train_10wind",
+      "dataset": 1,
+      "npz": "flight_017.npz",
+      "sha256": "69a6d7384561a1d7c10a76bca696b5bbe445f9565c3f23b0a660340185879c3e",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 18,
+      "flight": "r11d1_t111000_train_20wind",
+      "dataset": 1,
+      "npz": "flight_018.npz",
+      "sha256": "3ec38f1919035877c81dae09ef070c4b54aff1edd2ff2bae5d0ac627739646a5",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 19,
+      "flight": "r11d1_t111000_train_40wind",
+      "dataset": 1,
+      "npz": "flight_019.npz",
+      "sha256": "badffea808f009b764ed7ff602c1939743ec7553b955d3610d3d3887b346515e",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 20,
+      "flight": "r11d1_t111001_train_nowind",
+      "dataset": 1,
+      "npz": "flight_020.npz",
+      "sha256": "8177ff9ed63a86a822b5c3a3df7b41aee137e17720beacef4bac5d37fd923d42",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 21,
+      "flight": "r11d1_t111001_train_10wind",
+      "dataset": 1,
+      "npz": "flight_021.npz",
+      "sha256": "33be9b482acbd65d595d8049029398a3589c98f573fd4c75fd79955b7f5fd1d8",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 22,
+      "flight": "r11d1_t111001_train_20wind",
+      "dataset": 1,
+      "npz": "flight_022.npz",
+      "sha256": "bc18b90ded14719e022cb68589552eecae2e1e6c99ab6b183acd8f554a406823",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 23,
+      "flight": "r11d1_t111001_train_40wind",
+      "dataset": 1,
+      "npz": "flight_023.npz",
+      "sha256": "696364e253d0cf233d849414038c912a5411567be607161e599fab3b4b06a314",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 24,
+      "flight": "r11d1_t111002_train_nowind",
+      "dataset": 1,
+      "npz": "flight_024.npz",
+      "sha256": "3ff6388238c4d43ddd876394f30ea344e2f525ef0ebf4b3b9e4cd7162164bcde",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 25,
+      "flight": "r11d1_t111002_train_10wind",
+      "dataset": 1,
+      "npz": "flight_025.npz",
+      "sha256": "974f02f4dc87d0f506066c959ababcf540d34869e790f5b4f7799b42c7d533f7",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 26,
+      "flight": "r11d1_t111002_train_20wind",
+      "dataset": 1,
+      "npz": "flight_026.npz",
+      "sha256": "04f91cbac11d0c51529b7508f08428736e64d57614d3908114f159179ea72e2a",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 27,
+      "flight": "r11d1_t111002_train_40wind",
+      "dataset": 1,
+      "npz": "flight_027.npz",
+      "sha256": "7eb9bc8b390fdd1d255c869006b016787c3fd3a509ce0ef2dbe2fd307ac6dcf9",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 28,
+      "flight": "r11d1_t111003_train_nowind",
+      "dataset": 1,
+      "npz": "flight_028.npz",
+      "sha256": "04713debf1abc1adffb16a68214e6b4bc1d94ee33238ed7549b6ba8933776cb7",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 29,
+      "flight": "r11d1_t111003_train_10wind",
+      "dataset": 1,
+      "npz": "flight_029.npz",
+      "sha256": "f21289ebcdb4436c8b2b21dbe989ff0b8f48937256fcd92c11c48e241aa74f47",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 30,
+      "flight": "r11d1_t111003_train_20wind",
+      "dataset": 1,
+      "npz": "flight_030.npz",
+      "sha256": "659059cd935745834a9f1a68b329628eeb4fa2d791f4605010cf767cc8002317",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    },
+    {
+      "index": 31,
+      "flight": "r11d1_t111003_train_40wind",
+      "dataset": 1,
+      "npz": "flight_031.npz",
+      "sha256": "3402a5fb685c1aaf8cafc836c789c11d32d060868a344ed2a056660533177d09",
+      "threshold_exceedances": {
+        "logged": 0,
+        "candidate": 0
+      }
+    }
+  ]
+}

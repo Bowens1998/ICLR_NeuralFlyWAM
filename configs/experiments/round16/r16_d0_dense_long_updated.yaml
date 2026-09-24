@@ -1,0 +1,20 @@
+defaults:
+- configs/experiments/_base.yaml
+experiment_name: round16_bridge_data0_v1
+data:
+  manifest_path: artifacts/round11b_v1/data0_split.json
+  normalizer_path: artifacts/round11b_v1/data0_norm.json
+  coverage_manifest: artifacts/round15/data0_coverage.json
+  coverage_regime: dense
+  training_samples_per_epoch: 12288
+optim:
+  max_epochs: 445
+  early_stopping_patience: 446
+model:
+  name: r16_d0_dense_long_updated
+  family: context_memory_control
+  update_context: true
+  context_norm: none
+  readout_norm: none
+  width: 64
+  dropout: 0.1

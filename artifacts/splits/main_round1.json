@@ -1,0 +1,155 @@
+{
+  "created_utc": "2026-08-30T00:27:39+00:00",
+  "data_root": "data/neural-fly/data",
+  "sample_rate_hz": 50.0,
+  "dt": 0.02,
+  "history_seconds": 2.0,
+  "horizon_seconds": 1.0,
+  "history_steps": 100,
+  "horizon_steps": 50,
+  "static_ood_conditions": [
+    "30wind",
+    "50wind"
+  ],
+  "splits": {
+    "d0_smoke": [
+      {
+        "file": "custom_random3_baseline_10wind",
+        "condition": "10wind",
+        "trajectory": "random3",
+        "sha256": "42ab694e30eece8a7e97a455994bf1890ffe93ee815abc643a3ad3db3fc849c1",
+        "start": 100,
+        "stop": 356
+      }
+    ],
+    "d1_train": [
+      {
+        "file": "custom_random3_baseline_10wind",
+        "condition": "10wind",
+        "trajectory": "random3",
+        "sha256": "42ab694e30eece8a7e97a455994bf1890ffe93ee815abc643a3ad3db3fc849c1",
+        "start": 100,
+        "stop": 4707
+      },
+      {
+        "file": "custom_random3_baseline_20wind",
+        "condition": "20wind",
+        "trajectory": "random3",
+        "sha256": "3fbe543e4999a5feb36b6a01327f1fa77f0dfb82eabd8fc21792049a9dc7bc6f",
+        "start": 100,
+        "stop": 4707
+      },
+      {
+        "file": "custom_random3_baseline_40wind",
+        "condition": "40wind",
+        "trajectory": "random3",
+        "sha256": "8c89bf90c3d15ce7e42d6773a217f506dab91e77e7c66a2640be69d55d70c7d0",
+        "start": 100,
+        "stop": 4627
+      },
+      {
+        "file": "custom_random3_baseline_nowind",
+        "condition": "nowind",
+        "trajectory": "random3",
+        "sha256": "ff0f5bb470ca0f592593023aa4d40fc58cf3569f0ecdb938afcbafb3f92a94da",
+        "start": 100,
+        "stop": 4627
+      }
+    ],
+    "d1_val": [
+      {
+        "file": "custom_random3_baseline_10wind",
+        "condition": "10wind",
+        "trajectory": "random3",
+        "sha256": "42ab694e30eece8a7e97a455994bf1890ffe93ee815abc643a3ad3db3fc849c1",
+        "start": 4858,
+        "stop": 6048
+      },
+      {
+        "file": "custom_random3_baseline_20wind",
+        "condition": "20wind",
+        "trajectory": "random3",
+        "sha256": "3fbe543e4999a5feb36b6a01327f1fa77f0dfb82eabd8fc21792049a9dc7bc6f",
+        "start": 4858,
+        "stop": 6048
+      },
+      {
+        "file": "custom_random3_baseline_40wind",
+        "condition": "40wind",
+        "trajectory": "random3",
+        "sha256": "8c89bf90c3d15ce7e42d6773a217f506dab91e77e7c66a2640be69d55d70c7d0",
+        "start": 4778,
+        "stop": 5948
+      },
+      {
+        "file": "custom_random3_baseline_nowind",
+        "condition": "nowind",
+        "trajectory": "random3",
+        "sha256": "ff0f5bb470ca0f592593023aa4d40fc58cf3569f0ecdb938afcbafb3f92a94da",
+        "start": 4778,
+        "stop": 5948
+      }
+    ],
+    "d2_static_ood": [
+      {
+        "file": "custom_random3_baseline_30wind",
+        "condition": "30wind",
+        "trajectory": "random3",
+        "sha256": "bf0200473f4063815d1e8b0d1c811b3e361a7185587da5457578340ad1c26136",
+        "start": 100,
+        "stop": 5948
+      },
+      {
+        "file": "custom_random3_baseline_50wind",
+        "condition": "50wind",
+        "trajectory": "random3",
+        "sha256": "71d881ac329a0579d56a5a9e143ac7ed88e910c3a8abcb728d3e1c5c51eb798e",
+        "start": 100,
+        "stop": 5948
+      }
+    ],
+    "d3_changing_ood": [
+      {
+        "file": "custom_figure8_baseline_100wind",
+        "condition": "100wind",
+        "trajectory": "figure8",
+        "sha256": "29b1ef5978502976da84d9433812ef007e16e7743c716432f70519f733902b0b",
+        "start": 100,
+        "stop": 2464
+      },
+      {
+        "file": "custom_figure8_baseline_35wind",
+        "condition": "35wind",
+        "trajectory": "figure8",
+        "sha256": "74ad71b239047dd50a1c1457a455300a2c2e97e94221f6eca9beecd51f0cc6ec",
+        "start": 100,
+        "stop": 2461
+      },
+      {
+        "file": "custom_figure8_baseline_70p20sint",
+        "condition": "70p20sint",
+        "trajectory": "figure8",
+        "sha256": "9b7739aeb366f2ba7e05495a6471eec109101bc8046344da96b42482b35ba66e",
+        "start": 100,
+        "stop": 2461
+      },
+      {
+        "file": "custom_figure8_baseline_70wind",
+        "condition": "70wind",
+        "trajectory": "figure8",
+        "sha256": "60ceee5aa469ca0b32585f0750d2b904535d3585629c084b2202c9eb357eb3a7",
+        "start": 100,
+        "stop": 2462
+      },
+      {
+        "file": "custom_figure8_baseline_nowind",
+        "condition": "nowind",
+        "trajectory": "figure8",
+        "sha256": "9000c62eef3b9ec893f551c4b5dbac6d24d1902dac7705786bb6877c8118808a",
+        "start": 100,
+        "stop": 2461
+      }
+    ]
+  },
+  "checksum": "c665c6a59508a134"
+}

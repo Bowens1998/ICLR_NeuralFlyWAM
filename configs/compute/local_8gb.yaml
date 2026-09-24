@@ -1,0 +1,8 @@
+# RTX 3080 Laptop, 8 GB.
+device: cuda
+amp: bf16
+batch_size: 128
+eval_batch_size: 256
+grad_accum: 1
+num_workers: 4
+deterministic: false

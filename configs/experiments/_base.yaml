@@ -1,0 +1,25 @@
+experiment_name: main_round1
+seed: 0
+output_root: ${LATENT_WAM_OUTPUT_ROOT:-runs}
+
+data:
+  manifest_path: artifacts/splits/main_round1.json
+  normalizer_path: artifacts/norm/main_round1.json
+  train_stride: 1
+  eval_stride: 5     # D1 val only; D2/D3 are evaluated at stride 1
+  smoke: false
+
+optim:
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  max_epochs: 120
+  grad_clip: 1.0
+  schedule: onecycle
+  early_stopping_patience: 20
+  min_delta: 1.0e-4
+
+loss:
+  w_onestep: 1.0
+  w_rollout: 1.0
+  w_jepa: 0.0
+  horizon_weighting: uniform

@@ -1,0 +1,3 @@
+defaults:
+- configs/compute/compute_round9.yaml
+num_workers: 2

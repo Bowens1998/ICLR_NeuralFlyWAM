@@ -1,0 +1,9 @@
+# One A100/L4 on the compute environment. The models are small; distributed training is not
+# warranted and is deliberately not implemented.
+device: cuda
+amp: bf16
+batch_size: 256
+eval_batch_size: 512
+grad_accum: 1
+num_workers: 8
+deterministic: false

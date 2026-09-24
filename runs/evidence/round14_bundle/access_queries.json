@@ -1,0 +1,1713 @@
+{
+  "schema": "round14-access-query-v1",
+  "models": [
+    {
+      "dataset": 0,
+      "arm": "fixed",
+      "seed": 70,
+      "path": "round14_access_data0_v1/r14_d0_fixed_seed70/checkpoint_best.pt",
+      "checkpoint_sha256": "7ada1ac498704cd3440030f335b1084fd909ba3cf00fd9bb0b1e320895978c4c",
+      "config": {
+        "experiment_name": "round14_access_data0_v1",
+        "seed": 70,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data0_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data0_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d0_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "ffa418db002667156ec558a050923f658e3c6558601b1eddca51831ab2620012",
+        "config_hash": "e751b2326dd7",
+        "split_checksum": "7cf206b97b9564f8",
+        "seed": 70,
+        "model_name": "r14_d0_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "c9fa68f7d1d5fcb639f2182b6261d4d488b8e882d68529e67ed039d45155cd24",
+      "normalizer_sha256": "ffa418db002667156ec558a050923f658e3c6558601b1eddca51831ab2620012"
+    },
+    {
+      "dataset": 0,
+      "arm": "fixed",
+      "seed": 71,
+      "path": "round14_access_data0_v1/r14_d0_fixed_seed71/checkpoint_best.pt",
+      "checkpoint_sha256": "08db95078095876188632450e0a05ed2738406a82bd7436b7d870f3fb397fd47",
+      "config": {
+        "experiment_name": "round14_access_data0_v1",
+        "seed": 71,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data0_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data0_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d0_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "ffa418db002667156ec558a050923f658e3c6558601b1eddca51831ab2620012",
+        "config_hash": "9b0bc90428b4",
+        "split_checksum": "7cf206b97b9564f8",
+        "seed": 71,
+        "model_name": "r14_d0_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "c9fa68f7d1d5fcb639f2182b6261d4d488b8e882d68529e67ed039d45155cd24",
+      "normalizer_sha256": "ffa418db002667156ec558a050923f658e3c6558601b1eddca51831ab2620012"
+    },
+    {
+      "dataset": 0,
+      "arm": "fixed",
+      "seed": 72,
+      "path": "round14_access_data0_v1/r14_d0_fixed_seed72/checkpoint_best.pt",
+      "checkpoint_sha256": "e8e978e778f62303632dc1fc1caa18dd62d4561b8e4e6fe77af998d16b53de23",
+      "config": {
+        "experiment_name": "round14_access_data0_v1",
+        "seed": 72,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data0_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data0_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d0_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "ffa418db002667156ec558a050923f658e3c6558601b1eddca51831ab2620012",
+        "config_hash": "c39c0ac6f03b",
+        "split_checksum": "7cf206b97b9564f8",
+        "seed": 72,
+        "model_name": "r14_d0_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "c9fa68f7d1d5fcb639f2182b6261d4d488b8e882d68529e67ed039d45155cd24",
+      "normalizer_sha256": "ffa418db002667156ec558a050923f658e3c6558601b1eddca51831ab2620012"
+    },
+    {
+      "dataset": 0,
+      "arm": "dynamic",
+      "seed": 70,
+      "path": "round14_access_data0_v1/r14_d0_dynamic_seed70/checkpoint_best.pt",
+      "checkpoint_sha256": "ea39c09e3d7a56014c343c305b0ad2688609511b027d4c29cb8dddb7c13e15ff",
+      "config": {
+        "experiment_name": "round14_access_data0_v1",
+        "seed": 70,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data0_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data0_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d0_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "ffa418db002667156ec558a050923f658e3c6558601b1eddca51831ab2620012",
+        "config_hash": "e18e2c4f3b85",
+        "split_checksum": "7cf206b97b9564f8",
+        "seed": 70,
+        "model_name": "r14_d0_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "c9fa68f7d1d5fcb639f2182b6261d4d488b8e882d68529e67ed039d45155cd24",
+      "normalizer_sha256": "ffa418db002667156ec558a050923f658e3c6558601b1eddca51831ab2620012"
+    },
+    {
+      "dataset": 0,
+      "arm": "dynamic",
+      "seed": 71,
+      "path": "round14_access_data0_v1/r14_d0_dynamic_seed71/checkpoint_best.pt",
+      "checkpoint_sha256": "b8030eb7017e80ca4dd29d1b2f3d6b8e86eebed866b204e64044bac5b324fbfa",
+      "config": {
+        "experiment_name": "round14_access_data0_v1",
+        "seed": 71,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data0_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data0_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d0_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "ffa418db002667156ec558a050923f658e3c6558601b1eddca51831ab2620012",
+        "config_hash": "d5519896f117",
+        "split_checksum": "7cf206b97b9564f8",
+        "seed": 71,
+        "model_name": "r14_d0_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "c9fa68f7d1d5fcb639f2182b6261d4d488b8e882d68529e67ed039d45155cd24",
+      "normalizer_sha256": "ffa418db002667156ec558a050923f658e3c6558601b1eddca51831ab2620012"
+    },
+    {
+      "dataset": 0,
+      "arm": "dynamic",
+      "seed": 72,
+      "path": "round14_access_data0_v1/r14_d0_dynamic_seed72/checkpoint_best.pt",
+      "checkpoint_sha256": "7803577e350eda276263c57076ab4839574dc836058f608236d503eaba255fd1",
+      "config": {
+        "experiment_name": "round14_access_data0_v1",
+        "seed": 72,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data0_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data0_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d0_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "ffa418db002667156ec558a050923f658e3c6558601b1eddca51831ab2620012",
+        "config_hash": "b7a4b903dbd5",
+        "split_checksum": "7cf206b97b9564f8",
+        "seed": 72,
+        "model_name": "r14_d0_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "c9fa68f7d1d5fcb639f2182b6261d4d488b8e882d68529e67ed039d45155cd24",
+      "normalizer_sha256": "ffa418db002667156ec558a050923f658e3c6558601b1eddca51831ab2620012"
+    },
+    {
+      "dataset": 1,
+      "arm": "fixed",
+      "seed": 70,
+      "path": "round14_access_data1_v1/r14_d1_fixed_seed70/checkpoint_best.pt",
+      "checkpoint_sha256": "ffed17b90df92b1b6ddfe44c3398dad14d0cf466030298be3a2bce108bccd8ff",
+      "config": {
+        "experiment_name": "round14_access_data1_v1",
+        "seed": 70,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data1_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data1_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d1_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "4b6ea2362258efb08f9e636ad1f3cde250dce4bd3f8a72e4b905310d57899c2e",
+        "config_hash": "e12f24473576",
+        "split_checksum": "ace1f16f85a42a3c",
+        "seed": 70,
+        "model_name": "r14_d1_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "fba4edcc673cdbf9ff20dad6dd06e80ddb4039f44e1f7cc5bc4a942964ebbaea",
+      "normalizer_sha256": "4b6ea2362258efb08f9e636ad1f3cde250dce4bd3f8a72e4b905310d57899c2e"
+    },
+    {
+      "dataset": 1,
+      "arm": "fixed",
+      "seed": 71,
+      "path": "round14_access_data1_v1/r14_d1_fixed_seed71/checkpoint_best.pt",
+      "checkpoint_sha256": "da4cdf38b87d76f238da3beb5f4fb49cefefdacdc9a3000d8c3ea4026bec8c48",
+      "config": {
+        "experiment_name": "round14_access_data1_v1",
+        "seed": 71,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data1_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data1_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d1_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "4b6ea2362258efb08f9e636ad1f3cde250dce4bd3f8a72e4b905310d57899c2e",
+        "config_hash": "be1b3fd8c0eb",
+        "split_checksum": "ace1f16f85a42a3c",
+        "seed": 71,
+        "model_name": "r14_d1_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "fba4edcc673cdbf9ff20dad6dd06e80ddb4039f44e1f7cc5bc4a942964ebbaea",
+      "normalizer_sha256": "4b6ea2362258efb08f9e636ad1f3cde250dce4bd3f8a72e4b905310d57899c2e"
+    },
+    {
+      "dataset": 1,
+      "arm": "fixed",
+      "seed": 72,
+      "path": "round14_access_data1_v1/r14_d1_fixed_seed72/checkpoint_best.pt",
+      "checkpoint_sha256": "0b5d0b6a8844c093bed1736ee8248ddf2897e7ed7507d1388b4e84f19aa10a13",
+      "config": {
+        "experiment_name": "round14_access_data1_v1",
+        "seed": 72,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data1_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data1_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d1_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "4b6ea2362258efb08f9e636ad1f3cde250dce4bd3f8a72e4b905310d57899c2e",
+        "config_hash": "1ff86b215887",
+        "split_checksum": "ace1f16f85a42a3c",
+        "seed": 72,
+        "model_name": "r14_d1_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "fba4edcc673cdbf9ff20dad6dd06e80ddb4039f44e1f7cc5bc4a942964ebbaea",
+      "normalizer_sha256": "4b6ea2362258efb08f9e636ad1f3cde250dce4bd3f8a72e4b905310d57899c2e"
+    },
+    {
+      "dataset": 1,
+      "arm": "dynamic",
+      "seed": 70,
+      "path": "round14_access_data1_v1/r14_d1_dynamic_seed70/checkpoint_best.pt",
+      "checkpoint_sha256": "530010d76c3283a5c146541e2769905c1a0e8bb525a9afdd09fc5f1c67e4e18b",
+      "config": {
+        "experiment_name": "round14_access_data1_v1",
+        "seed": 70,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data1_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data1_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d1_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "4b6ea2362258efb08f9e636ad1f3cde250dce4bd3f8a72e4b905310d57899c2e",
+        "config_hash": "c549596c2c7f",
+        "split_checksum": "ace1f16f85a42a3c",
+        "seed": 70,
+        "model_name": "r14_d1_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "fba4edcc673cdbf9ff20dad6dd06e80ddb4039f44e1f7cc5bc4a942964ebbaea",
+      "normalizer_sha256": "4b6ea2362258efb08f9e636ad1f3cde250dce4bd3f8a72e4b905310d57899c2e"
+    },
+    {
+      "dataset": 1,
+      "arm": "dynamic",
+      "seed": 71,
+      "path": "round14_access_data1_v1/r14_d1_dynamic_seed71/checkpoint_best.pt",
+      "checkpoint_sha256": "20109b80cc276482dd15c0be938546f0c937c7dfbf932f5b3b9a02de83b3552e",
+      "config": {
+        "experiment_name": "round14_access_data1_v1",
+        "seed": 71,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data1_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data1_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d1_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "4b6ea2362258efb08f9e636ad1f3cde250dce4bd3f8a72e4b905310d57899c2e",
+        "config_hash": "c5210bf701c5",
+        "split_checksum": "ace1f16f85a42a3c",
+        "seed": 71,
+        "model_name": "r14_d1_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "fba4edcc673cdbf9ff20dad6dd06e80ddb4039f44e1f7cc5bc4a942964ebbaea",
+      "normalizer_sha256": "4b6ea2362258efb08f9e636ad1f3cde250dce4bd3f8a72e4b905310d57899c2e"
+    },
+    {
+      "dataset": 1,
+      "arm": "dynamic",
+      "seed": 72,
+      "path": "round14_access_data1_v1/r14_d1_dynamic_seed72/checkpoint_best.pt",
+      "checkpoint_sha256": "3d1d2f6aba4f600041f4802f4d1df88bee351cc4942248000d856ddb8516df4e",
+      "config": {
+        "experiment_name": "round14_access_data1_v1",
+        "seed": 72,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data1_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data1_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d1_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "4b6ea2362258efb08f9e636ad1f3cde250dce4bd3f8a72e4b905310d57899c2e",
+        "config_hash": "6c31dfd738ae",
+        "split_checksum": "ace1f16f85a42a3c",
+        "seed": 72,
+        "model_name": "r14_d1_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "fba4edcc673cdbf9ff20dad6dd06e80ddb4039f44e1f7cc5bc4a942964ebbaea",
+      "normalizer_sha256": "4b6ea2362258efb08f9e636ad1f3cde250dce4bd3f8a72e4b905310d57899c2e"
+    },
+    {
+      "dataset": 2,
+      "arm": "fixed",
+      "seed": 70,
+      "path": "round14_access_data2_v1/r14_d2_fixed_seed70/checkpoint_best.pt",
+      "checkpoint_sha256": "d932aadc685db49c152266696d641795bc6ad0f28895c205776ca311785688f7",
+      "config": {
+        "experiment_name": "round14_access_data2_v1",
+        "seed": 70,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data2_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data2_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d2_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "c32f9705f6cbc1a560b98196e7cecc951ace92bea4f53aa68c63ec33efe2fa72",
+        "config_hash": "f6de99beeecb",
+        "split_checksum": "491718ad2b0999c9",
+        "seed": 70,
+        "model_name": "r14_d2_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "7dbdb5c19bdecf4f936804aaea696121a866545ca00d2fcf14695e35f35b5b44",
+      "normalizer_sha256": "c32f9705f6cbc1a560b98196e7cecc951ace92bea4f53aa68c63ec33efe2fa72"
+    },
+    {
+      "dataset": 2,
+      "arm": "fixed",
+      "seed": 71,
+      "path": "round14_access_data2_v1/r14_d2_fixed_seed71/checkpoint_best.pt",
+      "checkpoint_sha256": "558b4fe9d88939ccb9e59e9d9c627fe3e4bd3e04643b6dc6b0ed5b0bafbd4478",
+      "config": {
+        "experiment_name": "round14_access_data2_v1",
+        "seed": 71,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data2_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data2_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d2_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "c32f9705f6cbc1a560b98196e7cecc951ace92bea4f53aa68c63ec33efe2fa72",
+        "config_hash": "8a73a9d2e6b7",
+        "split_checksum": "491718ad2b0999c9",
+        "seed": 71,
+        "model_name": "r14_d2_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "7dbdb5c19bdecf4f936804aaea696121a866545ca00d2fcf14695e35f35b5b44",
+      "normalizer_sha256": "c32f9705f6cbc1a560b98196e7cecc951ace92bea4f53aa68c63ec33efe2fa72"
+    },
+    {
+      "dataset": 2,
+      "arm": "fixed",
+      "seed": 72,
+      "path": "round14_access_data2_v1/r14_d2_fixed_seed72/checkpoint_best.pt",
+      "checkpoint_sha256": "abb4a7b4655a46fc8608add44475d15f3e97f72b0e97b88cb00e426ec26c8067",
+      "config": {
+        "experiment_name": "round14_access_data2_v1",
+        "seed": 72,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data2_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data2_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d2_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "c32f9705f6cbc1a560b98196e7cecc951ace92bea4f53aa68c63ec33efe2fa72",
+        "config_hash": "e10e6a371f47",
+        "split_checksum": "491718ad2b0999c9",
+        "seed": 72,
+        "model_name": "r14_d2_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "7dbdb5c19bdecf4f936804aaea696121a866545ca00d2fcf14695e35f35b5b44",
+      "normalizer_sha256": "c32f9705f6cbc1a560b98196e7cecc951ace92bea4f53aa68c63ec33efe2fa72"
+    },
+    {
+      "dataset": 2,
+      "arm": "dynamic",
+      "seed": 70,
+      "path": "round14_access_data2_v1/r14_d2_dynamic_seed70/checkpoint_best.pt",
+      "checkpoint_sha256": "11058de2c46302230bda2817fc8d98c84e80225aa280221bcf58fabadf3a3102",
+      "config": {
+        "experiment_name": "round14_access_data2_v1",
+        "seed": 70,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data2_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data2_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d2_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "c32f9705f6cbc1a560b98196e7cecc951ace92bea4f53aa68c63ec33efe2fa72",
+        "config_hash": "b89681349532",
+        "split_checksum": "491718ad2b0999c9",
+        "seed": 70,
+        "model_name": "r14_d2_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "7dbdb5c19bdecf4f936804aaea696121a866545ca00d2fcf14695e35f35b5b44",
+      "normalizer_sha256": "c32f9705f6cbc1a560b98196e7cecc951ace92bea4f53aa68c63ec33efe2fa72"
+    },
+    {
+      "dataset": 2,
+      "arm": "dynamic",
+      "seed": 71,
+      "path": "round14_access_data2_v1/r14_d2_dynamic_seed71/checkpoint_best.pt",
+      "checkpoint_sha256": "448604d88fdcff353fe168827a62d55730491eb59488208a569c5d9efe4e6ee2",
+      "config": {
+        "experiment_name": "round14_access_data2_v1",
+        "seed": 71,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data2_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data2_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d2_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "c32f9705f6cbc1a560b98196e7cecc951ace92bea4f53aa68c63ec33efe2fa72",
+        "config_hash": "681b38d14b71",
+        "split_checksum": "491718ad2b0999c9",
+        "seed": 71,
+        "model_name": "r14_d2_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "7dbdb5c19bdecf4f936804aaea696121a866545ca00d2fcf14695e35f35b5b44",
+      "normalizer_sha256": "c32f9705f6cbc1a560b98196e7cecc951ace92bea4f53aa68c63ec33efe2fa72"
+    },
+    {
+      "dataset": 2,
+      "arm": "dynamic",
+      "seed": 72,
+      "path": "round14_access_data2_v1/r14_d2_dynamic_seed72/checkpoint_best.pt",
+      "checkpoint_sha256": "ff28d9d5e61e675745f9577fa0971cbd3467f97b1cbd4da03e51ea0e8c125899",
+      "config": {
+        "experiment_name": "round14_access_data2_v1",
+        "seed": 72,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data2_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data2_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d2_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "c32f9705f6cbc1a560b98196e7cecc951ace92bea4f53aa68c63ec33efe2fa72",
+        "config_hash": "db1e35668bd4",
+        "split_checksum": "491718ad2b0999c9",
+        "seed": 72,
+        "model_name": "r14_d2_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "7dbdb5c19bdecf4f936804aaea696121a866545ca00d2fcf14695e35f35b5b44",
+      "normalizer_sha256": "c32f9705f6cbc1a560b98196e7cecc951ace92bea4f53aa68c63ec33efe2fa72"
+    },
+    {
+      "dataset": 3,
+      "arm": "fixed",
+      "seed": 70,
+      "path": "round14_access_data3_v1/r14_d3_fixed_seed70/checkpoint_best.pt",
+      "checkpoint_sha256": "608a27ffebfa2d0924b949bda2b7b3e5dc808dcaaeb14a31e5c3773b1ebf3ad6",
+      "config": {
+        "experiment_name": "round14_access_data3_v1",
+        "seed": 70,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data3_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data3_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d3_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "7f7a63b09eb3024b9a02899db6f5d5a07f6ffce70712a3b8f848450c513f22a9",
+        "config_hash": "3fe31ec58c05",
+        "split_checksum": "33d0926e8f013250",
+        "seed": 70,
+        "model_name": "r14_d3_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "d8416412774b2e5ac0985aea4df997e012a9f6e5923482ce6e2eeaf84419310c",
+      "normalizer_sha256": "7f7a63b09eb3024b9a02899db6f5d5a07f6ffce70712a3b8f848450c513f22a9"
+    },
+    {
+      "dataset": 3,
+      "arm": "fixed",
+      "seed": 71,
+      "path": "round14_access_data3_v1/r14_d3_fixed_seed71/checkpoint_best.pt",
+      "checkpoint_sha256": "abee6e2de5ca902f7b267f7109f7467bc6f93987b733f11ba1f5c5a92a79755d",
+      "config": {
+        "experiment_name": "round14_access_data3_v1",
+        "seed": 71,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data3_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data3_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d3_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "7f7a63b09eb3024b9a02899db6f5d5a07f6ffce70712a3b8f848450c513f22a9",
+        "config_hash": "60429aa1b7e2",
+        "split_checksum": "33d0926e8f013250",
+        "seed": 71,
+        "model_name": "r14_d3_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "d8416412774b2e5ac0985aea4df997e012a9f6e5923482ce6e2eeaf84419310c",
+      "normalizer_sha256": "7f7a63b09eb3024b9a02899db6f5d5a07f6ffce70712a3b8f848450c513f22a9"
+    },
+    {
+      "dataset": 3,
+      "arm": "fixed",
+      "seed": 72,
+      "path": "round14_access_data3_v1/r14_d3_fixed_seed72/checkpoint_best.pt",
+      "checkpoint_sha256": "e0ffdbc0343c0628873b6424d943a427c04081d6607eac892804e601ab9da5ae",
+      "config": {
+        "experiment_name": "round14_access_data3_v1",
+        "seed": 72,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data3_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data3_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d3_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "7f7a63b09eb3024b9a02899db6f5d5a07f6ffce70712a3b8f848450c513f22a9",
+        "config_hash": "4acd287d6b34",
+        "split_checksum": "33d0926e8f013250",
+        "seed": 72,
+        "model_name": "r14_d3_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "d8416412774b2e5ac0985aea4df997e012a9f6e5923482ce6e2eeaf84419310c",
+      "normalizer_sha256": "7f7a63b09eb3024b9a02899db6f5d5a07f6ffce70712a3b8f848450c513f22a9"
+    },
+    {
+      "dataset": 3,
+      "arm": "dynamic",
+      "seed": 70,
+      "path": "round14_access_data3_v1/r14_d3_dynamic_seed70/checkpoint_best.pt",
+      "checkpoint_sha256": "ebe6388ee9791dcc35f213dd126775886dce73758e77f7051419e89b114b42a2",
+      "config": {
+        "experiment_name": "round14_access_data3_v1",
+        "seed": 70,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data3_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data3_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d3_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "7f7a63b09eb3024b9a02899db6f5d5a07f6ffce70712a3b8f848450c513f22a9",
+        "config_hash": "011f909ee025",
+        "split_checksum": "33d0926e8f013250",
+        "seed": 70,
+        "model_name": "r14_d3_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "d8416412774b2e5ac0985aea4df997e012a9f6e5923482ce6e2eeaf84419310c",
+      "normalizer_sha256": "7f7a63b09eb3024b9a02899db6f5d5a07f6ffce70712a3b8f848450c513f22a9"
+    },
+    {
+      "dataset": 3,
+      "arm": "dynamic",
+      "seed": 71,
+      "path": "round14_access_data3_v1/r14_d3_dynamic_seed71/checkpoint_best.pt",
+      "checkpoint_sha256": "db9e8020ac75724dffd8713ab6771a4f909c7a2248ab683dec5ca2081f65fb79",
+      "config": {
+        "experiment_name": "round14_access_data3_v1",
+        "seed": 71,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data3_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data3_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d3_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "7f7a63b09eb3024b9a02899db6f5d5a07f6ffce70712a3b8f848450c513f22a9",
+        "config_hash": "f58f46fc604a",
+        "split_checksum": "33d0926e8f013250",
+        "seed": 71,
+        "model_name": "r14_d3_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "d8416412774b2e5ac0985aea4df997e012a9f6e5923482ce6e2eeaf84419310c",
+      "normalizer_sha256": "7f7a63b09eb3024b9a02899db6f5d5a07f6ffce70712a3b8f848450c513f22a9"
+    },
+    {
+      "dataset": 3,
+      "arm": "dynamic",
+      "seed": 72,
+      "path": "round14_access_data3_v1/r14_d3_dynamic_seed72/checkpoint_best.pt",
+      "checkpoint_sha256": "fadd50d7a4c95e37ba2d687a520cfa9e4bc6f6b0b619e4ae825caa1293507562",
+      "config": {
+        "experiment_name": "round14_access_data3_v1",
+        "seed": 72,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data3_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data3_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d3_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "7f7a63b09eb3024b9a02899db6f5d5a07f6ffce70712a3b8f848450c513f22a9",
+        "config_hash": "137df7df4e5d",
+        "split_checksum": "33d0926e8f013250",
+        "seed": 72,
+        "model_name": "r14_d3_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "d8416412774b2e5ac0985aea4df997e012a9f6e5923482ce6e2eeaf84419310c",
+      "normalizer_sha256": "7f7a63b09eb3024b9a02899db6f5d5a07f6ffce70712a3b8f848450c513f22a9"
+    },
+    {
+      "dataset": 4,
+      "arm": "fixed",
+      "seed": 70,
+      "path": "round14_access_data4_v1/r14_d4_fixed_seed70/checkpoint_best.pt",
+      "checkpoint_sha256": "79d85a67f15070b0f6b8287bc9195100714688396161a6aacc6253932b07def1",
+      "config": {
+        "experiment_name": "round14_access_data4_v1",
+        "seed": 70,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data4_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data4_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d4_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "8ab623b7f486117163f34c1ca6e4ace2a7743b1be1a22fb085255a7ee0b376f1",
+        "config_hash": "c0a8ea15756a",
+        "split_checksum": "fcc328a0245af994",
+        "seed": 70,
+        "model_name": "r14_d4_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "6b6a689e0cb0df88add860d4464c574bc3a0398056e8a05f983ffb853f31c85d",
+      "normalizer_sha256": "8ab623b7f486117163f34c1ca6e4ace2a7743b1be1a22fb085255a7ee0b376f1"
+    },
+    {
+      "dataset": 4,
+      "arm": "fixed",
+      "seed": 71,
+      "path": "round14_access_data4_v1/r14_d4_fixed_seed71/checkpoint_best.pt",
+      "checkpoint_sha256": "ee89d21a3e57f6008282a858edd7c5538f6ac5042dbb6662a4ecd3a98d74364c",
+      "config": {
+        "experiment_name": "round14_access_data4_v1",
+        "seed": 71,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data4_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data4_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d4_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "8ab623b7f486117163f34c1ca6e4ace2a7743b1be1a22fb085255a7ee0b376f1",
+        "config_hash": "172f1082725d",
+        "split_checksum": "fcc328a0245af994",
+        "seed": 71,
+        "model_name": "r14_d4_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "6b6a689e0cb0df88add860d4464c574bc3a0398056e8a05f983ffb853f31c85d",
+      "normalizer_sha256": "8ab623b7f486117163f34c1ca6e4ace2a7743b1be1a22fb085255a7ee0b376f1"
+    },
+    {
+      "dataset": 4,
+      "arm": "fixed",
+      "seed": 72,
+      "path": "round14_access_data4_v1/r14_d4_fixed_seed72/checkpoint_best.pt",
+      "checkpoint_sha256": "f00ed7bcca255f7f63991458f66a0b5b4ec85ba994ebd1fa3d93c00ceda230b1",
+      "config": {
+        "experiment_name": "round14_access_data4_v1",
+        "seed": 72,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data4_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data4_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d4_fixed",
+          "family": "context_access_control",
+          "auxiliary_context": "fixed",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "8ab623b7f486117163f34c1ca6e4ace2a7743b1be1a22fb085255a7ee0b376f1",
+        "config_hash": "303085af3ccc",
+        "split_checksum": "fcc328a0245af994",
+        "seed": 72,
+        "model_name": "r14_d4_fixed",
+        "n_parameters": 51785
+      },
+      "split_sha256": "6b6a689e0cb0df88add860d4464c574bc3a0398056e8a05f983ffb853f31c85d",
+      "normalizer_sha256": "8ab623b7f486117163f34c1ca6e4ace2a7743b1be1a22fb085255a7ee0b376f1"
+    },
+    {
+      "dataset": 4,
+      "arm": "dynamic",
+      "seed": 70,
+      "path": "round14_access_data4_v1/r14_d4_dynamic_seed70/checkpoint_best.pt",
+      "checkpoint_sha256": "421d8096ee69750337ba03481b4f5a7c309262408af6cee5518bde716a8eafd6",
+      "config": {
+        "experiment_name": "round14_access_data4_v1",
+        "seed": 70,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data4_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data4_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d4_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "8ab623b7f486117163f34c1ca6e4ace2a7743b1be1a22fb085255a7ee0b376f1",
+        "config_hash": "3ea07fa89067",
+        "split_checksum": "fcc328a0245af994",
+        "seed": 70,
+        "model_name": "r14_d4_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "6b6a689e0cb0df88add860d4464c574bc3a0398056e8a05f983ffb853f31c85d",
+      "normalizer_sha256": "8ab623b7f486117163f34c1ca6e4ace2a7743b1be1a22fb085255a7ee0b376f1"
+    },
+    {
+      "dataset": 4,
+      "arm": "dynamic",
+      "seed": 71,
+      "path": "round14_access_data4_v1/r14_d4_dynamic_seed71/checkpoint_best.pt",
+      "checkpoint_sha256": "73162540c82251ab438979b9ec3a016fd5a07d4a9c996540b66394cae9f2647e",
+      "config": {
+        "experiment_name": "round14_access_data4_v1",
+        "seed": 71,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data4_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data4_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d4_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "8ab623b7f486117163f34c1ca6e4ace2a7743b1be1a22fb085255a7ee0b376f1",
+        "config_hash": "d54ec406c380",
+        "split_checksum": "fcc328a0245af994",
+        "seed": 71,
+        "model_name": "r14_d4_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "6b6a689e0cb0df88add860d4464c574bc3a0398056e8a05f983ffb853f31c85d",
+      "normalizer_sha256": "8ab623b7f486117163f34c1ca6e4ace2a7743b1be1a22fb085255a7ee0b376f1"
+    },
+    {
+      "dataset": 4,
+      "arm": "dynamic",
+      "seed": 72,
+      "path": "round14_access_data4_v1/r14_d4_dynamic_seed72/checkpoint_best.pt",
+      "checkpoint_sha256": "85e6ec15f9c0dec71923b60daa84918bc27222361a797103f61467633b115d09",
+      "config": {
+        "experiment_name": "round14_access_data4_v1",
+        "seed": 72,
+        "output_root": "runs",
+        "data": {
+          "manifest_path": "artifacts/round11b_v1/data4_split.json",
+          "normalizer_path": "artifacts/round11b_v1/data4_norm.json",
+          "train_stride": 1,
+          "eval_stride": 5,
+          "smoke": false
+        },
+        "optim": {
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "max_epochs": 120,
+          "grad_clip": 1.0,
+          "schedule": "onecycle",
+          "early_stopping_patience": 20,
+          "min_delta": 0.0001
+        },
+        "loss": {
+          "w_onestep": 1.0,
+          "w_rollout": 1.0,
+          "w_jepa": 0.0,
+          "horizon_weighting": "uniform"
+        },
+        "model": {
+          "name": "r14_d4_dynamic",
+          "family": "context_access_control",
+          "auxiliary_context": "dynamic",
+          "width": 64,
+          "dropout": 0.1
+        }
+      },
+      "provenance": {
+        "git_commit": "413b5c105739d7c468412b4ff49f71f3ba5e0d1b",
+        "normalizer_sha256": "8ab623b7f486117163f34c1ca6e4ace2a7743b1be1a22fb085255a7ee0b376f1",
+        "config_hash": "c88b12716cf1",
+        "split_checksum": "fcc328a0245af994",
+        "seed": 72,
+        "model_name": "r14_d4_dynamic",
+        "n_parameters": 51785
+      },
+      "split_sha256": "6b6a689e0cb0df88add860d4464c574bc3a0398056e8a05f983ffb853f31c85d",
+      "normalizer_sha256": "8ab623b7f486117163f34c1ca6e4ace2a7743b1be1a22fb085255a7ee0b376f1"
+    }
+  ],
+  "anchors": [
+    {
+      "original_index": 20,
+      "result_sha256": "db748284f9bb4a2169e041b197d7dc1a5a700568ea539d0784192b181ed87db0",
+      "trace_sha256": "4c553f90175d89aa810ffcd96580789b4b12af60e95c195a4e3dfd1a38692f9a"
+    },
+    {
+      "original_index": 21,
+      "result_sha256": "2967d2c6cfa09b7b0527c411ffde077452dbdbcae07d4888550fb314cbd0a3b9",
+      "trace_sha256": "1d5d7e302ffd01be153e700b201d2a33c7190270df0fcb36c4fd28df726db31e"
+    },
+    {
+      "original_index": 22,
+      "result_sha256": "8bb1632562d171e5243cb892c94d7f6e73235b03e1322fb4fb49230fc334ccdc",
+      "trace_sha256": "37cabf4f3ecab825130a80e5ec43ca0b902b9e9c26d9741b55f23a6cd9299b9c"
+    },
+    {
+      "original_index": 23,
+      "result_sha256": "da75e1dee78db0fde84a6145be57a30b9114b9f596725ca2e78de5029814ebc9",
+      "trace_sha256": "bbe391816fc34b991fb8c813e867ec43111f087b64d1b1b78e2334131e7d4d52"
+    },
+    {
+      "original_index": 24,
+      "result_sha256": "0b2862794e85d3fd3116cf89d817c61a09ee2a3b26b528224aab83b84527d616",
+      "trace_sha256": "4b5c447c1337cdf5fe0fed08c938ab4b949d33def7ec7b2d62fe7d1ccaa29460"
+    },
+    {
+      "original_index": 25,
+      "result_sha256": "1906b5a08c741ef9648e1a2f39d2a00ebc8c7887744087d69c6d2cba902acb82",
+      "trace_sha256": "13aa402e59425e2f0fa88083fb4085f0d4b473baa63c23ddfdfbcb82197394b9"
+    },
+    {
+      "original_index": 26,
+      "result_sha256": "e913a3783071a2981fabfab889180086b1a6ae18b0d8681577f51f93c98a68ab",
+      "trace_sha256": "3ca42e30c5cbb44f075a0cd0d6f5721fa1257421abeff40b6be116be019e47f0"
+    },
+    {
+      "original_index": 27,
+      "result_sha256": "e1c0956424007f5809141c98e33a6b769f140a6367c3c4886db3b554ff7694a6",
+      "trace_sha256": "96eb7ca7d01936d0cbc727601d94d6aacdc868484a15c6ca6159163b427c0f6f"
+    },
+    {
+      "original_index": 28,
+      "result_sha256": "7315669f7b58cc562e4bcef731a66be698b7dee52ed3f8e9f4617491d624c365",
+      "trace_sha256": "53ad850ba20b699f17221c0594678739b6966c27c45c7b1194eddd66f3d3bc93"
+    },
+    {
+      "original_index": 29,
+      "result_sha256": "59dc508f1957cae5f4c0f4341aeb88a7ce8f21d3a9fb3ecf040888363a320cae",
+      "trace_sha256": "ec0504065f7b1d506ae5e64692adcc6e2f829ba9c2606cded9e8b2954250d479"
+    },
+    {
+      "original_index": 30,
+      "result_sha256": "842423c40a149467e12348c4cddc25c7f12df4798c8518ba288fe73fe41e5a0e",
+      "trace_sha256": "769ff1f4748cc8e0b9f7ef4f41ede415fa81f583475321d4ad7a9122c818094d"
+    },
+    {
+      "original_index": 31,
+      "result_sha256": "06f2e259c00a82df7be899dfce461a88df78bf33cef123536b6182d401d9d7bc",
+      "trace_sha256": "2539ca05a0319978e6d286af1c235453acecabb442b72f7222482afc981a0618"
+    },
+    {
+      "original_index": 32,
+      "result_sha256": "bd595ab4ddce0ba5792747792dbc66d712e6c2d7ee255eb682e5a646c456d832",
+      "trace_sha256": "02fd5b1edba6ddd5a91c11e285c4878e5824f0bf4d0793102abab3ebed798df7"
+    },
+    {
+      "original_index": 33,
+      "result_sha256": "d2a1c4d7bb3fa69b1280e231fdd290936a96cc2f8ffaf309852c406940b5e44a",
+      "trace_sha256": "f27dcb298abf6302ec13787d2d180aaec38f8a574dab5539eaedc9e6dbb0fb55"
+    },
+    {
+      "original_index": 34,
+      "result_sha256": "cf9accab49fd4c80ba84342ef42fae09ac53e61aae006fee8d47e9cc2b189d44",
+      "trace_sha256": "ecc51e3e059e46a371d2d5c1f65ea96c704d77a299fd540fffaaa602ca8678a1"
+    },
+    {
+      "original_index": 35,
+      "result_sha256": "1a0efcef8d5fea828c2a2bea1b01047990849e31899614a8d008f14b82d875b6",
+      "trace_sha256": "6520e133a592225aacdbbbcb2b3dc63d084a72b03ec0ffb43a7410a0c60c10a9"
+    },
+    {
+      "original_index": 36,
+      "result_sha256": "c8ff6b39734d4845575c9a8e2a2436c12cbbb811450522fba17eb25ea742f75e",
+      "trace_sha256": "d0856bcc4b385bd03c235fbc22e01663aedc61cf9e3e1bb8cd6a22b0710533ea"
+    },
+    {
+      "original_index": 37,
+      "result_sha256": "092f8eccd2a04f1e68010b505f4403c016c3f311578b217a9b6fde52267dc7c9",
+      "trace_sha256": "b12bfeead1b43c973a5c65a277002503167decab433ad8b53d267cbca54ba834"
+    },
+    {
+      "original_index": 38,
+      "result_sha256": "edcdc39cb7446a4512acbf31b5978f5c5b6f6980de3bc0b347cc663769ffdf5e",
+      "trace_sha256": "5227dcb8ac4bc1f2c2bf9c6959a760eeeec30af561c82df4fd036b9dd6c98a2d"
+    },
+    {
+      "original_index": 39,
+      "result_sha256": "1db54b937ddf2c419207949e5795757472b5fcd61d77c1119d7cdba61440e9f9",
+      "trace_sha256": "8018f9c67201bee3bc478dd37672cfb2b0e75b6619a5d3627ddaf67d1ae95b43"
+    }
+  ],
+  "source_sha256": {
+    "src/latent_aero_wam/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/latent_aero_wam/training/losses.py": "e7849733bb394710656d198a3707580e2db26f25c4b8136e90c3b7f44c5a53c0",
+    "src/latent_aero_wam/training/checkpoint.py": "d6a210dd2654d98c0b847c58b371b0cf6f8e2392a9b4c90558cfb042636c701e",
+    "src/latent_aero_wam/training/loop.py": "2c992c05ce0813bb7d21ccc196be31af4e2195818daf30f894954080fb44df9e",
+    "src/latent_aero_wam/training/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/latent_aero_wam/utils/seed.py": "076382baeac7a67926f40b1203d1b6595b5c651606e68a6a0bc76288f13b1d3d",
+    "src/latent_aero_wam/utils/config.py": "dac61a2f35a4bff3660b381d1f236df5adc49aea715a5111c07a75b77aa15f13",
+    "src/latent_aero_wam/utils/rotation.py": "3031d8ef94b6ba9c19de843b9ebbe616329e8abc395ce5ab8b02ba80dae0179f",
+    "src/latent_aero_wam/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/latent_aero_wam/utils/logging.py": "6f3c93f0ecc65e2c82d6c5fc9cb9429afacd08f16f17f0958e55c99480e16557",
+    "src/latent_aero_wam/cli/evaluate.py": "696db510db266f871edcbb98922d8adf08e7b5e50a9e46f94013b790418feeef",
+    "src/latent_aero_wam/cli/summarize.py": "8eb17be1f175b7000a0660dc4a06b7ca0a6e6cd0acef1107fdea206a3f2a0893",
+    "src/latent_aero_wam/cli/run_dir.py": "a5025cb6f3640fc9ee5e1b6904b5bb4d71a83f6f1610bfb85ee4102f6cec1e34",
+    "src/latent_aero_wam/cli/train.py": "86cef5027711f7cf5762820f343375350b0042fe4c7b915d491721f660ed37e6",
+    "src/latent_aero_wam/cli/audit.py": "4ac1e6ca744e53b6962a8fa601898cf5dc5e6f2b2a19fcf2d611d63b4562b138",
+    "src/latent_aero_wam/cli/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/latent_aero_wam/data/parser.py": "79a30c99a4868cc772d2bc36d8e57e3a0dfd0cee94b082e9c24c94588f249fb2",
+    "src/latent_aero_wam/data/dataset.py": "c5e38aef83de4057abc7276cc8ac7850fb14b92eac484783698603ec86d11ab9",
+    "src/latent_aero_wam/data/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/latent_aero_wam/data/normalize.py": "f09edee4a96bec4c045b490348302abd34f9f22acbcdfa7654b6c9ed941e6ae0",
+    "src/latent_aero_wam/data/splits.py": "55664c6d38fa5b9ae2597d2adbf0044c9cab8dc4dd84b76e4461560d659df2a1",
+    "src/latent_aero_wam/evaluation/metrics.py": "dae0e4a41472e765dc84a2d1e4d5de478d85d9ee388aae759f8b7014f5f801fe",
+    "src/latent_aero_wam/evaluation/wind_intervention.py": "d63ed74a5fcdf0e6ceb8b55a923f97f3782eed52adaad9099bdbf77c7b9203b9",
+    "src/latent_aero_wam/evaluation/plots.py": "daf36e6593a1754145570265ef926c78d1a4a7b8d3f1476d45183e302fa561e5",
+    "src/latent_aero_wam/evaluation/evaluator.py": "a055314b62b05be7b50385c1855da3e98c2c5486c5e000892bac241f71c513c2",
+    "src/latent_aero_wam/evaluation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/latent_aero_wam/models/m0_persistence.py": "4af6e04c1f67d5352fab22322617b0ae76806cbb7359b1c356ae1d170f1940f4",
+    "src/latent_aero_wam/models/context_rnn.py": "281e925a83f01cbe1c18da84c7f3a2cf26e27a4d3dfd83edba6e78c30c7808e8",
+    "src/latent_aero_wam/models/context_controls.py": "543d62e72ce05b580035098c6f94c03e6e2cb7663aa517322378cff79583ab59",
+    "src/latent_aero_wam/models/m1_history_gru.py": "e782e63c31311019717011dd9bcb4bcf2b85cd1e8da17cac19be3295e32482f0",
+    "src/latent_aero_wam/models/m2_latent_wam.py": "f180d60de8be1eb643ac1fec0c9b61e3263120d0a463029f2b028abf7249ffb6",
+    "src/latent_aero_wam/models/base.py": "0d2bb3566a0fec71aa0f42201648291b9e2e1d48a5187d51fbf3983f079287a1",
+    "src/latent_aero_wam/models/context_access.py": "d491aac9dd2c2e38e2eac0b937b26a94e609430f98c56b9c6b056e477ead860c",
+    "src/latent_aero_wam/models/__init__.py": "e6b822db6261d0f9287ee27adf999c520baa1cf4a6e5e14164d14f5fc098e389",
+    "src/latent_aero_wam/models/derive.py": "da4910f69cccd497f6e52002957a338bf0f59b091a0a85b00848d383a5568c4a",
+    "src/latent_aero_wam/sim/quadrotor.py": "fba3630083bb3ebf92701df5fe3c1905200c0ea11b82da483383262f1f51d4a2",
+    "src/latent_aero_wam/sim/__init__.py": "348de676c81e1dfacd686330c38ebb9790dec3e2aa2bfe937df538f1bc5be778",
+    "scripts/sim/round14_access_queries.py": "f16a9b731cdc3517821fffb0ff3dbed4dda8377f7f756ba5e13333be5cf96e87",
+    "scripts/sim/round12_diagnostics.py": "fd8f3cd934082a855b65288f42710aa6a1dc78ac4ac5835b9c05c0dd952f308a",
+    "scripts/sim/round12_diagnostic_protocol.py": "407e34474546afe5b381b3236dd725c31c55b335fdb7da36606779d670663920",
+    "scripts/sim/round11_closed_loop.py": "735301421fa6a263b23cdd593bd14869b111da4eddcc5779730c405a52a7ba91",
+    "scripts/sim/round11_closed_loop_protocol.py": "bab68a99a6047baa252f84e5b4054a750fc9304a53c2c37688274520075df801",
+    "scripts/sim/closed_loop.py": "c8935adfbb7a2df635a7493b5104df6f8ac7fe6ec1300a52ef3a965809ddfeb7"
+  },
+  "protocol_sha256": "75bfd7db9872923c664565becba1888ba2ee87d267c7e56682c602e2a88e76fe"
+}

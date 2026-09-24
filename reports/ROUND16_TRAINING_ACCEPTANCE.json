@@ -1,0 +1,41 @@
+{
+  "new_accepted_models": 180,
+  "new_accepted_npz": 360,
+  "reused_round15_models": 60,
+  "source": "05659a6fddbd73913570e371a6543cafa8e78c8c",
+  "full_numerical_acceptance": "Executed on scheduled CPU nodes, exact frozen validator; raw arrays remain on the compute environment.",
+  "local_compact_hashes_checked": 1445,
+  "reports": [
+    {
+      "path": "runs/evidence/round16_bundle/round16_bridge_data0_acceptance.json",
+      "sha256": "4d8845e47d1fcc7a70b135c2bbaaaceb35169e328232f2023c3bdf2e981d6ebc",
+      "accepted_runs": 36,
+      "accepted_npz": 72
+    },
+    {
+      "path": "runs/evidence/round16_bundle/round16_bridge_data1_acceptance.json",
+      "sha256": "d2b2569b1c5a2e47c238c6b6ec69a25fd4151cdbe9dbcc1986219a21e9c44471",
+      "accepted_runs": 36,
+      "accepted_npz": 72
+    },
+    {
+      "path": "runs/evidence/round16_bundle/round16_bridge_data2_acceptance.json",
+      "sha256": "34e9be954deb4946e501c57a5cc2dad3784e1444c593a876682c8f10fe7f8313",
+      "accepted_runs": 36,
+      "accepted_npz": 72
+    },
+    {
+      "path": "runs/evidence/round16_bundle/round16_bridge_data3_acceptance.json",
+      "sha256": "a8aae4a16a5a83f367f2b6552b9dcdcf766d9b4019e3300e810d26f03969be21",
+      "accepted_runs": 36,
+      "accepted_npz": 72
+    },
+    {
+      "path": "runs/evidence/round16_bundle/round16_bridge_data4_acceptance.json",
+      "sha256": "95e7233d73b3266f6c9f47fa87c90dc2ff03bb8c45a3749a98241058835c9da9",
+      "accepted_runs": 36,
+      "accepted_npz": 72
+    }
+  ],
+  "scientific_comparisons": false
+}

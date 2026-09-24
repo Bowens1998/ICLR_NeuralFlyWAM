@@ -1,0 +1,7 @@
+{
+  "panel": "query",
+  "complete_records": 10800,
+  "independently_checked_contrasts": 480,
+  "input_sha256": "d91a02536bab890c90f37caee244334b7e35906bafcbfd94a711869b0ab7ff0b",
+  "scope": "Independent compact-record statistical reconstruction; full raw numerical acceptance remains separately required."
+}
